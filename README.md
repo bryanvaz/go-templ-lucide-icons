@@ -121,7 +121,12 @@ namespaces imports.
 
 These aliases are also mentioned in the godoc.
 
-### 
+## Issues and Contributions
+
+This is a release repository for templ implementations of `bryanvaz/go-lucide`.
+
+Please file issues and pull requests against the upstream repository at 
+[bryanvaz/go-lucide](https://github.com/bryanvaz/go-lucide).
 
 ## License
 
