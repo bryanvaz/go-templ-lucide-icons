@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon tally-3.
+templ Tally3(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-tally-3", attrs) }
+	>
+		<path d="M4 4v16"></path>
+		<path d="M9 4v16"></path>
+		<path d="M14 4v16"></path>
+		{ children... }
+	</svg>
+}

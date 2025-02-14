@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon arrow-up.
+templ ArrowUp(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-up", attrs) }
+	>
+		<path d="m5 12 7-7 7 7"></path>
+		<path d="M12 19V5"></path>
+		{ children... }
+	</svg>
+}

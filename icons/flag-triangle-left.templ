@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon flag-triangle-left.
+templ FlagTriangleLeft(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-flag-triangle-left", attrs) }
+	>
+		<path d="M17 22V2L7 7l10 5"></path>
+		{ children... }
+	</svg>
+}

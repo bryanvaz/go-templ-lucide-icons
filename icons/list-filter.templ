@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon list-filter.
+templ ListFilter(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-list-filter", attrs) }
+	>
+		<path d="M3 6h18"></path>
+		<path d="M7 12h10"></path>
+		<path d="M10 18h4"></path>
+		{ children... }
+	</svg>
+}

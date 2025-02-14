@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon undo-dot.
+templ UndoDot(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-undo-dot", attrs) }
+	>
+		<circle cx="12" cy="17" r="1"></circle>
+		<path d="M3 7v6h6"></path>
+		<path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path>
+		{ children... }
+	</svg>
+}

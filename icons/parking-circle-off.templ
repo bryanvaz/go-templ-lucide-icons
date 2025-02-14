@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon parking-circle-off.
+templ ParkingCircleOff(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-parking-circle-off", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="m5 5 14 14"></path>
+		<path d="M13 13a3 3 0 1 0 0-6H9v2"></path>
+		<path d="M9 17v-2.34"></path>
+		{ children... }
+	</svg>
+}

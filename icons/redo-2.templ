@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon redo-2.
+templ Redo2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-redo-2", attrs) }
+	>
+		<path d="m15 14 5-5-5-5"></path>
+		<path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5v0A5.5 5.5 0 0 0 9.5 20H13"></path>
+		{ children... }
+	</svg>
+}

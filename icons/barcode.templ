@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon barcode.
+templ Barcode(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-barcode", attrs) }
+	>
+		<path d="M3 5v14"></path>
+		<path d="M8 5v14"></path>
+		<path d="M12 5v14"></path>
+		<path d="M17 5v14"></path>
+		<path d="M21 5v14"></path>
+		{ children... }
+	</svg>
+}

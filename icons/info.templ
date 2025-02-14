@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon info.
+templ Info(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-info", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M12 16v-4"></path>
+		<path d="M12 8h.01"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon ban.
+templ Ban(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-ban", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="m4.9 4.9 14.2 14.2"></path>
+		{ children... }
+	</svg>
+}

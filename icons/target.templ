@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon target.
+templ Target(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-target", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<circle cx="12" cy="12" r="6"></circle>
+		<circle cx="12" cy="12" r="2"></circle>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon user-search.
+templ UserSearch(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-user-search", attrs) }
+	>
+		<circle cx="10" cy="7" r="4"></circle>
+		<path d="M10.3 15H7a4 4 0 0 0-4 4v2"></path>
+		<circle cx="17" cy="17" r="3"></circle>
+		<path d="m21 21-1.9-1.9"></path>
+		{ children... }
+	</svg>
+}

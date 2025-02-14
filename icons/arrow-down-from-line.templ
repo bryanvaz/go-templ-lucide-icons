@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon arrow-down-from-line.
+templ ArrowDownFromLine(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-down-from-line", attrs) }
+	>
+		<path d="M19 3H5"></path>
+		<path d="M12 21V7"></path>
+		<path d="m6 15 6 6 6-6"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon step-forward.
+templ StepForward(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-step-forward", attrs) }
+	>
+		<line x1="6" x2="6" y1="4" y2="20"></line>
+		<polygon points="10,4 20,12 10,20"></polygon>
+		{ children... }
+	</svg>
+}

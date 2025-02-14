@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon voicemail.
+templ Voicemail(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-voicemail", attrs) }
+	>
+		<circle cx="6" cy="12" r="4"></circle>
+		<circle cx="18" cy="12" r="4"></circle>
+		<line x1="6" x2="18" y1="16" y2="16"></line>
+		{ children... }
+	</svg>
+}

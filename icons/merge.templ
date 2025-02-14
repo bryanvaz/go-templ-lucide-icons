@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon merge.
+templ Merge(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-merge", attrs) }
+	>
+		<path d="m8 6 4-4 4 4"></path>
+		<path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22"></path>
+		<path d="m20 22-5-5"></path>
+		{ children... }
+	</svg>
+}

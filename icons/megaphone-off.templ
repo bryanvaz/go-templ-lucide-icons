@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon megaphone-off.
+templ MegaphoneOff(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-megaphone-off", attrs) }
+	>
+		<path d="M9.26 9.26 3 11v3l14.14 3.14"></path>
+		<path d="M21 15.34V6l-7.31 2.03"></path>
+		<path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path>
+		<line x1="2" x2="22" y1="2" y2="22"></line>
+		{ children... }
+	</svg>
+}

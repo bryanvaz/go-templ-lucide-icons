@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon panel-left-close.
+templ PanelLeftClose(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-panel-left-close", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<path d="M9 3v18"></path>
+		<path d="m16 15-3-3 3-3"></path>
+		{ children... }
+	</svg>
+}

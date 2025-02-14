@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon cylinder.
+templ Cylinder(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-cylinder", attrs) }
+	>
+		<ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+		<path d="M3 5v14a9 3 0 0 0 18 0V5"></path>
+		{ children... }
+	</svg>
+}

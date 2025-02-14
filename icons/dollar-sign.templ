@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon dollar-sign.
+templ DollarSign(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-dollar-sign", attrs) }
+	>
+		<line x1="12" x2="12" y1="2" y2="22"></line>
+		<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon move-3d.
+templ Move3D(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-move-3d", attrs) }
+	>
+		<path d="M5 3v16h16"></path>
+		<path d="m5 19 6-6"></path>
+		<path d="m2 6 3-3 3 3"></path>
+		<path d="m18 16 3 3-3 3"></path>
+		{ children... }
+	</svg>
+}

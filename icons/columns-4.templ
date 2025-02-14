@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon columns-4.
+templ Columns4(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-columns-4", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<path d="M7.5 3v18"></path>
+		<path d="M12 3v18"></path>
+		<path d="M16.5 3v18"></path>
+		{ children... }
+	</svg>
+}

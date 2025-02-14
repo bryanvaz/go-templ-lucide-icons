@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon stretch-horizontal.
+templ StretchHorizontal(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-stretch-horizontal", attrs) }
+	>
+		<rect width="20" height="6" x="2" y="4" rx="2"></rect>
+		<rect width="20" height="6" x="2" y="14" rx="2"></rect>
+		{ children... }
+	</svg>
+}

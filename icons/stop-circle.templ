@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon stop-circle.
+templ StopCircle(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-stop-circle", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<rect width="6" height="6" x="9" y="9"></rect>
+		{ children... }
+	</svg>
+}

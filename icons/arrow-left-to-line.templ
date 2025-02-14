@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon arrow-left-to-line.
+templ ArrowLeftToLine(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-left-to-line", attrs) }
+	>
+		<path d="M3 19V5"></path>
+		<path d="m13 6-6 6 6 6"></path>
+		<path d="M7 12h14"></path>
+		{ children... }
+	</svg>
+}

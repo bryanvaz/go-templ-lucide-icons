@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon bed-double.
+templ BedDouble(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-bed-double", attrs) }
+	>
+		<path d="M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8"></path>
+		<path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"></path>
+		<path d="M12 4v6"></path>
+		<path d="M2 18h20"></path>
+		{ children... }
+	</svg>
+}

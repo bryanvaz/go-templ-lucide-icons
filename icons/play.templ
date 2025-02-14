@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon play.
+templ Play(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-play", attrs) }
+	>
+		<polygon points="5 3 19 12 5 21 5 3"></polygon>
+		{ children... }
+	</svg>
+}

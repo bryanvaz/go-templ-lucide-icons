@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon mountain.
+templ Mountain(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-mountain", attrs) }
+	>
+		<path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon check-square-2.
+templ CheckSquare2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-check-square-2", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<path d="m9 12 2 2 4-4"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon arrow-down-to-dot.
+templ ArrowDownToDot(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-down-to-dot", attrs) }
+	>
+		<path d="M12 2v14"></path>
+		<path d="m19 9-7 7-7-7"></path>
+		<circle cx="12" cy="21" r="1"></circle>
+		{ children... }
+	</svg>
+}

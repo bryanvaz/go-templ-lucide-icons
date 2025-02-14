@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon code-2.
+templ Code2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-code-2", attrs) }
+	>
+		<path d="m18 16 4-4-4-4"></path>
+		<path d="m6 8-4 4 4 4"></path>
+		<path d="m14.5 4-5 16"></path>
+		{ children... }
+	</svg>
+}

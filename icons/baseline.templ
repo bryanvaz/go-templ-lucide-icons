@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon baseline.
+templ Baseline(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-baseline", attrs) }
+	>
+		<path d="M4 20h16"></path>
+		<path d="m6 16 6-12 6 12"></path>
+		<path d="M8 12h8"></path>
+		{ children... }
+	</svg>
+}

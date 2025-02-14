@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon text-quote.
+templ TextQuote(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-text-quote", attrs) }
+	>
+		<path d="M17 6H3"></path>
+		<path d="M21 12H8"></path>
+		<path d="M21 18H8"></path>
+		<path d="M3 12v6"></path>
+		{ children... }
+	</svg>
+}

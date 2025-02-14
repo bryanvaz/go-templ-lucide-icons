@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon circle-slash-2.
+templ CircleSlash2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-slash-2", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M22 2 2 22"></path>
+		{ children... }
+	</svg>
+}

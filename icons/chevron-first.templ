@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon chevron-first.
+templ ChevronFirst(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-chevron-first", attrs) }
+	>
+		<path d="m17 18-6-6 6-6"></path>
+		<path d="M7 6v12"></path>
+		{ children... }
+	</svg>
+}

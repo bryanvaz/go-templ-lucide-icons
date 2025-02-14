@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon kanban.
+templ Kanban(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-kanban", attrs) }
+	>
+		<path d="M6 5v11"></path>
+		<path d="M12 5v6"></path>
+		<path d="M18 5v14"></path>
+		{ children... }
+	</svg>
+}

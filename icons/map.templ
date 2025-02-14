@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon map.
+templ Map(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-map", attrs) }
+	>
+		<polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+		<line x1="9" x2="9" y1="3" y2="18"></line>
+		<line x1="15" x2="15" y1="6" y2="21"></line>
+		{ children... }
+	</svg>
+}

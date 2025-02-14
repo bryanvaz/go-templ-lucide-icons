@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon circle-equal.
+templ CircleEqual(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-equal", attrs) }
+	>
+		<path d="M7 10h10"></path>
+		<path d="M7 14h10"></path>
+		<circle cx="12" cy="12" r="10"></circle>
+		{ children... }
+	</svg>
+}

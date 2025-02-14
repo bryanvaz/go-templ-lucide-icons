@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon chevrons-left.
+templ ChevronsLeft(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-chevrons-left", attrs) }
+	>
+		<path d="m11 17-5-5 5-5"></path>
+		<path d="m18 17-5-5 5-5"></path>
+		{ children... }
+	</svg>
+}

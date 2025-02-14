@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon option.
+templ Option(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-option", attrs) }
+	>
+		<path d="M3 3h6l6 18h6"></path>
+		<path d="M14 3h7"></path>
+		{ children... }
+	</svg>
+}

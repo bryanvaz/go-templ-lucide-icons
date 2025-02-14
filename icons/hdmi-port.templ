@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon hdmi-port.
+templ HdmiPort(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-hdmi-port", attrs) }
+	>
+		<path d="M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z"></path>
+		<path d="M7.5 12h9"></path>
+		{ children... }
+	</svg>
+}

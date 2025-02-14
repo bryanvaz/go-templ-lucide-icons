@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon gantt-chart-square.
+templ GanttChartSquare(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-gantt-chart-square", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<path d="M9 8h7"></path>
+		<path d="M8 12h6"></path>
+		<path d="M11 16h5"></path>
+		{ children... }
+	</svg>
+}

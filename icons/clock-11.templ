@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon clock-11.
+templ Clock11(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-clock-11", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<polyline points="12 6 12 12 9.5 8"></polyline>
+		{ children... }
+	</svg>
+}

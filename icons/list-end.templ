@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon list-end.
+templ ListEnd(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-list-end", attrs) }
+	>
+		<path d="M16 12H3"></path>
+		<path d="M16 6H3"></path>
+		<path d="M10 18H3"></path>
+		<path d="M21 6v10a2 2 0 0 1-2 2h-5"></path>
+		<path d="m16 16-2 2 2 2"></path>
+		{ children... }
+	</svg>
+}

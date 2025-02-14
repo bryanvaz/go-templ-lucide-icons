@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon rail-symbol.
+templ RailSymbol(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-rail-symbol", attrs) }
+	>
+		<path d="M5 15h14"></path>
+		<path d="M5 9h14"></path>
+		<path d="m14 20-5-5 6-6-5-5"></path>
+		{ children... }
+	</svg>
+}

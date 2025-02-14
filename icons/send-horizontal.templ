@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon send-horizontal.
+templ SendHorizontal(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-send-horizontal", attrs) }
+	>
+		<path d="m3 3 3 9-3 9 19-9Z"></path>
+		<path d="M6 12h16"></path>
+		{ children... }
+	</svg>
+}

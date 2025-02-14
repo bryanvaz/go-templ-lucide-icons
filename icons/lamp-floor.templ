@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon lamp-floor.
+templ LampFloor(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-lamp-floor", attrs) }
+	>
+		<path d="M9 2h6l3 7H6l3-7Z"></path>
+		<path d="M12 9v13"></path>
+		<path d="M9 22h6"></path>
+		{ children... }
+	</svg>
+}

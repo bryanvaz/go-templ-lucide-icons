@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon lamp-ceiling.
+templ LampCeiling(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-lamp-ceiling", attrs) }
+	>
+		<path d="M12 2v5"></path>
+		<path d="M6 7h12l4 9H2l4-9Z"></path>
+		<path d="M9.17 16a3 3 0 1 0 5.66 0"></path>
+		{ children... }
+	</svg>
+}

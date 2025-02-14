@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon pound-sterling.
+templ PoundSterling(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-pound-sterling", attrs) }
+	>
+		<path d="M18 7c0-5.333-8-5.333-8 0"></path>
+		<path d="M10 7v14"></path>
+		<path d="M6 21h12"></path>
+		<path d="M6 13h10"></path>
+		{ children... }
+	</svg>
+}

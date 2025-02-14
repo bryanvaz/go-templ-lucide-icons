@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon gallery-horizontal-end.
+templ GalleryHorizontalEnd(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-gallery-horizontal-end", attrs) }
+	>
+		<path d="M2 7v10"></path>
+		<path d="M6 5v14"></path>
+		<rect width="12" height="18" x="10" y="3" rx="2"></rect>
+		{ children... }
+	</svg>
+}

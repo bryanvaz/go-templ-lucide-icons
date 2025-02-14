@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon mouse-pointer-2.
+templ MousePointer2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-mouse-pointer-2", attrs) }
+	>
+		<path d="m4 4 7.07 17 2.51-7.39L21 11.07z"></path>
+		{ children... }
+	</svg>
+}

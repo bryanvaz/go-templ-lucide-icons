@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon list-x.
+templ ListX(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-list-x", attrs) }
+	>
+		<path d="M11 12H3"></path>
+		<path d="M16 6H3"></path>
+		<path d="M16 18H3"></path>
+		<path d="m19 10-4 4"></path>
+		<path d="m15 10 4 4"></path>
+		{ children... }
+	</svg>
+}

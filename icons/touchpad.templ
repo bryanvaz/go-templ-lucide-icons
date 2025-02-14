@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon touchpad.
+templ Touchpad(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-touchpad", attrs) }
+	>
+		<rect width="20" height="16" x="2" y="4" rx="2"></rect>
+		<path d="M2 14h20"></path>
+		<path d="M12 20v-6"></path>
+		{ children... }
+	</svg>
+}

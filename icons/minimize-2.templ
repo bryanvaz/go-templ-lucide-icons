@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon minimize-2.
+templ Minimize2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-minimize-2", attrs) }
+	>
+		<polyline points="4 14 10 14 10 20"></polyline>
+		<polyline points="20 10 14 10 14 4"></polyline>
+		<line x1="14" x2="21" y1="10" y2="3"></line>
+		<line x1="3" x2="10" y1="21" y2="14"></line>
+		{ children... }
+	</svg>
+}

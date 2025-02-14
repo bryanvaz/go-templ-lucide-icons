@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon code.
+templ Code(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-code", attrs) }
+	>
+		<polyline points="16 18 22 12 16 6"></polyline>
+		<polyline points="8 6 2 12 8 18"></polyline>
+		{ children... }
+	</svg>
+}

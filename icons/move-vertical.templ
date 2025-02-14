@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon move-vertical.
+templ MoveVertical(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-move-vertical", attrs) }
+	>
+		<polyline points="8 18 12 22 16 18"></polyline>
+		<polyline points="8 6 12 2 16 6"></polyline>
+		<line x1="12" x2="12" y1="2" y2="22"></line>
+		{ children... }
+	</svg>
+}

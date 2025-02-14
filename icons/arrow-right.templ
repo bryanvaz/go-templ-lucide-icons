@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon arrow-right.
+templ ArrowRight(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-right", attrs) }
+	>
+		<path d="M5 12h14"></path>
+		<path d="m12 5 7 7-7 7"></path>
+		{ children... }
+	</svg>
+}

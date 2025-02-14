@@ -1,0 +1,19 @@
+package icons
+
+// Renders the Lucide icon brick-wall.
+templ BrickWall(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-brick-wall", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<path d="M12 9v6"></path>
+		<path d="M16 15v6"></path>
+		<path d="M16 3v6"></path>
+		<path d="M3 15h18"></path>
+		<path d="M3 9h18"></path>
+		<path d="M8 15v6"></path>
+		<path d="M8 3v6"></path>
+		{ children... }
+	</svg>
+}

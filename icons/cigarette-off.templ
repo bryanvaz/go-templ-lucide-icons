@@ -1,0 +1,18 @@
+package icons
+
+// Renders the Lucide icon cigarette-off.
+templ CigaretteOff(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-cigarette-off", attrs) }
+	>
+		<line x1="2" x2="22" y1="2" y2="22"></line>
+		<path d="M12 12H2v4h14"></path>
+		<path d="M22 12v4"></path>
+		<path d="M18 12h-.5"></path>
+		<path d="M7 12v4"></path>
+		<path d="M18 8c0-2.5-2-2.5-2-5"></path>
+		<path d="M22 8c0-2.5-2-2.5-2-5"></path>
+		{ children... }
+	</svg>
+}

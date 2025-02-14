@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon music-2.
+templ Music2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-music-2", attrs) }
+	>
+		<circle cx="8" cy="18" r="4"></circle>
+		<path d="M12 18V2l7 4"></path>
+		{ children... }
+	</svg>
+}

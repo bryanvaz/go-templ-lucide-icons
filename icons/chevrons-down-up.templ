@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon chevrons-down-up.
+templ ChevronsDownUp(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-chevrons-down-up", attrs) }
+	>
+		<path d="m7 20 5-5 5 5"></path>
+		<path d="m7 4 5 5 5-5"></path>
+		{ children... }
+	</svg>
+}

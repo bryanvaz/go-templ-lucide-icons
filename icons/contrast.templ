@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon contrast.
+templ Contrast(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-contrast", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M12 18a6 6 0 0 0 0-12v12z"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon diff.
+templ Diff(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-diff", attrs) }
+	>
+		<path d="M12 3v14"></path>
+		<path d="M5 10h14"></path>
+		<path d="M5 21h14"></path>
+		{ children... }
+	</svg>
+}

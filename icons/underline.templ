@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon underline.
+templ Underline(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-underline", attrs) }
+	>
+		<path d="M6 4v6a6 6 0 0 0 12 0V4"></path>
+		<line x1="4" x2="20" y1="20" y2="20"></line>
+		{ children... }
+	</svg>
+}

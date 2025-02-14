@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon toggle-right.
+templ ToggleRight(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-toggle-right", attrs) }
+	>
+		<rect width="20" height="12" x="2" y="6" rx="6" ry="6"></rect>
+		<circle cx="16" cy="12" r="2"></circle>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon rectangle-vertical.
+templ RectangleVertical(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-rectangle-vertical", attrs) }
+	>
+		<rect width="12" height="20" x="6" y="2" rx="2"></rect>
+		{ children... }
+	</svg>
+}

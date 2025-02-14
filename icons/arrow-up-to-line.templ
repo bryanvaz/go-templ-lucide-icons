@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon arrow-up-to-line.
+templ ArrowUpToLine(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-up-to-line", attrs) }
+	>
+		<path d="M5 3h14"></path>
+		<path d="m18 13-6-6-6 6"></path>
+		<path d="M12 7v14"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon user-round.
+templ UserRound(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-user-round", attrs) }
+	>
+		<circle cx="12" cy="8" r="5"></circle>
+		<path d="M20 21a8 8 0 0 0-16 0"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon fish-symbol.
+templ FishSymbol(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-fish-symbol", attrs) }
+	>
+		<path d="M2 16s9-15 20-4C11 23 2 8 2 8"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon fast-forward.
+templ FastForward(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-fast-forward", attrs) }
+	>
+		<polygon points="13 19 22 12 13 5 13 19"></polygon>
+		<polygon points="2 19 11 12 2 5 2 19"></polygon>
+		{ children... }
+	</svg>
+}

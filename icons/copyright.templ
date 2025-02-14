@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon copyright.
+templ Copyright(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-copyright", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M14.83 14.83a4 4 0 1 1 0-5.66"></path>
+		{ children... }
+	</svg>
+}

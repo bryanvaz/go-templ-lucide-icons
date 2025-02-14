@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon globe.
+templ Globe(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-globe", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+		<path d="M2 12h20"></path>
+		{ children... }
+	</svg>
+}

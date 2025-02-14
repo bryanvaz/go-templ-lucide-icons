@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon bluetooth-off.
+templ BluetoothOff(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-bluetooth-off", attrs) }
+	>
+		<path d="m17 17-5 5V12l-5 5"></path>
+		<path d="m2 2 20 20"></path>
+		<path d="M14.5 9.5 17 7l-5-5v4.5"></path>
+		{ children... }
+	</svg>
+}

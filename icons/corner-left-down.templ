@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon corner-left-down.
+templ CornerLeftDown(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-corner-left-down", attrs) }
+	>
+		<polyline points="14 15 9 20 4 15"></polyline>
+		<path d="M20 4h-7a4 4 0 0 0-4 4v12"></path>
+		{ children... }
+	</svg>
+}

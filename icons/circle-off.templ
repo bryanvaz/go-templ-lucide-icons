@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon circle-off.
+templ CircleOff(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-off", attrs) }
+	>
+		<path d="m2 2 20 20"></path>
+		<path d="M8.35 2.69A10 10 0 0 1 21.3 15.65"></path>
+		<path d="M19.08 19.08A10 10 0 1 1 4.92 4.92"></path>
+		{ children... }
+	</svg>
+}

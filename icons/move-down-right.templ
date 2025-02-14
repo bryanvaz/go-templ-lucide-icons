@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon move-down-right.
+templ MoveDownRight(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-move-down-right", attrs) }
+	>
+		<path d="M19 13V19H13"></path>
+		<path d="M5 5L19 19"></path>
+		{ children... }
+	</svg>
+}

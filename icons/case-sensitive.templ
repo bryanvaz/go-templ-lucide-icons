@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon case-sensitive.
+templ CaseSensitive(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-case-sensitive", attrs) }
+	>
+		<path d="m3 15 4-8 4 8"></path>
+		<path d="M4 13h6"></path>
+		<circle cx="18" cy="12" r="3"></circle>
+		<path d="M21 9v6"></path>
+		{ children... }
+	</svg>
+}

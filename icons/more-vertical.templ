@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon more-vertical.
+templ MoreVertical(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-more-vertical", attrs) }
+	>
+		<circle cx="12" cy="12" r="1"></circle>
+		<circle cx="12" cy="5" r="1"></circle>
+		<circle cx="12" cy="19" r="1"></circle>
+		{ children... }
+	</svg>
+}

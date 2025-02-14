@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon user-round-minus.
+templ UserRoundMinus(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-user-round-minus", attrs) }
+	>
+		<path d="M2 21a8 8 0 0 1 13.292-6"></path>
+		<circle cx="10" cy="8" r="5"></circle>
+		<path d="M22 19h-6"></path>
+		{ children... }
+	</svg>
+}

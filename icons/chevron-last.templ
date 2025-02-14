@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon chevron-last.
+templ ChevronLast(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-chevron-last", attrs) }
+	>
+		<path d="m7 18 6-6-6-6"></path>
+		<path d="M17 6v12"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon star-half.
+templ StarHalf(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-star-half", attrs) }
+	>
+		<path d="M12 17.8 5.8 21 7 14.1 2 9.3l7-1L12 2"></path>
+		{ children... }
+	</svg>
+}

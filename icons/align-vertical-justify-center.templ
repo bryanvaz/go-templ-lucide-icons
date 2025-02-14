@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon align-vertical-justify-center.
+templ AlignVerticalJustifyCenter(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-align-vertical-justify-center", attrs) }
+	>
+		<rect width="14" height="6" x="5" y="16" rx="2"></rect>
+		<rect width="10" height="6" x="7" y="2" rx="2"></rect>
+		<path d="M2 12h20"></path>
+		{ children... }
+	</svg>
+}

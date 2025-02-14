@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon bar-chart.
+templ BarChart(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-bar-chart", attrs) }
+	>
+		<line x1="12" x2="12" y1="20" y2="10"></line>
+		<line x1="18" x2="18" y1="20" y2="4"></line>
+		<line x1="6" x2="6" y1="20" y2="16"></line>
+		{ children... }
+	</svg>
+}

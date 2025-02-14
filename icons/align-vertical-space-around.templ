@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon align-vertical-space-around.
+templ AlignVerticalSpaceAround(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-align-vertical-space-around", attrs) }
+	>
+		<rect width="10" height="6" x="7" y="9" rx="2"></rect>
+		<path d="M22 20H2"></path>
+		<path d="M22 4H2"></path>
+		{ children... }
+	</svg>
+}

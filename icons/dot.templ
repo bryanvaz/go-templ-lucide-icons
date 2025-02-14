@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon dot.
+templ Dot(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-dot", attrs) }
+	>
+		<circle cx="12.1" cy="12.1" r="1"></circle>
+		{ children... }
+	</svg>
+}

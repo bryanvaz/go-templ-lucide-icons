@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon play-circle.
+templ PlayCircle(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-play-circle", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<polygon points="10 8 16 12 10 16 10 8"></polygon>
+		{ children... }
+	</svg>
+}

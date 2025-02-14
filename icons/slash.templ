@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon slash.
+templ Slash(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-slash", attrs) }
+	>
+		<path d="M22 2 2 22"></path>
+		{ children... }
+	</svg>
+}

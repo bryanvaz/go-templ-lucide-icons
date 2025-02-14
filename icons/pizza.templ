@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon pizza.
+templ Pizza(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-pizza", attrs) }
+	>
+		<path d="M15 11h.01"></path>
+		<path d="M11 15h.01"></path>
+		<path d="M16 16h.01"></path>
+		<path d="m2 16 20 6-6-20A20 20 0 0 0 2 16"></path>
+		<path d="M5.71 17.11a17.04 17.04 0 0 1 11.4-11.4"></path>
+		{ children... }
+	</svg>
+}

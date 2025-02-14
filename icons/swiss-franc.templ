@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon swiss-franc.
+templ SwissFranc(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-swiss-franc", attrs) }
+	>
+		<path d="M10 21V3h8"></path>
+		<path d="M6 16h9"></path>
+		<path d="M10 9.5h7"></path>
+		{ children... }
+	</svg>
+}

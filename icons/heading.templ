@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon heading.
+templ Heading(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-heading", attrs) }
+	>
+		<path d="M6 12h12"></path>
+		<path d="M6 20V4"></path>
+		<path d="M18 20V4"></path>
+		{ children... }
+	</svg>
+}

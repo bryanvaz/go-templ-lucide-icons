@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon move-up.
+templ MoveUp(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-move-up", attrs) }
+	>
+		<path d="M8 6L12 2L16 6"></path>
+		<path d="M12 2V22"></path>
+		{ children... }
+	</svg>
+}

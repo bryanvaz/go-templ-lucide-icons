@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon signal-zero.
+templ SignalZero(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-signal-zero", attrs) }
+	>
+		<path d="M2 20h.01"></path>
+		{ children... }
+	</svg>
+}

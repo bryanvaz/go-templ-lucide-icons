@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon pc-case.
+templ PcCase(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-pc-case", attrs) }
+	>
+		<rect width="14" height="20" x="5" y="2" rx="2"></rect>
+		<path d="M15 14h.01"></path>
+		<path d="M9 6h6"></path>
+		<path d="M9 10h6"></path>
+		{ children... }
+	</svg>
+}

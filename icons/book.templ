@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon book.
+templ Book(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-book", attrs) }
+	>
+		<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+		{ children... }
+	</svg>
+}

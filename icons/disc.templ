@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon disc.
+templ Disc(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-disc", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<circle cx="12" cy="12" r="2"></circle>
+		{ children... }
+	</svg>
+}

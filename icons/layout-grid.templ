@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon layout-grid.
+templ LayoutGrid(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-layout-grid", attrs) }
+	>
+		<rect width="7" height="7" x="3" y="3" rx="1"></rect>
+		<rect width="7" height="7" x="14" y="3" rx="1"></rect>
+		<rect width="7" height="7" x="14" y="14" rx="1"></rect>
+		<rect width="7" height="7" x="3" y="14" rx="1"></rect>
+		{ children... }
+	</svg>
+}

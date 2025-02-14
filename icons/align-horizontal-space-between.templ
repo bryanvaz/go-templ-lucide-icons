@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon align-horizontal-space-between.
+templ AlignHorizontalSpaceBetween(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-align-horizontal-space-between", attrs) }
+	>
+		<rect width="6" height="14" x="3" y="5" rx="2"></rect>
+		<rect width="6" height="10" x="15" y="7" rx="2"></rect>
+		<path d="M3 2v20"></path>
+		<path d="M21 2v20"></path>
+		{ children... }
+	</svg>
+}

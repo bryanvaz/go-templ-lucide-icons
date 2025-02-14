@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon tornado.
+templ Tornado(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-tornado", attrs) }
+	>
+		<path d="M21 4H3"></path>
+		<path d="M18 8H6"></path>
+		<path d="M19 12H9"></path>
+		<path d="M16 16h-6"></path>
+		<path d="M11 20H9"></path>
+		{ children... }
+	</svg>
+}

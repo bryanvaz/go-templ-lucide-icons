@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon align-right.
+templ AlignRight(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-align-right", attrs) }
+	>
+		<line x1="21" x2="3" y1="6" y2="6"></line>
+		<line x1="21" x2="9" y1="12" y2="12"></line>
+		<line x1="21" x2="7" y1="18" y2="18"></line>
+		{ children... }
+	</svg>
+}

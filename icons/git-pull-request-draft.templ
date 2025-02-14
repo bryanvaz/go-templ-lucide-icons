@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon git-pull-request-draft.
+templ GitPullRequestDraft(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-git-pull-request-draft", attrs) }
+	>
+		<circle cx="18" cy="18" r="3"></circle>
+		<circle cx="6" cy="6" r="3"></circle>
+		<path d="M18 6V5"></path>
+		<path d="M18 11v-1"></path>
+		<line x1="6" x2="6" y1="9" y2="21"></line>
+		{ children... }
+	</svg>
+}

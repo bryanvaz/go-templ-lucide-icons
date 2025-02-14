@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon battery.
+templ Battery(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-battery", attrs) }
+	>
+		<rect width="16" height="10" x="2" y="7" rx="2" ry="2"></rect>
+		<line x1="22" x2="22" y1="11" y2="13"></line>
+		{ children... }
+	</svg>
+}

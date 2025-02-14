@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon chevron-right-circle.
+templ ChevronRightCircle(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-chevron-right-circle", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="m10 8 4 4-4 4"></path>
+		{ children... }
+	</svg>
+}

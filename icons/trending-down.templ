@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon trending-down.
+templ TrendingDown(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-trending-down", attrs) }
+	>
+		<polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline>
+		<polyline points="16 17 22 17 22 11"></polyline>
+		{ children... }
+	</svg>
+}

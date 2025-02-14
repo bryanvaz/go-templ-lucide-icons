@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon signal-low.
+templ SignalLow(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-signal-low", attrs) }
+	>
+		<path d="M2 20h.01"></path>
+		<path d="M7 20v-4"></path>
+		{ children... }
+	</svg>
+}

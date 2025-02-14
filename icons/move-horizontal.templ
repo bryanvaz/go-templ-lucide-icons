@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon move-horizontal.
+templ MoveHorizontal(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-move-horizontal", attrs) }
+	>
+		<polyline points="18 8 22 12 18 16"></polyline>
+		<polyline points="6 8 2 12 6 16"></polyline>
+		<line x1="2" x2="22" y1="12" y2="12"></line>
+		{ children... }
+	</svg>
+}

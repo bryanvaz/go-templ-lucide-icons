@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon check.
+templ Check(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-check", attrs) }
+	>
+		<path d="M20 6 9 17l-5-5"></path>
+		{ children... }
+	</svg>
+}

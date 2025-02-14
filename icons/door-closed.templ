@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon door-closed.
+templ DoorClosed(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-door-closed", attrs) }
+	>
+		<path d="M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14"></path>
+		<path d="M2 20h20"></path>
+		<path d="M14 12v.01"></path>
+		{ children... }
+	</svg>
+}

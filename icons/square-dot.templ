@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon square-dot.
+templ SquareDot(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-square-dot", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<circle cx="12" cy="12" r="1"></circle>
+		{ children... }
+	</svg>
+}

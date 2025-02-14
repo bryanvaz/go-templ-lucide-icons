@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon arrow-up-wide-narrow.
+templ ArrowUpWideNarrow(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-up-wide-narrow", attrs) }
+	>
+		<path d="m3 8 4-4 4 4"></path>
+		<path d="M7 4v16"></path>
+		<path d="M11 12h10"></path>
+		<path d="M11 16h7"></path>
+		<path d="M11 20h4"></path>
+		{ children... }
+	</svg>
+}

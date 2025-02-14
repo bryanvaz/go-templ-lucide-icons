@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon align-horizontal-justify-start.
+templ AlignHorizontalJustifyStart(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-align-horizontal-justify-start", attrs) }
+	>
+		<rect width="6" height="14" x="6" y="5" rx="2"></rect>
+		<rect width="6" height="10" x="16" y="7" rx="2"></rect>
+		<path d="M2 2v20"></path>
+		{ children... }
+	</svg>
+}

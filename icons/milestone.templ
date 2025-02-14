@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon milestone.
+templ Milestone(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-milestone", attrs) }
+	>
+		<path d="M18 6H5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h13l4-3.5L18 6Z"></path>
+		<path d="M12 13v8"></path>
+		<path d="M12 3v3"></path>
+		{ children... }
+	</svg>
+}

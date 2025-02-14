@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon step-back.
+templ StepBack(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-step-back", attrs) }
+	>
+		<line x1="18" x2="18" y1="20" y2="4"></line>
+		<polygon points="14,20 4,12 14,4"></polygon>
+		{ children... }
+	</svg>
+}

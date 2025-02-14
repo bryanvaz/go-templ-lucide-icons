@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon webcam.
+templ Webcam(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-webcam", attrs) }
+	>
+		<circle cx="12" cy="10" r="8"></circle>
+		<circle cx="12" cy="10" r="3"></circle>
+		<path d="M7 22h10"></path>
+		<path d="M12 22v-4"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon parentheses.
+templ Parentheses(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-parentheses", attrs) }
+	>
+		<path d="M8 21s-4-3-4-9 4-9 4-9"></path>
+		<path d="M16 3s4 3 4 9-4 9-4 9"></path>
+		{ children... }
+	</svg>
+}

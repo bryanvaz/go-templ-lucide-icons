@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon pause.
+templ Pause(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-pause", attrs) }
+	>
+		<rect width="4" height="16" x="6" y="4"></rect>
+		<rect width="4" height="16" x="14" y="4"></rect>
+		{ children... }
+	</svg>
+}

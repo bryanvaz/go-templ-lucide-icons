@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon git-pull-request-arrow.
+templ GitPullRequestArrow(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-git-pull-request-arrow", attrs) }
+	>
+		<circle cx="5" cy="6" r="3"></circle>
+		<path d="M5 9v12"></path>
+		<circle cx="19" cy="18" r="3"></circle>
+		<path d="m15 9-3-3 3-3"></path>
+		<path d="M12 6h5a2 2 0 0 1 2 2v7"></path>
+		{ children... }
+	</svg>
+}

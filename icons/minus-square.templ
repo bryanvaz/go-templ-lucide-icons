@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon minus-square.
+templ MinusSquare(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-minus-square", attrs) }
+	>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		<path d="M8 12h8"></path>
+		{ children... }
+	</svg>
+}

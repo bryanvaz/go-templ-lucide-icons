@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon circle-dot.
+templ CircleDot(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-dot", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<circle cx="12" cy="12" r="1"></circle>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon check-circle-2.
+templ CheckCircle2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-check-circle-2", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="m9 12 2 2 4-4"></path>
+		{ children... }
+	</svg>
+}

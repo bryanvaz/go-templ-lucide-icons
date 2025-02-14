@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon bar-chart-horizontal.
+templ BarChartHorizontal(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-bar-chart-horizontal", attrs) }
+	>
+		<path d="M3 3v18h18"></path>
+		<path d="M7 16h8"></path>
+		<path d="M7 11h12"></path>
+		<path d="M7 6h3"></path>
+		{ children... }
+	</svg>
+}

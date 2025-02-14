@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon space.
+templ Space(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-space", attrs) }
+	>
+		<path d="M22 17v1c0 .5-.5 1-1 1H3c-.5 0-1-.5-1-1v-1"></path>
+		{ children... }
+	</svg>
+}

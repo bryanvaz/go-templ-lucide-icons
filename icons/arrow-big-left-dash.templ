@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon arrow-big-left-dash.
+templ ArrowBigLeftDash(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-arrow-big-left-dash", attrs) }
+	>
+		<path d="M19 15V9"></path>
+		<path d="M15 15h-3v4l-7-7 7-7v4h3v6z"></path>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon git-commit-vertical.
+templ GitCommitVertical(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-git-commit-vertical", attrs) }
+	>
+		<path d="M12 3v6"></path>
+		<circle cx="12" cy="12" r="3"></circle>
+		<path d="M12 15v6"></path>
+		{ children... }
+	</svg>
+}
