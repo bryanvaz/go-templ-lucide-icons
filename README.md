@@ -15,6 +15,9 @@ Lucide icon library for Golang Templ applications.
   <a href="https://github.com/bryanvaz/go-templ-lucide-icons/actions/workflows/test.yml">
     <img src="https://github.com/bryanvaz/go-templ-lucide-icons/actions/workflows/test.yml/badge.svg?branch=main">
   </a>
+  <a href="https://github.com/bryanvaz/go-templ-lucide-icons/releases">
+    <img src="https://img.shields.io/github/v/release/bryanvaz/go-templ-lucide-icons">
+  </a>
 </p>
 
 [About Lucide](https://lucide.dev/guide/)
