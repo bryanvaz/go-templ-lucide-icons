@@ -1399,6 +1399,8 @@ var (
 	HeartOff = templFuncs.HeartOff
 	// Renders the Lucide icon 'heart-pulse'.
 	HeartPulse = templFuncs.HeartPulse
+	// Renders the Lucide icon 'heater'.
+	Heater = templFuncs.Heater
 	// Renders the Lucide icon 'help-circle'.
 	HelpCircle = templFuncs.HelpCircle
 	// Renders the Lucide icon 'helping-hand'.
@@ -2753,6 +2755,8 @@ var (
 	UtilityPole = templFuncs.UtilityPole
 	// Renders the Lucide icon 'variable'.
 	Variable = templFuncs.Variable
+	// Renders the Lucide icon 'vault'.
+	Vault = templFuncs.Vault
 	// Renders the Lucide icon 'vegan'.
 	Vegan = templFuncs.Vegan
 	// Renders the Lucide icon 'venetian-mask'.
@@ -2797,6 +2801,8 @@ var (
 	Wand2 = templFuncs.Wand2
 	// Renders the Lucide icon 'warehouse'.
 	Warehouse = templFuncs.Warehouse
+	// Renders the Lucide icon 'washing-machine'.
+	WashingMachine = templFuncs.WashingMachine
 	// Renders the Lucide icon 'watch'.
 	Watch = templFuncs.Watch
 	// Renders the Lucide icon 'waves'.

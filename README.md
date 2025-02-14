@@ -5,6 +5,15 @@
 
 Lucide icon library for Golang Templ applications.
 
+<p align="center">
+  <a href="https://pkg.go.dev/github.com/bryanvaz/go-templ-lucide-icons">
+    <img src="https://img.shields.io/badge/%F0%9F%93%9A%20godoc-pkg-00ACD7.svg?color=00ACD7">
+  </a>
+  <a href="https://goreportcard.com/report/github.com/bryanvaz/go-templ-lucide-icons">
+    <img src="https://goreportcard.com/badge/github.com/bryanvaz/go-templ-lucide-icons">
+  </a>
+</p>
+
 [About](https://lucide.dev/guide/)
 .
 [Icons](https://lucide.dev/icons/)
