@@ -7,8 +7,8 @@ package icons
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-// Renders the Lucide icon sun-snow.
-func SunSnow(attrs ...templ.Attributes) templ.Component {
+// Renders the Lucide icon map-plus.
+func MapPlus(attrs ...templ.Attributes) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -29,7 +29,7 @@ func SunSnow(attrs ...templ.Attributes) templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		var templ_7745c5c3_Var2 = []any{cn("lucide lucide-sun-snow", attrs)}
+		var templ_7745c5c3_Var2 = []any{cn("lucide lucide-map-plus", attrs)}
 		templ_7745c5c3_Err = templ.RenderCSSItems(ctx, templ_7745c5c3_Buffer, templ_7745c5c3_Var2...)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
@@ -55,7 +55,7 @@ func SunSnow(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M10 21v-1\"></path> <path d=\"M10 4V3\"></path> <path d=\"M10 9a3 3 0 0 0 0 6\"></path> <path d=\"m14 20 1.25-2.5L18 18\"></path> <path d=\"m14 4 1.25 2.5L18 6\"></path> <path d=\"m17 21-3-6 1.5-3H22\"></path> <path d=\"m17 3-3 6 1.5 3\"></path> <path d=\"M2 12h1\"></path> <path d=\"m20 10-1.5 2 1.5 2\"></path> <path d=\"m3.64 18.36.7-.7\"></path> <path d=\"m4.34 6.34-.7-.7\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"m11 19-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12\"></path> <path d=\"M15 5.764V12\"></path> <path d=\"M18 15v6\"></path> <path d=\"M21 18h-6\"></path> <path d=\"M9 3.236v15\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

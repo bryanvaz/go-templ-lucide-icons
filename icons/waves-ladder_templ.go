@@ -7,8 +7,8 @@ package icons
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-// Renders the Lucide icon sun-snow.
-func SunSnow(attrs ...templ.Attributes) templ.Component {
+// Renders the Lucide icon waves-ladder.
+func WavesLadder(attrs ...templ.Attributes) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -29,7 +29,7 @@ func SunSnow(attrs ...templ.Attributes) templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		var templ_7745c5c3_Var2 = []any{cn("lucide lucide-sun-snow", attrs)}
+		var templ_7745c5c3_Var2 = []any{cn("lucide lucide-waves-ladder", attrs)}
 		templ_7745c5c3_Err = templ.RenderCSSItems(ctx, templ_7745c5c3_Buffer, templ_7745c5c3_Var2...)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
@@ -55,7 +55,7 @@ func SunSnow(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M10 21v-1\"></path> <path d=\"M10 4V3\"></path> <path d=\"M10 9a3 3 0 0 0 0 6\"></path> <path d=\"m14 20 1.25-2.5L18 18\"></path> <path d=\"m14 4 1.25 2.5L18 6\"></path> <path d=\"m17 21-3-6 1.5-3H22\"></path> <path d=\"m17 3-3 6 1.5 3\"></path> <path d=\"M2 12h1\"></path> <path d=\"m20 10-1.5 2 1.5 2\"></path> <path d=\"m3.64 18.36.7-.7\"></path> <path d=\"m4.34 6.34-.7-.7\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M19 5a2 2 0 0 0-2 2v11\"></path> <path d=\"M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1\"></path> <path d=\"M7 13h10\"></path> <path d=\"M7 9h10\"></path> <path d=\"M9 5a2 2 0 0 0-2 2v11\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

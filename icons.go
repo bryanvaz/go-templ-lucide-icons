@@ -363,6 +363,8 @@ var (
 	BatteryLow = templFuncs.BatteryLow
 	// Renders the Lucide icon 'battery-medium'.
 	BatteryMedium = templFuncs.BatteryMedium
+	// Renders the Lucide icon 'battery-plus'.
+	BatteryPlus = templFuncs.BatteryPlus
 	// Renders the Lucide icon 'battery-warning'.
 	BatteryWarning = templFuncs.BatteryWarning
 	// Renders the Lucide icon 'beaker'.
@@ -1713,6 +1715,8 @@ var (
 	HousePlug = templFuncs.HousePlug
 	// Renders the Lucide icon 'house-plus'.
 	HousePlus = templFuncs.HousePlus
+	// Renders the Lucide icon 'house-wifi'.
+	HouseWifi = templFuncs.HouseWifi
 	// Alias for 'IceCreamCone'(ice-cream-cone).Renders the Lucide icon 'ice-cream'
 	IceCream = templFuncs.IceCreamCone
 	// Alias for 'IceCreamBowl'(ice-cream-bowl).Renders the Lucide icon 'ice-cream-2'
@@ -1993,6 +1997,8 @@ var (
 	MapPinXInside = templFuncs.MapPinXInside
 	// Renders the Lucide icon 'map-pinned'.
 	MapPinned = templFuncs.MapPinned
+	// Renders the Lucide icon 'map-plus'.
+	MapPlus = templFuncs.MapPlus
 	// Renders the Lucide icon 'martini'.
 	Martini = templFuncs.Martini
 	// Renders the Lucide icon 'maximize'.
@@ -3225,6 +3231,8 @@ var (
 	Triangle = templFuncs.Triangle
 	// Renders the Lucide icon 'triangle-alert'.
 	TriangleAlert = templFuncs.TriangleAlert
+	// Renders the Lucide icon 'triangle-dashed'.
+	TriangleDashed = templFuncs.TriangleDashed
 	// Renders the Lucide icon 'triangle-right'.
 	TriangleRight = templFuncs.TriangleRight
 	// Renders the Lucide icon 'trophy'.
@@ -3411,6 +3419,8 @@ var (
 	Watch = templFuncs.Watch
 	// Renders the Lucide icon 'waves'.
 	Waves = templFuncs.Waves
+	// Renders the Lucide icon 'waves-ladder'.
+	WavesLadder = templFuncs.WavesLadder
 	// Renders the Lucide icon 'waypoints'.
 	Waypoints = templFuncs.Waypoints
 	// Renders the Lucide icon 'webcam'.
