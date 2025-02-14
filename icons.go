@@ -2651,6 +2651,8 @@ var (
 	ScanEye = templFuncs.ScanEye
 	// Renders the Lucide icon 'scan-face'.
 	ScanFace = templFuncs.ScanFace
+	// Renders the Lucide icon 'scan-heart'.
+	ScanHeart = templFuncs.ScanHeart
 	// Renders the Lucide icon 'scan-line'.
 	ScanLine = templFuncs.ScanLine
 	// Renders the Lucide icon 'scan-qr-code'.
