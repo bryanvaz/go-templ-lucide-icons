@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon non-binary.
+templ NonBinary(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-non-binary", attrs) }
+	>
+		<path d="M12 2v10"></path>
+		<path d="m9 4 6 4"></path>
+		<path d="m9 8 6-4"></path>
+		<circle cx="12" cy="17" r="5"></circle>
+		{ children... }
+	</svg>
+}

@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon circle-small.
+templ CircleSmall(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-small", attrs) }
+	>
+		<circle cx="12" cy="12" r="6"></circle>
+		{ children... }
+	</svg>
+}

@@ -849,6 +849,8 @@ var (
 	CircleSlash2 = templFuncs.CircleSlash2
 	// Alias for 'CircleSlash2'(circle-slash-2).Renders the Lucide icon 'circle-slashed'
 	CircleSlashed = templFuncs.CircleSlash2
+	// Renders the Lucide icon 'circle-small'.
+	CircleSmall = templFuncs.CircleSmall
 	// Renders the Lucide icon 'circle-stop'.
 	CircleStop = templFuncs.CircleStop
 	// Renders the Lucide icon 'circle-user'.
@@ -1999,6 +2001,10 @@ var (
 	MapPinned = templFuncs.MapPinned
 	// Renders the Lucide icon 'map-plus'.
 	MapPlus = templFuncs.MapPlus
+	// Renders the Lucide icon 'mars'.
+	Mars = templFuncs.Mars
+	// Renders the Lucide icon 'mars-stroke'.
+	MarsStroke = templFuncs.MarsStroke
 	// Renders the Lucide icon 'martini'.
 	Martini = templFuncs.Martini
 	// Renders the Lucide icon 'maximize'.
@@ -2209,6 +2215,8 @@ var (
 	Newspaper = templFuncs.Newspaper
 	// Renders the Lucide icon 'nfc'.
 	Nfc = templFuncs.Nfc
+	// Renders the Lucide icon 'non-binary'.
+	NonBinary = templFuncs.NonBinary
 	// Renders the Lucide icon 'notebook'.
 	Notebook = templFuncs.Notebook
 	// Renders the Lucide icon 'notebook-pen'.
@@ -3207,6 +3215,8 @@ var (
 	TrainTrack = templFuncs.TrainTrack
 	// Renders the Lucide icon 'tram-front'.
 	TramFront = templFuncs.TramFront
+	// Renders the Lucide icon 'transgender'.
+	Transgender = templFuncs.Transgender
 	// Renders the Lucide icon 'trash'.
 	Trash = templFuncs.Trash
 	// Renders the Lucide icon 'trash-2'.
@@ -3365,6 +3375,10 @@ var (
 	Vegan = templFuncs.Vegan
 	// Renders the Lucide icon 'venetian-mask'.
 	VenetianMask = templFuncs.VenetianMask
+	// Renders the Lucide icon 'venus'.
+	Venus = templFuncs.Venus
+	// Renders the Lucide icon 'venus-and-mars'.
+	VenusAndMars = templFuncs.VenusAndMars
 	// Alias for 'BadgeCheck'(badge-check).Renders the Lucide icon 'verified'
 	Verified = templFuncs.BadgeCheck
 	// Renders the Lucide icon 'vibrate'.

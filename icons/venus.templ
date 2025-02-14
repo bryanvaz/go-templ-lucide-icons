@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon venus.
+templ Venus(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-venus", attrs) }
+	>
+		<path d="M12 15v7"></path>
+		<path d="M9 19h6"></path>
+		<circle cx="12" cy="9" r="6"></circle>
+		{ children... }
+	</svg>
+}
