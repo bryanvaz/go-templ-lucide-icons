@@ -1887,6 +1887,8 @@ var (
 	ListEnd = templFuncs.ListEnd
 	// Renders the Lucide icon 'list-filter'.
 	ListFilter = templFuncs.ListFilter
+	// Renders the Lucide icon 'list-filter-plus'.
+	ListFilterPlus = templFuncs.ListFilterPlus
 	// Renders the Lucide icon 'list-minus'.
 	ListMinus = templFuncs.ListMinus
 	// Renders the Lucide icon 'list-music'.
