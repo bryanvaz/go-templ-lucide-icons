@@ -1,5 +1,5 @@
 
-# Lucide Templ
+# Lucide Icons for Templ
 
 <div align="center">
 
@@ -12,11 +12,16 @@ Lucide icon library for Golang Templ applications.
   <a href="https://goreportcard.com/report/github.com/bryanvaz/go-templ-lucide-icons">
     <img src="https://goreportcard.com/badge/github.com/bryanvaz/go-templ-lucide-icons">
   </a>
+  <a href="https://github.com/bryanvaz/go-templ-lucide-icons/actions/workflows/test.yml">
+    <img src="https://github.com/bryanvaz/go-templ-lucide-icons/actions/workflows/test.yml/badge.svg?branch=main">
+  </a>
 </p>
 
-[About](https://lucide.dev/guide/)
+[About Lucide](https://lucide.dev/guide/)
 .
 [Icons](https://lucide.dev/icons/)
+.
+[About Templ](https://templ.guide/)
 
 </div>
 
