@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon circle-check-big.
+templ CircleCheckBig(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-check-big", attrs) }
+	>
+		<path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+		<path d="m9 11 3 3L22 4"></path>
+		{ children... }
+	</svg>
+}

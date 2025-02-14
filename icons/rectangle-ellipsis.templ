@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon rectangle-ellipsis.
+templ RectangleEllipsis(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-rectangle-ellipsis", attrs) }
+	>
+		<rect width="20" height="12" x="2" y="6" rx="2"></rect>
+		<path d="M12 12h.01"></path>
+		<path d="M17 12h.01"></path>
+		<path d="M7 12h.01"></path>
+		{ children... }
+	</svg>
+}

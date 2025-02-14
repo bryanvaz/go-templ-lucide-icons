@@ -55,7 +55,7 @@ func BookOpenText(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\"></path> <path d=\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\"></path> <path d=\"M6 8h2\"></path> <path d=\"M6 12h2\"></path> <path d=\"M16 8h2\"></path> <path d=\"M16 12h2\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 7v14\"></path> <path d=\"M16 12h2\"></path> <path d=\"M16 8h2\"></path> <path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"></path> <path d=\"M6 12h2\"></path> <path d=\"M6 8h2\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

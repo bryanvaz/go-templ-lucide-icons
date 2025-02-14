@@ -55,7 +55,7 @@ func MessageCircleCode(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"></path> <path d=\"m10 10-2 2 2 2\"></path> <path d=\"m14 10 2 2-2 2\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M10 9.5 8 12l2 2.5\"></path> <path d=\"m14 9.5 2 2.5-2 2.5\"></path> <path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22z\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

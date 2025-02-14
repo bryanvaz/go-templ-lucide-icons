@@ -55,7 +55,7 @@ func Wifi(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M5 13a10 10 0 0 1 14 0\"></path> <path d=\"M8.5 16.5a5 5 0 0 1 7 0\"></path> <path d=\"M2 8.82a15 15 0 0 1 20 0\"></path> <line x1=\"12\" x2=\"12.01\" y1=\"20\" y2=\"20\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 20h.01\"></path> <path d=\"M2 8.82a15 15 0 0 1 20 0\"></path> <path d=\"M5 12.859a10 10 0 0 1 14 0\"></path> <path d=\"M8.5 16.429a5 5 0 0 1 7 0\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

@@ -13,8 +13,8 @@ var (
 	Accessibility = templFuncs.Accessibility
 	// Renders the Lucide icon 'activity'.
 	Activity = templFuncs.Activity
-	// Renders the Lucide icon 'activity-square'.
-	ActivitySquare = templFuncs.ActivitySquare
+	// Alias for 'SquareActivity'(square-activity).Renders the Lucide icon 'activity-square'
+	ActivitySquare = templFuncs.SquareActivity
 	// Renders the Lucide icon 'air-vent'.
 	AirVent = templFuncs.AirVent
 	// Renders the Lucide icon 'airplay'.
@@ -39,12 +39,12 @@ var (
 	AlarmSmoke = templFuncs.AlarmSmoke
 	// Renders the Lucide icon 'album'.
 	Album = templFuncs.Album
-	// Renders the Lucide icon 'alert-circle'.
-	AlertCircle = templFuncs.AlertCircle
-	// Renders the Lucide icon 'alert-octagon'.
-	AlertOctagon = templFuncs.AlertOctagon
-	// Renders the Lucide icon 'alert-triangle'.
-	AlertTriangle = templFuncs.AlertTriangle
+	// Alias for 'CircleAlert'(circle-alert).Renders the Lucide icon 'alert-circle'
+	AlertCircle = templFuncs.CircleAlert
+	// Alias for 'OctagonAlert'(octagon-alert).Renders the Lucide icon 'alert-octagon'
+	AlertOctagon = templFuncs.OctagonAlert
+	// Alias for 'TriangleAlert'(triangle-alert).Renders the Lucide icon 'alert-triangle'
+	AlertTriangle = templFuncs.TriangleAlert
 	// Renders the Lucide icon 'align-center'.
 	AlignCenter = templFuncs.AlignCenter
 	// Renders the Lucide icon 'align-center-horizontal'.
@@ -97,10 +97,14 @@ var (
 	AlignVerticalSpaceAround = templFuncs.AlignVerticalSpaceAround
 	// Renders the Lucide icon 'align-vertical-space-between'.
 	AlignVerticalSpaceBetween = templFuncs.AlignVerticalSpaceBetween
+	// Renders the Lucide icon 'ambulance'.
+	Ambulance = templFuncs.Ambulance
 	// Renders the Lucide icon 'ampersand'.
 	Ampersand = templFuncs.Ampersand
 	// Renders the Lucide icon 'ampersands'.
 	Ampersands = templFuncs.Ampersands
+	// Renders the Lucide icon 'amphora'.
+	Amphora = templFuncs.Amphora
 	// Renders the Lucide icon 'anchor'.
 	Anchor = templFuncs.Anchor
 	// Renders the Lucide icon 'angry'.
@@ -115,6 +119,8 @@ var (
 	Aperture = templFuncs.Aperture
 	// Renders the Lucide icon 'app-window'.
 	AppWindow = templFuncs.AppWindow
+	// Renders the Lucide icon 'app-window-mac'.
+	AppWindowMac = templFuncs.AppWindowMac
 	// Renders the Lucide icon 'apple'.
 	Apple = templFuncs.Apple
 	// Renders the Lucide icon 'archive'.
@@ -123,8 +129,8 @@ var (
 	ArchiveRestore = templFuncs.ArchiveRestore
 	// Renders the Lucide icon 'archive-x'.
 	ArchiveX = templFuncs.ArchiveX
-	// Renders the Lucide icon 'area-chart'.
-	AreaChart = templFuncs.AreaChart
+	// Alias for 'ChartArea'(chart-area).Renders the Lucide icon 'area-chart'
+	AreaChart = templFuncs.ChartArea
 	// Renders the Lucide icon 'armchair'.
 	Armchair = templFuncs.Armchair
 	// Renders the Lucide icon 'arrow-big-down'.
@@ -153,26 +159,30 @@ var (
 	ArrowDownAZ = templFuncs.ArrowDownAZ
 	// Alias for 'ArrowDownAZ'(arrow-down-a-z).Renders the Lucide icon 'arrow-down-az'
 	ArrowDownAz = templFuncs.ArrowDownAZ
-	// Renders the Lucide icon 'arrow-down-circle'.
-	ArrowDownCircle = templFuncs.ArrowDownCircle
+	// Alias for 'CircleArrowDown'(circle-arrow-down).Renders the Lucide icon 'arrow-down-circle'
+	ArrowDownCircle = templFuncs.CircleArrowDown
 	// Renders the Lucide icon 'arrow-down-from-line'.
 	ArrowDownFromLine = templFuncs.ArrowDownFromLine
 	// Renders the Lucide icon 'arrow-down-left'.
 	ArrowDownLeft = templFuncs.ArrowDownLeft
-	// Renders the Lucide icon 'arrow-down-left-from-circle'.
-	ArrowDownLeftFromCircle = templFuncs.ArrowDownLeftFromCircle
-	// Renders the Lucide icon 'arrow-down-left-square'.
-	ArrowDownLeftSquare = templFuncs.ArrowDownLeftSquare
+	// Alias for 'CircleArrowOutDownLeft'(circle-arrow-out-down-left).Renders the Lucide icon 'arrow-down-left-from-circle'
+	ArrowDownLeftFromCircle = templFuncs.CircleArrowOutDownLeft
+	// Alias for 'SquareArrowOutDownLeft'(square-arrow-out-down-left).Renders the Lucide icon 'arrow-down-left-from-square'
+	ArrowDownLeftFromSquare = templFuncs.SquareArrowOutDownLeft
+	// Alias for 'SquareArrowDownLeft'(square-arrow-down-left).Renders the Lucide icon 'arrow-down-left-square'
+	ArrowDownLeftSquare = templFuncs.SquareArrowDownLeft
 	// Renders the Lucide icon 'arrow-down-narrow-wide'.
 	ArrowDownNarrowWide = templFuncs.ArrowDownNarrowWide
 	// Renders the Lucide icon 'arrow-down-right'.
 	ArrowDownRight = templFuncs.ArrowDownRight
-	// Renders the Lucide icon 'arrow-down-right-from-circle'.
-	ArrowDownRightFromCircle = templFuncs.ArrowDownRightFromCircle
-	// Renders the Lucide icon 'arrow-down-right-square'.
-	ArrowDownRightSquare = templFuncs.ArrowDownRightSquare
-	// Renders the Lucide icon 'arrow-down-square'.
-	ArrowDownSquare = templFuncs.ArrowDownSquare
+	// Alias for 'CircleArrowOutDownRight'(circle-arrow-out-down-right).Renders the Lucide icon 'arrow-down-right-from-circle'
+	ArrowDownRightFromCircle = templFuncs.CircleArrowOutDownRight
+	// Alias for 'SquareArrowOutDownRight'(square-arrow-out-down-right).Renders the Lucide icon 'arrow-down-right-from-square'
+	ArrowDownRightFromSquare = templFuncs.SquareArrowOutDownRight
+	// Alias for 'SquareArrowDownRight'(square-arrow-down-right).Renders the Lucide icon 'arrow-down-right-square'
+	ArrowDownRightSquare = templFuncs.SquareArrowDownRight
+	// Alias for 'SquareArrowDown'(square-arrow-down).Renders the Lucide icon 'arrow-down-square'
+	ArrowDownSquare = templFuncs.SquareArrowDown
 	// Renders the Lucide icon 'arrow-down-to-dot'.
 	ArrowDownToDot = templFuncs.ArrowDownToDot
 	// Renders the Lucide icon 'arrow-down-to-line'.
@@ -187,26 +197,26 @@ var (
 	ArrowDownZa = templFuncs.ArrowDownZA
 	// Renders the Lucide icon 'arrow-left'.
 	ArrowLeft = templFuncs.ArrowLeft
-	// Renders the Lucide icon 'arrow-left-circle'.
-	ArrowLeftCircle = templFuncs.ArrowLeftCircle
+	// Alias for 'CircleArrowLeft'(circle-arrow-left).Renders the Lucide icon 'arrow-left-circle'
+	ArrowLeftCircle = templFuncs.CircleArrowLeft
 	// Renders the Lucide icon 'arrow-left-from-line'.
 	ArrowLeftFromLine = templFuncs.ArrowLeftFromLine
 	// Renders the Lucide icon 'arrow-left-right'.
 	ArrowLeftRight = templFuncs.ArrowLeftRight
-	// Renders the Lucide icon 'arrow-left-square'.
-	ArrowLeftSquare = templFuncs.ArrowLeftSquare
+	// Alias for 'SquareArrowLeft'(square-arrow-left).Renders the Lucide icon 'arrow-left-square'
+	ArrowLeftSquare = templFuncs.SquareArrowLeft
 	// Renders the Lucide icon 'arrow-left-to-line'.
 	ArrowLeftToLine = templFuncs.ArrowLeftToLine
 	// Renders the Lucide icon 'arrow-right'.
 	ArrowRight = templFuncs.ArrowRight
-	// Renders the Lucide icon 'arrow-right-circle'.
-	ArrowRightCircle = templFuncs.ArrowRightCircle
+	// Alias for 'CircleArrowRight'(circle-arrow-right).Renders the Lucide icon 'arrow-right-circle'
+	ArrowRightCircle = templFuncs.CircleArrowRight
 	// Renders the Lucide icon 'arrow-right-from-line'.
 	ArrowRightFromLine = templFuncs.ArrowRightFromLine
 	// Renders the Lucide icon 'arrow-right-left'.
 	ArrowRightLeft = templFuncs.ArrowRightLeft
-	// Renders the Lucide icon 'arrow-right-square'.
-	ArrowRightSquare = templFuncs.ArrowRightSquare
+	// Alias for 'SquareArrowRight'(square-arrow-right).Renders the Lucide icon 'arrow-right-square'
+	ArrowRightSquare = templFuncs.SquareArrowRight
 	// Renders the Lucide icon 'arrow-right-to-line'.
 	ArrowRightToLine = templFuncs.ArrowRightToLine
 	// Renders the Lucide icon 'arrow-up'.
@@ -219,8 +229,8 @@ var (
 	ArrowUpAZ = templFuncs.ArrowUpAZ
 	// Alias for 'ArrowUpAZ'(arrow-up-a-z).Renders the Lucide icon 'arrow-up-az'
 	ArrowUpAz = templFuncs.ArrowUpAZ
-	// Renders the Lucide icon 'arrow-up-circle'.
-	ArrowUpCircle = templFuncs.ArrowUpCircle
+	// Alias for 'CircleArrowUp'(circle-arrow-up).Renders the Lucide icon 'arrow-up-circle'
+	ArrowUpCircle = templFuncs.CircleArrowUp
 	// Renders the Lucide icon 'arrow-up-down'.
 	ArrowUpDown = templFuncs.ArrowUpDown
 	// Renders the Lucide icon 'arrow-up-from-dot'.
@@ -229,20 +239,24 @@ var (
 	ArrowUpFromLine = templFuncs.ArrowUpFromLine
 	// Renders the Lucide icon 'arrow-up-left'.
 	ArrowUpLeft = templFuncs.ArrowUpLeft
-	// Renders the Lucide icon 'arrow-up-left-from-circle'.
-	ArrowUpLeftFromCircle = templFuncs.ArrowUpLeftFromCircle
-	// Renders the Lucide icon 'arrow-up-left-square'.
-	ArrowUpLeftSquare = templFuncs.ArrowUpLeftSquare
+	// Alias for 'CircleArrowOutUpLeft'(circle-arrow-out-up-left).Renders the Lucide icon 'arrow-up-left-from-circle'
+	ArrowUpLeftFromCircle = templFuncs.CircleArrowOutUpLeft
+	// Alias for 'SquareArrowOutUpLeft'(square-arrow-out-up-left).Renders the Lucide icon 'arrow-up-left-from-square'
+	ArrowUpLeftFromSquare = templFuncs.SquareArrowOutUpLeft
+	// Alias for 'SquareArrowUpLeft'(square-arrow-up-left).Renders the Lucide icon 'arrow-up-left-square'
+	ArrowUpLeftSquare = templFuncs.SquareArrowUpLeft
 	// Renders the Lucide icon 'arrow-up-narrow-wide'.
 	ArrowUpNarrowWide = templFuncs.ArrowUpNarrowWide
 	// Renders the Lucide icon 'arrow-up-right'.
 	ArrowUpRight = templFuncs.ArrowUpRight
-	// Renders the Lucide icon 'arrow-up-right-from-circle'.
-	ArrowUpRightFromCircle = templFuncs.ArrowUpRightFromCircle
-	// Renders the Lucide icon 'arrow-up-right-square'.
-	ArrowUpRightSquare = templFuncs.ArrowUpRightSquare
-	// Renders the Lucide icon 'arrow-up-square'.
-	ArrowUpSquare = templFuncs.ArrowUpSquare
+	// Alias for 'CircleArrowOutUpRight'(circle-arrow-out-up-right).Renders the Lucide icon 'arrow-up-right-from-circle'
+	ArrowUpRightFromCircle = templFuncs.CircleArrowOutUpRight
+	// Alias for 'SquareArrowOutUpRight'(square-arrow-out-up-right).Renders the Lucide icon 'arrow-up-right-from-square'
+	ArrowUpRightFromSquare = templFuncs.SquareArrowOutUpRight
+	// Alias for 'SquareArrowUpRight'(square-arrow-up-right).Renders the Lucide icon 'arrow-up-right-square'
+	ArrowUpRightSquare = templFuncs.SquareArrowUpRight
+	// Alias for 'SquareArrowUp'(square-arrow-up).Renders the Lucide icon 'arrow-up-square'
+	ArrowUpSquare = templFuncs.SquareArrowUp
 	// Renders the Lucide icon 'arrow-up-to-line'.
 	ArrowUpToLine = templFuncs.ArrowUpToLine
 	// Renders the Lucide icon 'arrow-up-wide-narrow'.
@@ -255,6 +269,8 @@ var (
 	ArrowsUpFromLine = templFuncs.ArrowsUpFromLine
 	// Renders the Lucide icon 'asterisk'.
 	Asterisk = templFuncs.Asterisk
+	// Alias for 'SquareAsterisk'(square-asterisk).Renders the Lucide icon 'asterisk-square'
+	AsteriskSquare = templFuncs.SquareAsterisk
 	// Renders the Lucide icon 'at-sign'.
 	AtSign = templFuncs.AtSign
 	// Renders the Lucide icon 'atom'.
@@ -313,22 +329,24 @@ var (
 	Ban = templFuncs.Ban
 	// Renders the Lucide icon 'banana'.
 	Banana = templFuncs.Banana
+	// Renders the Lucide icon 'bandage'.
+	Bandage = templFuncs.Bandage
 	// Renders the Lucide icon 'banknote'.
 	Banknote = templFuncs.Banknote
-	// Renders the Lucide icon 'bar-chart'.
-	BarChart = templFuncs.BarChart
-	// Renders the Lucide icon 'bar-chart-2'.
-	BarChart2 = templFuncs.BarChart2
-	// Renders the Lucide icon 'bar-chart-3'.
-	BarChart3 = templFuncs.BarChart3
-	// Renders the Lucide icon 'bar-chart-4'.
-	BarChart4 = templFuncs.BarChart4
-	// Renders the Lucide icon 'bar-chart-big'.
-	BarChartBig = templFuncs.BarChartBig
-	// Renders the Lucide icon 'bar-chart-horizontal'.
-	BarChartHorizontal = templFuncs.BarChartHorizontal
-	// Renders the Lucide icon 'bar-chart-horizontal-big'.
-	BarChartHorizontalBig = templFuncs.BarChartHorizontalBig
+	// Alias for 'ChartNoAxesColumnIncreasing'(chart-no-axes-column-increasing).Renders the Lucide icon 'bar-chart'
+	BarChart = templFuncs.ChartNoAxesColumnIncreasing
+	// Alias for 'ChartNoAxesColumn'(chart-no-axes-column).Renders the Lucide icon 'bar-chart-2'
+	BarChart2 = templFuncs.ChartNoAxesColumn
+	// Alias for 'ChartColumn'(chart-column).Renders the Lucide icon 'bar-chart-3'
+	BarChart3 = templFuncs.ChartColumn
+	// Alias for 'ChartColumnIncreasing'(chart-column-increasing).Renders the Lucide icon 'bar-chart-4'
+	BarChart4 = templFuncs.ChartColumnIncreasing
+	// Alias for 'ChartColumnBig'(chart-column-big).Renders the Lucide icon 'bar-chart-big'
+	BarChartBig = templFuncs.ChartColumnBig
+	// Alias for 'ChartBar'(chart-bar).Renders the Lucide icon 'bar-chart-horizontal'
+	BarChartHorizontal = templFuncs.ChartBar
+	// Alias for 'ChartBarBig'(chart-bar-big).Renders the Lucide icon 'bar-chart-horizontal-big'
+	BarChartHorizontalBig = templFuncs.ChartBarBig
 	// Renders the Lucide icon 'barcode'.
 	Barcode = templFuncs.Barcode
 	// Renders the Lucide icon 'baseline'.
@@ -363,6 +381,8 @@ var (
 	Beef = templFuncs.Beef
 	// Renders the Lucide icon 'beer'.
 	Beer = templFuncs.Beer
+	// Renders the Lucide icon 'beer-off'.
+	BeerOff = templFuncs.BeerOff
 	// Renders the Lucide icon 'bell'.
 	Bell = templFuncs.Bell
 	// Renders the Lucide icon 'bell-dot'.
@@ -377,16 +397,34 @@ var (
 	BellPlus = templFuncs.BellPlus
 	// Renders the Lucide icon 'bell-ring'.
 	BellRing = templFuncs.BellRing
+	// Alias for 'BetweenHorizontalEnd'(between-horizontal-end).Renders the Lucide icon 'between-horizonal-end'
+	BetweenHorizonalEnd = templFuncs.BetweenHorizontalEnd
+	// Alias for 'BetweenHorizontalStart'(between-horizontal-start).Renders the Lucide icon 'between-horizonal-start'
+	BetweenHorizonalStart = templFuncs.BetweenHorizontalStart
+	// Renders the Lucide icon 'between-horizontal-end'.
+	BetweenHorizontalEnd = templFuncs.BetweenHorizontalEnd
+	// Renders the Lucide icon 'between-horizontal-start'.
+	BetweenHorizontalStart = templFuncs.BetweenHorizontalStart
+	// Renders the Lucide icon 'between-vertical-end'.
+	BetweenVerticalEnd = templFuncs.BetweenVerticalEnd
+	// Renders the Lucide icon 'between-vertical-start'.
+	BetweenVerticalStart = templFuncs.BetweenVerticalStart
+	// Renders the Lucide icon 'biceps-flexed'.
+	BicepsFlexed = templFuncs.BicepsFlexed
 	// Renders the Lucide icon 'bike'.
 	Bike = templFuncs.Bike
 	// Renders the Lucide icon 'binary'.
 	Binary = templFuncs.Binary
+	// Renders the Lucide icon 'binoculars'.
+	Binoculars = templFuncs.Binoculars
 	// Renders the Lucide icon 'biohazard'.
 	Biohazard = templFuncs.Biohazard
 	// Renders the Lucide icon 'bird'.
 	Bird = templFuncs.Bird
 	// Renders the Lucide icon 'bitcoin'.
 	Bitcoin = templFuncs.Bitcoin
+	// Renders the Lucide icon 'blend'.
+	Blend = templFuncs.Blend
 	// Renders the Lucide icon 'blinds'.
 	Blinds = templFuncs.Blinds
 	// Renders the Lucide icon 'blocks'.
@@ -471,10 +509,14 @@ var (
 	BoomBox = templFuncs.BoomBox
 	// Renders the Lucide icon 'bot'.
 	Bot = templFuncs.Bot
+	// Renders the Lucide icon 'bot-message-square'.
+	BotMessageSquare = templFuncs.BotMessageSquare
+	// Renders the Lucide icon 'bot-off'.
+	BotOff = templFuncs.BotOff
 	// Renders the Lucide icon 'box'.
 	Box = templFuncs.Box
-	// Renders the Lucide icon 'box-select'.
-	BoxSelect = templFuncs.BoxSelect
+	// Alias for 'SquareDashed'(square-dashed).Renders the Lucide icon 'box-select'
+	BoxSelect = templFuncs.SquareDashed
 	// Renders the Lucide icon 'boxes'.
 	Boxes = templFuncs.Boxes
 	// Renders the Lucide icon 'braces'.
@@ -491,6 +533,12 @@ var (
 	BrickWall = templFuncs.BrickWall
 	// Renders the Lucide icon 'briefcase'.
 	Briefcase = templFuncs.Briefcase
+	// Renders the Lucide icon 'briefcase-business'.
+	BriefcaseBusiness = templFuncs.BriefcaseBusiness
+	// Renders the Lucide icon 'briefcase-conveyor-belt'.
+	BriefcaseConveyorBelt = templFuncs.BriefcaseConveyorBelt
+	// Renders the Lucide icon 'briefcase-medical'.
+	BriefcaseMedical = templFuncs.BriefcaseMedical
 	// Renders the Lucide icon 'bring-to-front'.
 	BringToFront = templFuncs.BringToFront
 	// Renders the Lucide icon 'brush'.
@@ -521,26 +569,42 @@ var (
 	Calculator = templFuncs.Calculator
 	// Renders the Lucide icon 'calendar'.
 	Calendar = templFuncs.Calendar
+	// Renders the Lucide icon 'calendar-1'.
+	Calendar1 = templFuncs.Calendar1
+	// Renders the Lucide icon 'calendar-arrow-down'.
+	CalendarArrowDown = templFuncs.CalendarArrowDown
+	// Renders the Lucide icon 'calendar-arrow-up'.
+	CalendarArrowUp = templFuncs.CalendarArrowUp
 	// Renders the Lucide icon 'calendar-check'.
 	CalendarCheck = templFuncs.CalendarCheck
 	// Renders the Lucide icon 'calendar-check-2'.
 	CalendarCheck2 = templFuncs.CalendarCheck2
 	// Renders the Lucide icon 'calendar-clock'.
 	CalendarClock = templFuncs.CalendarClock
+	// Renders the Lucide icon 'calendar-cog'.
+	CalendarCog = templFuncs.CalendarCog
 	// Renders the Lucide icon 'calendar-days'.
 	CalendarDays = templFuncs.CalendarDays
+	// Renders the Lucide icon 'calendar-fold'.
+	CalendarFold = templFuncs.CalendarFold
 	// Renders the Lucide icon 'calendar-heart'.
 	CalendarHeart = templFuncs.CalendarHeart
 	// Renders the Lucide icon 'calendar-minus'.
 	CalendarMinus = templFuncs.CalendarMinus
+	// Renders the Lucide icon 'calendar-minus-2'.
+	CalendarMinus2 = templFuncs.CalendarMinus2
 	// Renders the Lucide icon 'calendar-off'.
 	CalendarOff = templFuncs.CalendarOff
 	// Renders the Lucide icon 'calendar-plus'.
 	CalendarPlus = templFuncs.CalendarPlus
+	// Renders the Lucide icon 'calendar-plus-2'.
+	CalendarPlus2 = templFuncs.CalendarPlus2
 	// Renders the Lucide icon 'calendar-range'.
 	CalendarRange = templFuncs.CalendarRange
 	// Renders the Lucide icon 'calendar-search'.
 	CalendarSearch = templFuncs.CalendarSearch
+	// Renders the Lucide icon 'calendar-sync'.
+	CalendarSync = templFuncs.CalendarSync
 	// Renders the Lucide icon 'calendar-x'.
 	CalendarX = templFuncs.CalendarX
 	// Renders the Lucide icon 'calendar-x-2'.
@@ -549,14 +613,20 @@ var (
 	Camera = templFuncs.Camera
 	// Renders the Lucide icon 'camera-off'.
 	CameraOff = templFuncs.CameraOff
-	// Renders the Lucide icon 'candlestick-chart'.
-	CandlestickChart = templFuncs.CandlestickChart
+	// Alias for 'ChartCandlestick'(chart-candlestick).Renders the Lucide icon 'candlestick-chart'
+	CandlestickChart = templFuncs.ChartCandlestick
 	// Renders the Lucide icon 'candy'.
 	Candy = templFuncs.Candy
 	// Renders the Lucide icon 'candy-cane'.
 	CandyCane = templFuncs.CandyCane
 	// Renders the Lucide icon 'candy-off'.
 	CandyOff = templFuncs.CandyOff
+	// Renders the Lucide icon 'cannabis'.
+	Cannabis = templFuncs.Cannabis
+	// Renders the Lucide icon 'captions'.
+	Captions = templFuncs.Captions
+	// Renders the Lucide icon 'captions-off'.
+	CaptionsOff = templFuncs.CaptionsOff
 	// Renders the Lucide icon 'car'.
 	Car = templFuncs.Car
 	// Renders the Lucide icon 'car-front'.
@@ -583,50 +653,96 @@ var (
 	Cat = templFuncs.Cat
 	// Renders the Lucide icon 'cctv'.
 	Cctv = templFuncs.Cctv
+	// Renders the Lucide icon 'chart-area'.
+	ChartArea = templFuncs.ChartArea
+	// Renders the Lucide icon 'chart-bar'.
+	ChartBar = templFuncs.ChartBar
+	// Renders the Lucide icon 'chart-bar-big'.
+	ChartBarBig = templFuncs.ChartBarBig
+	// Renders the Lucide icon 'chart-bar-decreasing'.
+	ChartBarDecreasing = templFuncs.ChartBarDecreasing
+	// Renders the Lucide icon 'chart-bar-increasing'.
+	ChartBarIncreasing = templFuncs.ChartBarIncreasing
+	// Renders the Lucide icon 'chart-bar-stacked'.
+	ChartBarStacked = templFuncs.ChartBarStacked
+	// Renders the Lucide icon 'chart-candlestick'.
+	ChartCandlestick = templFuncs.ChartCandlestick
+	// Renders the Lucide icon 'chart-column'.
+	ChartColumn = templFuncs.ChartColumn
+	// Renders the Lucide icon 'chart-column-big'.
+	ChartColumnBig = templFuncs.ChartColumnBig
+	// Renders the Lucide icon 'chart-column-decreasing'.
+	ChartColumnDecreasing = templFuncs.ChartColumnDecreasing
+	// Renders the Lucide icon 'chart-column-increasing'.
+	ChartColumnIncreasing = templFuncs.ChartColumnIncreasing
+	// Renders the Lucide icon 'chart-column-stacked'.
+	ChartColumnStacked = templFuncs.ChartColumnStacked
+	// Renders the Lucide icon 'chart-gantt'.
+	ChartGantt = templFuncs.ChartGantt
+	// Renders the Lucide icon 'chart-line'.
+	ChartLine = templFuncs.ChartLine
+	// Renders the Lucide icon 'chart-network'.
+	ChartNetwork = templFuncs.ChartNetwork
+	// Renders the Lucide icon 'chart-no-axes-column'.
+	ChartNoAxesColumn = templFuncs.ChartNoAxesColumn
+	// Renders the Lucide icon 'chart-no-axes-column-decreasing'.
+	ChartNoAxesColumnDecreasing = templFuncs.ChartNoAxesColumnDecreasing
+	// Renders the Lucide icon 'chart-no-axes-column-increasing'.
+	ChartNoAxesColumnIncreasing = templFuncs.ChartNoAxesColumnIncreasing
+	// Renders the Lucide icon 'chart-no-axes-combined'.
+	ChartNoAxesCombined = templFuncs.ChartNoAxesCombined
+	// Renders the Lucide icon 'chart-no-axes-gantt'.
+	ChartNoAxesGantt = templFuncs.ChartNoAxesGantt
+	// Renders the Lucide icon 'chart-pie'.
+	ChartPie = templFuncs.ChartPie
+	// Renders the Lucide icon 'chart-scatter'.
+	ChartScatter = templFuncs.ChartScatter
+	// Renders the Lucide icon 'chart-spline'.
+	ChartSpline = templFuncs.ChartSpline
 	// Renders the Lucide icon 'check'.
 	Check = templFuncs.Check
 	// Renders the Lucide icon 'check-check'.
 	CheckCheck = templFuncs.CheckCheck
-	// Renders the Lucide icon 'check-circle'.
-	CheckCircle = templFuncs.CheckCircle
-	// Renders the Lucide icon 'check-circle-2'.
-	CheckCircle2 = templFuncs.CheckCircle2
-	// Renders the Lucide icon 'check-square'.
-	CheckSquare = templFuncs.CheckSquare
-	// Renders the Lucide icon 'check-square-2'.
-	CheckSquare2 = templFuncs.CheckSquare2
+	// Alias for 'CircleCheckBig'(circle-check-big).Renders the Lucide icon 'check-circle'
+	CheckCircle = templFuncs.CircleCheckBig
+	// Alias for 'CircleCheck'(circle-check).Renders the Lucide icon 'check-circle-2'
+	CheckCircle2 = templFuncs.CircleCheck
+	// Alias for 'SquareCheckBig'(square-check-big).Renders the Lucide icon 'check-square'
+	CheckSquare = templFuncs.SquareCheckBig
+	// Alias for 'SquareCheck'(square-check).Renders the Lucide icon 'check-square-2'
+	CheckSquare2 = templFuncs.SquareCheck
 	// Renders the Lucide icon 'chef-hat'.
 	ChefHat = templFuncs.ChefHat
 	// Renders the Lucide icon 'cherry'.
 	Cherry = templFuncs.Cherry
 	// Renders the Lucide icon 'chevron-down'.
 	ChevronDown = templFuncs.ChevronDown
-	// Renders the Lucide icon 'chevron-down-circle'.
-	ChevronDownCircle = templFuncs.ChevronDownCircle
-	// Renders the Lucide icon 'chevron-down-square'.
-	ChevronDownSquare = templFuncs.ChevronDownSquare
+	// Alias for 'CircleChevronDown'(circle-chevron-down).Renders the Lucide icon 'chevron-down-circle'
+	ChevronDownCircle = templFuncs.CircleChevronDown
+	// Alias for 'SquareChevronDown'(square-chevron-down).Renders the Lucide icon 'chevron-down-square'
+	ChevronDownSquare = templFuncs.SquareChevronDown
 	// Renders the Lucide icon 'chevron-first'.
 	ChevronFirst = templFuncs.ChevronFirst
 	// Renders the Lucide icon 'chevron-last'.
 	ChevronLast = templFuncs.ChevronLast
 	// Renders the Lucide icon 'chevron-left'.
 	ChevronLeft = templFuncs.ChevronLeft
-	// Renders the Lucide icon 'chevron-left-circle'.
-	ChevronLeftCircle = templFuncs.ChevronLeftCircle
-	// Renders the Lucide icon 'chevron-left-square'.
-	ChevronLeftSquare = templFuncs.ChevronLeftSquare
+	// Alias for 'CircleChevronLeft'(circle-chevron-left).Renders the Lucide icon 'chevron-left-circle'
+	ChevronLeftCircle = templFuncs.CircleChevronLeft
+	// Alias for 'SquareChevronLeft'(square-chevron-left).Renders the Lucide icon 'chevron-left-square'
+	ChevronLeftSquare = templFuncs.SquareChevronLeft
 	// Renders the Lucide icon 'chevron-right'.
 	ChevronRight = templFuncs.ChevronRight
-	// Renders the Lucide icon 'chevron-right-circle'.
-	ChevronRightCircle = templFuncs.ChevronRightCircle
-	// Renders the Lucide icon 'chevron-right-square'.
-	ChevronRightSquare = templFuncs.ChevronRightSquare
+	// Alias for 'CircleChevronRight'(circle-chevron-right).Renders the Lucide icon 'chevron-right-circle'
+	ChevronRightCircle = templFuncs.CircleChevronRight
+	// Alias for 'SquareChevronRight'(square-chevron-right).Renders the Lucide icon 'chevron-right-square'
+	ChevronRightSquare = templFuncs.SquareChevronRight
 	// Renders the Lucide icon 'chevron-up'.
 	ChevronUp = templFuncs.ChevronUp
-	// Renders the Lucide icon 'chevron-up-circle'.
-	ChevronUpCircle = templFuncs.ChevronUpCircle
-	// Renders the Lucide icon 'chevron-up-square'.
-	ChevronUpSquare = templFuncs.ChevronUpSquare
+	// Alias for 'CircleChevronUp'(circle-chevron-up).Renders the Lucide icon 'chevron-up-circle'
+	ChevronUpCircle = templFuncs.CircleChevronUp
+	// Alias for 'SquareChevronUp'(square-chevron-up).Renders the Lucide icon 'chevron-up-square'
+	ChevronUpSquare = templFuncs.SquareChevronUp
 	// Renders the Lucide icon 'chevrons-down'.
 	ChevronsDown = templFuncs.ChevronsDown
 	// Renders the Lucide icon 'chevrons-down-up'.
@@ -635,6 +751,8 @@ var (
 	ChevronsLeft = templFuncs.ChevronsLeft
 	// Renders the Lucide icon 'chevrons-left-right'.
 	ChevronsLeftRight = templFuncs.ChevronsLeftRight
+	// Renders the Lucide icon 'chevrons-left-right-ellipsis'.
+	ChevronsLeftRightEllipsis = templFuncs.ChevronsLeftRightEllipsis
 	// Renders the Lucide icon 'chevrons-right'.
 	ChevronsRight = templFuncs.ChevronsRight
 	// Renders the Lucide icon 'chevrons-right-left'.
@@ -653,8 +771,40 @@ var (
 	CigaretteOff = templFuncs.CigaretteOff
 	// Renders the Lucide icon 'circle'.
 	Circle = templFuncs.Circle
+	// Renders the Lucide icon 'circle-alert'.
+	CircleAlert = templFuncs.CircleAlert
+	// Renders the Lucide icon 'circle-arrow-down'.
+	CircleArrowDown = templFuncs.CircleArrowDown
+	// Renders the Lucide icon 'circle-arrow-left'.
+	CircleArrowLeft = templFuncs.CircleArrowLeft
+	// Renders the Lucide icon 'circle-arrow-out-down-left'.
+	CircleArrowOutDownLeft = templFuncs.CircleArrowOutDownLeft
+	// Renders the Lucide icon 'circle-arrow-out-down-right'.
+	CircleArrowOutDownRight = templFuncs.CircleArrowOutDownRight
+	// Renders the Lucide icon 'circle-arrow-out-up-left'.
+	CircleArrowOutUpLeft = templFuncs.CircleArrowOutUpLeft
+	// Renders the Lucide icon 'circle-arrow-out-up-right'.
+	CircleArrowOutUpRight = templFuncs.CircleArrowOutUpRight
+	// Renders the Lucide icon 'circle-arrow-right'.
+	CircleArrowRight = templFuncs.CircleArrowRight
+	// Renders the Lucide icon 'circle-arrow-up'.
+	CircleArrowUp = templFuncs.CircleArrowUp
+	// Renders the Lucide icon 'circle-check'.
+	CircleCheck = templFuncs.CircleCheck
+	// Renders the Lucide icon 'circle-check-big'.
+	CircleCheckBig = templFuncs.CircleCheckBig
+	// Renders the Lucide icon 'circle-chevron-down'.
+	CircleChevronDown = templFuncs.CircleChevronDown
+	// Renders the Lucide icon 'circle-chevron-left'.
+	CircleChevronLeft = templFuncs.CircleChevronLeft
+	// Renders the Lucide icon 'circle-chevron-right'.
+	CircleChevronRight = templFuncs.CircleChevronRight
+	// Renders the Lucide icon 'circle-chevron-up'.
+	CircleChevronUp = templFuncs.CircleChevronUp
 	// Renders the Lucide icon 'circle-dashed'.
 	CircleDashed = templFuncs.CircleDashed
+	// Renders the Lucide icon 'circle-divide'.
+	CircleDivide = templFuncs.CircleDivide
 	// Renders the Lucide icon 'circle-dollar-sign'.
 	CircleDollarSign = templFuncs.CircleDollarSign
 	// Renders the Lucide icon 'circle-dot'.
@@ -665,18 +815,46 @@ var (
 	CircleEllipsis = templFuncs.CircleEllipsis
 	// Renders the Lucide icon 'circle-equal'.
 	CircleEqual = templFuncs.CircleEqual
+	// Renders the Lucide icon 'circle-fading-arrow-up'.
+	CircleFadingArrowUp = templFuncs.CircleFadingArrowUp
+	// Renders the Lucide icon 'circle-fading-plus'.
+	CircleFadingPlus = templFuncs.CircleFadingPlus
+	// Renders the Lucide icon 'circle-gauge'.
+	CircleGauge = templFuncs.CircleGauge
+	// Renders the Lucide icon 'circle-help'.
+	CircleHelp = templFuncs.CircleHelp
+	// Renders the Lucide icon 'circle-minus'.
+	CircleMinus = templFuncs.CircleMinus
 	// Renders the Lucide icon 'circle-off'.
 	CircleOff = templFuncs.CircleOff
+	// Renders the Lucide icon 'circle-parking'.
+	CircleParking = templFuncs.CircleParking
+	// Renders the Lucide icon 'circle-parking-off'.
+	CircleParkingOff = templFuncs.CircleParkingOff
+	// Renders the Lucide icon 'circle-pause'.
+	CirclePause = templFuncs.CirclePause
+	// Renders the Lucide icon 'circle-percent'.
+	CirclePercent = templFuncs.CirclePercent
+	// Renders the Lucide icon 'circle-play'.
+	CirclePlay = templFuncs.CirclePlay
+	// Renders the Lucide icon 'circle-plus'.
+	CirclePlus = templFuncs.CirclePlus
+	// Renders the Lucide icon 'circle-power'.
+	CirclePower = templFuncs.CirclePower
 	// Renders the Lucide icon 'circle-slash'.
 	CircleSlash = templFuncs.CircleSlash
 	// Renders the Lucide icon 'circle-slash-2'.
 	CircleSlash2 = templFuncs.CircleSlash2
 	// Alias for 'CircleSlash2'(circle-slash-2).Renders the Lucide icon 'circle-slashed'
 	CircleSlashed = templFuncs.CircleSlash2
+	// Renders the Lucide icon 'circle-stop'.
+	CircleStop = templFuncs.CircleStop
 	// Renders the Lucide icon 'circle-user'.
 	CircleUser = templFuncs.CircleUser
 	// Renders the Lucide icon 'circle-user-round'.
 	CircleUserRound = templFuncs.CircleUserRound
+	// Renders the Lucide icon 'circle-x'.
+	CircleX = templFuncs.CircleX
 	// Renders the Lucide icon 'circuit-board'.
 	CircuitBoard = templFuncs.CircuitBoard
 	// Renders the Lucide icon 'citrus'.
@@ -689,14 +867,22 @@ var (
 	ClipboardCheck = templFuncs.ClipboardCheck
 	// Renders the Lucide icon 'clipboard-copy'.
 	ClipboardCopy = templFuncs.ClipboardCopy
-	// Renders the Lucide icon 'clipboard-edit'.
-	ClipboardEdit = templFuncs.ClipboardEdit
+	// Alias for 'ClipboardPen'(clipboard-pen).Renders the Lucide icon 'clipboard-edit'
+	ClipboardEdit = templFuncs.ClipboardPen
 	// Renders the Lucide icon 'clipboard-list'.
 	ClipboardList = templFuncs.ClipboardList
+	// Renders the Lucide icon 'clipboard-minus'.
+	ClipboardMinus = templFuncs.ClipboardMinus
 	// Renders the Lucide icon 'clipboard-paste'.
 	ClipboardPaste = templFuncs.ClipboardPaste
-	// Renders the Lucide icon 'clipboard-signature'.
-	ClipboardSignature = templFuncs.ClipboardSignature
+	// Renders the Lucide icon 'clipboard-pen'.
+	ClipboardPen = templFuncs.ClipboardPen
+	// Renders the Lucide icon 'clipboard-pen-line'.
+	ClipboardPenLine = templFuncs.ClipboardPenLine
+	// Renders the Lucide icon 'clipboard-plus'.
+	ClipboardPlus = templFuncs.ClipboardPlus
+	// Alias for 'ClipboardPenLine'(clipboard-pen-line).Renders the Lucide icon 'clipboard-signature'
+	ClipboardSignature = templFuncs.ClipboardPenLine
 	// Renders the Lucide icon 'clipboard-type'.
 	ClipboardType = templFuncs.ClipboardType
 	// Renders the Lucide icon 'clipboard-x'.
@@ -727,10 +913,20 @@ var (
 	Clock8 = templFuncs.Clock8
 	// Renders the Lucide icon 'clock-9'.
 	Clock9 = templFuncs.Clock9
+	// Renders the Lucide icon 'clock-alert'.
+	ClockAlert = templFuncs.ClockAlert
+	// Renders the Lucide icon 'clock-arrow-down'.
+	ClockArrowDown = templFuncs.ClockArrowDown
+	// Renders the Lucide icon 'clock-arrow-up'.
+	ClockArrowUp = templFuncs.ClockArrowUp
 	// Renders the Lucide icon 'cloud'.
 	Cloud = templFuncs.Cloud
+	// Renders the Lucide icon 'cloud-alert'.
+	CloudAlert = templFuncs.CloudAlert
 	// Renders the Lucide icon 'cloud-cog'.
 	CloudCog = templFuncs.CloudCog
+	// Renders the Lucide icon 'cloud-download'.
+	CloudDownload = templFuncs.CloudDownload
 	// Renders the Lucide icon 'cloud-drizzle'.
 	CloudDrizzle = templFuncs.CloudDrizzle
 	// Renders the Lucide icon 'cloud-fog'.
@@ -755,6 +951,8 @@ var (
 	CloudSun = templFuncs.CloudSun
 	// Renders the Lucide icon 'cloud-sun-rain'.
 	CloudSunRain = templFuncs.CloudSunRain
+	// Renders the Lucide icon 'cloud-upload'.
+	CloudUpload = templFuncs.CloudUpload
 	// Renders the Lucide icon 'cloudy'.
 	Cloudy = templFuncs.Cloudy
 	// Renders the Lucide icon 'clover'.
@@ -763,8 +961,12 @@ var (
 	Club = templFuncs.Club
 	// Renders the Lucide icon 'code'.
 	Code = templFuncs.Code
-	// Renders the Lucide icon 'code-2'.
-	Code2 = templFuncs.Code2
+	// Alias for 'CodeXml'(code-xml).Renders the Lucide icon 'code-2'
+	Code2 = templFuncs.CodeXml
+	// Alias for 'SquareCode'(square-code).Renders the Lucide icon 'code-square'
+	CodeSquare = templFuncs.SquareCode
+	// Renders the Lucide icon 'code-xml'.
+	CodeXml = templFuncs.CodeXml
 	// Renders the Lucide icon 'codepen'.
 	Codepen = templFuncs.Codepen
 	// Renders the Lucide icon 'codesandbox'.
@@ -801,8 +1003,10 @@ var (
 	Construction = templFuncs.Construction
 	// Renders the Lucide icon 'contact'.
 	Contact = templFuncs.Contact
-	// Renders the Lucide icon 'contact-2'.
-	Contact2 = templFuncs.Contact2
+	// Alias for 'ContactRound'(contact-round).Renders the Lucide icon 'contact-2'
+	Contact2 = templFuncs.ContactRound
+	// Renders the Lucide icon 'contact-round'.
+	ContactRound = templFuncs.ContactRound
 	// Renders the Lucide icon 'container'.
 	Container = templFuncs.Container
 	// Renders the Lucide icon 'contrast'.
@@ -869,6 +1073,8 @@ var (
 	Currency = templFuncs.Currency
 	// Renders the Lucide icon 'cylinder'.
 	Cylinder = templFuncs.Cylinder
+	// Renders the Lucide icon 'dam'.
+	Dam = templFuncs.Dam
 	// Renders the Lucide icon 'database'.
 	Database = templFuncs.Database
 	// Renders the Lucide icon 'database-backup'.
@@ -883,6 +1089,12 @@ var (
 	Diameter = templFuncs.Diameter
 	// Renders the Lucide icon 'diamond'.
 	Diamond = templFuncs.Diamond
+	// Renders the Lucide icon 'diamond-minus'.
+	DiamondMinus = templFuncs.DiamondMinus
+	// Renders the Lucide icon 'diamond-percent'.
+	DiamondPercent = templFuncs.DiamondPercent
+	// Renders the Lucide icon 'diamond-plus'.
+	DiamondPlus = templFuncs.DiamondPlus
 	// Renders the Lucide icon 'dice-1'.
 	Dice1 = templFuncs.Dice1
 	// Renders the Lucide icon 'dice-2'.
@@ -909,14 +1121,16 @@ var (
 	DiscAlbum = templFuncs.DiscAlbum
 	// Renders the Lucide icon 'divide'.
 	Divide = templFuncs.Divide
-	// Renders the Lucide icon 'divide-circle'.
-	DivideCircle = templFuncs.DivideCircle
-	// Renders the Lucide icon 'divide-square'.
-	DivideSquare = templFuncs.DivideSquare
+	// Alias for 'CircleDivide'(circle-divide).Renders the Lucide icon 'divide-circle'
+	DivideCircle = templFuncs.CircleDivide
+	// Alias for 'SquareDivide'(square-divide).Renders the Lucide icon 'divide-square'
+	DivideSquare = templFuncs.SquareDivide
 	// Renders the Lucide icon 'dna'.
 	Dna = templFuncs.Dna
 	// Renders the Lucide icon 'dna-off'.
 	DnaOff = templFuncs.DnaOff
+	// Renders the Lucide icon 'dock'.
+	Dock = templFuncs.Dock
 	// Renders the Lucide icon 'dog'.
 	Dog = templFuncs.Dog
 	// Renders the Lucide icon 'dollar-sign'.
@@ -929,10 +1143,12 @@ var (
 	DoorOpen = templFuncs.DoorOpen
 	// Renders the Lucide icon 'dot'.
 	Dot = templFuncs.Dot
+	// Alias for 'SquareDot'(square-dot).Renders the Lucide icon 'dot-square'
+	DotSquare = templFuncs.SquareDot
 	// Renders the Lucide icon 'download'.
 	Download = templFuncs.Download
-	// Renders the Lucide icon 'download-cloud'.
-	DownloadCloud = templFuncs.DownloadCloud
+	// Alias for 'CloudDownload'(cloud-download).Renders the Lucide icon 'download-cloud'
+	DownloadCloud = templFuncs.CloudDownload
 	// Renders the Lucide icon 'drafting-compass'.
 	DraftingCompass = templFuncs.DraftingCompass
 	// Renders the Lucide icon 'drama'.
@@ -943,6 +1159,8 @@ var (
 	Drill = templFuncs.Drill
 	// Renders the Lucide icon 'droplet'.
 	Droplet = templFuncs.Droplet
+	// Renders the Lucide icon 'droplet-off'.
+	DropletOff = templFuncs.DropletOff
 	// Renders the Lucide icon 'droplets'.
 	Droplets = templFuncs.Droplets
 	// Renders the Lucide icon 'drum'.
@@ -955,8 +1173,14 @@ var (
 	Ear = templFuncs.Ear
 	// Renders the Lucide icon 'ear-off'.
 	EarOff = templFuncs.EarOff
-	// Alias for 'PenSquare'(pen-square).Renders the Lucide icon 'edit'
-	Edit = templFuncs.PenSquare
+	// Renders the Lucide icon 'earth'.
+	Earth = templFuncs.Earth
+	// Renders the Lucide icon 'earth-lock'.
+	EarthLock = templFuncs.EarthLock
+	// Renders the Lucide icon 'eclipse'.
+	Eclipse = templFuncs.Eclipse
+	// Alias for 'SquarePen'(square-pen).Renders the Lucide icon 'edit'
+	Edit = templFuncs.SquarePen
 	// Alias for 'Pen'(pen).Renders the Lucide icon 'edit-2'
 	Edit2 = templFuncs.Pen
 	// Alias for 'PenLine'(pen-line).Renders the Lucide icon 'edit-3'
@@ -967,12 +1191,22 @@ var (
 	EggFried = templFuncs.EggFried
 	// Renders the Lucide icon 'egg-off'.
 	EggOff = templFuncs.EggOff
+	// Renders the Lucide icon 'ellipsis'.
+	Ellipsis = templFuncs.Ellipsis
+	// Renders the Lucide icon 'ellipsis-vertical'.
+	EllipsisVertical = templFuncs.EllipsisVertical
 	// Renders the Lucide icon 'equal'.
 	Equal = templFuncs.Equal
+	// Renders the Lucide icon 'equal-approximately'.
+	EqualApproximately = templFuncs.EqualApproximately
 	// Renders the Lucide icon 'equal-not'.
 	EqualNot = templFuncs.EqualNot
+	// Alias for 'SquareEqual'(square-equal).Renders the Lucide icon 'equal-square'
+	EqualSquare = templFuncs.SquareEqual
 	// Renders the Lucide icon 'eraser'.
 	Eraser = templFuncs.Eraser
+	// Renders the Lucide icon 'ethernet-port'.
+	EthernetPort = templFuncs.EthernetPort
 	// Renders the Lucide icon 'euro'.
 	Euro = templFuncs.Euro
 	// Renders the Lucide icon 'expand'.
@@ -981,6 +1215,8 @@ var (
 	ExternalLink = templFuncs.ExternalLink
 	// Renders the Lucide icon 'eye'.
 	Eye = templFuncs.Eye
+	// Renders the Lucide icon 'eye-closed'.
+	EyeClosed = templFuncs.EyeClosed
 	// Renders the Lucide icon 'eye-off'.
 	EyeOff = templFuncs.EyeOff
 	// Renders the Lucide icon 'facebook'.
@@ -1013,12 +1249,20 @@ var (
 	FileBadge = templFuncs.FileBadge
 	// Renders the Lucide icon 'file-badge-2'.
 	FileBadge2 = templFuncs.FileBadge2
-	// Renders the Lucide icon 'file-bar-chart'.
-	FileBarChart = templFuncs.FileBarChart
-	// Renders the Lucide icon 'file-bar-chart-2'.
-	FileBarChart2 = templFuncs.FileBarChart2
+	// Alias for 'FileChartColumnIncreasing'(file-chart-column-increasing).Renders the Lucide icon 'file-bar-chart'
+	FileBarChart = templFuncs.FileChartColumnIncreasing
+	// Alias for 'FileChartColumn'(file-chart-column).Renders the Lucide icon 'file-bar-chart-2'
+	FileBarChart2 = templFuncs.FileChartColumn
 	// Renders the Lucide icon 'file-box'.
 	FileBox = templFuncs.FileBox
+	// Renders the Lucide icon 'file-chart-column'.
+	FileChartColumn = templFuncs.FileChartColumn
+	// Renders the Lucide icon 'file-chart-column-increasing'.
+	FileChartColumnIncreasing = templFuncs.FileChartColumnIncreasing
+	// Renders the Lucide icon 'file-chart-line'.
+	FileChartLine = templFuncs.FileChartLine
+	// Renders the Lucide icon 'file-chart-pie'.
+	FileChartPie = templFuncs.FileChartPie
 	// Renders the Lucide icon 'file-check'.
 	FileCheck = templFuncs.FileCheck
 	// Renders the Lucide icon 'file-check-2'.
@@ -1039,8 +1283,8 @@ var (
 	FileDigit = templFuncs.FileDigit
 	// Renders the Lucide icon 'file-down'.
 	FileDown = templFuncs.FileDown
-	// Renders the Lucide icon 'file-edit'.
-	FileEdit = templFuncs.FileEdit
+	// Alias for 'FilePen'(file-pen).Renders the Lucide icon 'file-edit'
+	FileEdit = templFuncs.FilePen
 	// Renders the Lucide icon 'file-heart'.
 	FileHeart = templFuncs.FileHeart
 	// Renders the Lucide icon 'file-image'.
@@ -1055,8 +1299,8 @@ var (
 	FileKey = templFuncs.FileKey
 	// Renders the Lucide icon 'file-key-2'.
 	FileKey2 = templFuncs.FileKey2
-	// Renders the Lucide icon 'file-line-chart'.
-	FileLineChart = templFuncs.FileLineChart
+	// Alias for 'FileChartLine'(file-chart-line).Renders the Lucide icon 'file-line-chart'
+	FileLineChart = templFuncs.FileChartLine
 	// Renders the Lucide icon 'file-lock'.
 	FileLock = templFuncs.FileLock
 	// Renders the Lucide icon 'file-lock-2'.
@@ -1069,8 +1313,12 @@ var (
 	FileMusic = templFuncs.FileMusic
 	// Renders the Lucide icon 'file-output'.
 	FileOutput = templFuncs.FileOutput
-	// Renders the Lucide icon 'file-pie-chart'.
-	FilePieChart = templFuncs.FilePieChart
+	// Renders the Lucide icon 'file-pen'.
+	FilePen = templFuncs.FilePen
+	// Renders the Lucide icon 'file-pen-line'.
+	FilePenLine = templFuncs.FilePenLine
+	// Alias for 'FileChartPie'(file-chart-pie).Renders the Lucide icon 'file-pie-chart'
+	FilePieChart = templFuncs.FileChartPie
 	// Renders the Lucide icon 'file-plus'.
 	FilePlus = templFuncs.FilePlus
 	// Renders the Lucide icon 'file-plus-2'.
@@ -1083,8 +1331,10 @@ var (
 	FileSearch = templFuncs.FileSearch
 	// Renders the Lucide icon 'file-search-2'.
 	FileSearch2 = templFuncs.FileSearch2
-	// Renders the Lucide icon 'file-signature'.
-	FileSignature = templFuncs.FileSignature
+	// Alias for 'FilePenLine'(file-pen-line).Renders the Lucide icon 'file-signature'
+	FileSignature = templFuncs.FilePenLine
+	// Renders the Lucide icon 'file-sliders'.
+	FileSliders = templFuncs.FileSliders
 	// Renders the Lucide icon 'file-spreadsheet'.
 	FileSpreadsheet = templFuncs.FileSpreadsheet
 	// Renders the Lucide icon 'file-stack'.
@@ -1101,6 +1351,8 @@ var (
 	FileType2 = templFuncs.FileType2
 	// Renders the Lucide icon 'file-up'.
 	FileUp = templFuncs.FileUp
+	// Renders the Lucide icon 'file-user'.
+	FileUser = templFuncs.FileUser
 	// Renders the Lucide icon 'file-video'.
 	FileVideo = templFuncs.FileVideo
 	// Renders the Lucide icon 'file-video-2'.
@@ -1183,6 +1435,8 @@ var (
 	FolderClock = templFuncs.FolderClock
 	// Renders the Lucide icon 'folder-closed'.
 	FolderClosed = templFuncs.FolderClosed
+	// Renders the Lucide icon 'folder-code'.
+	FolderCode = templFuncs.FolderCode
 	// Renders the Lucide icon 'folder-cog'.
 	FolderCog = templFuncs.FolderCog
 	// Alias for 'FolderCog'(folder-cog).Renders the Lucide icon 'folder-cog-2'
@@ -1191,8 +1445,8 @@ var (
 	FolderDot = templFuncs.FolderDot
 	// Renders the Lucide icon 'folder-down'.
 	FolderDown = templFuncs.FolderDown
-	// Renders the Lucide icon 'folder-edit'.
-	FolderEdit = templFuncs.FolderEdit
+	// Alias for 'FolderPen'(folder-pen).Renders the Lucide icon 'folder-edit'
+	FolderEdit = templFuncs.FolderPen
 	// Renders the Lucide icon 'folder-git'.
 	FolderGit = templFuncs.FolderGit
 	// Renders the Lucide icon 'folder-git-2'.
@@ -1215,6 +1469,8 @@ var (
 	FolderOpenDot = templFuncs.FolderOpenDot
 	// Renders the Lucide icon 'folder-output'.
 	FolderOutput = templFuncs.FolderOutput
+	// Renders the Lucide icon 'folder-pen'.
+	FolderPen = templFuncs.FolderPen
 	// Renders the Lucide icon 'folder-plus'.
 	FolderPlus = templFuncs.FolderPlus
 	// Renders the Lucide icon 'folder-root'.
@@ -1237,10 +1493,14 @@ var (
 	Folders = templFuncs.Folders
 	// Renders the Lucide icon 'footprints'.
 	Footprints = templFuncs.Footprints
+	// Alias for 'Utensils'(utensils).Renders the Lucide icon 'fork-knife'
+	ForkKnife = templFuncs.Utensils
+	// Alias for 'UtensilsCrossed'(utensils-crossed).Renders the Lucide icon 'fork-knife-crossed'
+	ForkKnifeCrossed = templFuncs.UtensilsCrossed
 	// Renders the Lucide icon 'forklift'.
 	Forklift = templFuncs.Forklift
-	// Renders the Lucide icon 'form-input'.
-	FormInput = templFuncs.FormInput
+	// Alias for 'RectangleEllipsis'(rectangle-ellipsis).Renders the Lucide icon 'form-input'
+	FormInput = templFuncs.RectangleEllipsis
 	// Renders the Lucide icon 'forward'.
 	Forward = templFuncs.Forward
 	// Renders the Lucide icon 'frame'.
@@ -1253,8 +1513,8 @@ var (
 	Fuel = templFuncs.Fuel
 	// Renders the Lucide icon 'fullscreen'.
 	Fullscreen = templFuncs.Fullscreen
-	// Renders the Lucide icon 'function-square'.
-	FunctionSquare = templFuncs.FunctionSquare
+	// Alias for 'SquareFunction'(square-function).Renders the Lucide icon 'function-square'
+	FunctionSquare = templFuncs.SquareFunction
 	// Renders the Lucide icon 'gallery-horizontal'.
 	GalleryHorizontal = templFuncs.GalleryHorizontal
 	// Renders the Lucide icon 'gallery-horizontal-end'.
@@ -1269,14 +1529,14 @@ var (
 	Gamepad = templFuncs.Gamepad
 	// Renders the Lucide icon 'gamepad-2'.
 	Gamepad2 = templFuncs.Gamepad2
-	// Renders the Lucide icon 'gantt-chart'.
-	GanttChart = templFuncs.GanttChart
-	// Renders the Lucide icon 'gantt-chart-square'.
-	GanttChartSquare = templFuncs.GanttChartSquare
+	// Alias for 'ChartNoAxesGantt'(chart-no-axes-gantt).Renders the Lucide icon 'gantt-chart'
+	GanttChart = templFuncs.ChartNoAxesGantt
+	// Alias for 'SquareChartGantt'(square-chart-gantt).Renders the Lucide icon 'gantt-chart-square'
+	GanttChartSquare = templFuncs.SquareChartGantt
 	// Renders the Lucide icon 'gauge'.
 	Gauge = templFuncs.Gauge
-	// Renders the Lucide icon 'gauge-circle'.
-	GaugeCircle = templFuncs.GaugeCircle
+	// Alias for 'CircleGauge'(circle-gauge).Renders the Lucide icon 'gauge-circle'
+	GaugeCircle = templFuncs.CircleGauge
 	// Renders the Lucide icon 'gavel'.
 	Gavel = templFuncs.Gavel
 	// Renders the Lucide icon 'gem'.
@@ -1327,8 +1587,10 @@ var (
 	Glasses = templFuncs.Glasses
 	// Renders the Lucide icon 'globe'.
 	Globe = templFuncs.Globe
-	// Renders the Lucide icon 'globe-2'.
-	Globe2 = templFuncs.Globe2
+	// Alias for 'Earth'(earth).Renders the Lucide icon 'globe-2'
+	Globe2 = templFuncs.Earth
+	// Renders the Lucide icon 'globe-lock'.
+	GlobeLock = templFuncs.GlobeLock
 	// Renders the Lucide icon 'goal'.
 	Goal = templFuncs.Goal
 	// Renders the Lucide icon 'grab'.
@@ -1341,6 +1603,12 @@ var (
 	Grid = templFuncs.Grid3X3
 	// Renders the Lucide icon 'grid-2x2'.
 	Grid2X2 = templFuncs.Grid2X2
+	// Renders the Lucide icon 'grid-2x2-check'.
+	Grid2X2Check = templFuncs.Grid2X2Check
+	// Renders the Lucide icon 'grid-2x2-plus'.
+	Grid2X2Plus = templFuncs.Grid2X2Plus
+	// Renders the Lucide icon 'grid-2x2-x'.
+	Grid2X2X = templFuncs.Grid2X2X
 	// Renders the Lucide icon 'grid-3x3'.
 	Grid3X3 = templFuncs.Grid3X3
 	// Renders the Lucide icon 'grip'.
@@ -1353,12 +1621,24 @@ var (
 	Group = templFuncs.Group
 	// Renders the Lucide icon 'guitar'.
 	Guitar = templFuncs.Guitar
+	// Renders the Lucide icon 'ham'.
+	Ham = templFuncs.Ham
 	// Renders the Lucide icon 'hammer'.
 	Hammer = templFuncs.Hammer
 	// Renders the Lucide icon 'hand'.
 	Hand = templFuncs.Hand
+	// Renders the Lucide icon 'hand-coins'.
+	HandCoins = templFuncs.HandCoins
+	// Renders the Lucide icon 'hand-heart'.
+	HandHeart = templFuncs.HandHeart
+	// Renders the Lucide icon 'hand-helping'.
+	HandHelping = templFuncs.HandHelping
 	// Renders the Lucide icon 'hand-metal'.
 	HandMetal = templFuncs.HandMetal
+	// Renders the Lucide icon 'hand-platter'.
+	HandPlatter = templFuncs.HandPlatter
+	// Renders the Lucide icon 'handshake'.
+	Handshake = templFuncs.Handshake
 	// Renders the Lucide icon 'hard-drive'.
 	HardDrive = templFuncs.HardDrive
 	// Renders the Lucide icon 'hard-drive-download'.
@@ -1387,8 +1667,12 @@ var (
 	Heading5 = templFuncs.Heading5
 	// Renders the Lucide icon 'heading-6'.
 	Heading6 = templFuncs.Heading6
+	// Renders the Lucide icon 'headphone-off'.
+	HeadphoneOff = templFuncs.HeadphoneOff
 	// Renders the Lucide icon 'headphones'.
 	Headphones = templFuncs.Headphones
+	// Renders the Lucide icon 'headset'.
+	Headset = templFuncs.Headset
 	// Renders the Lucide icon 'heart'.
 	Heart = templFuncs.Heart
 	// Renders the Lucide icon 'heart-crack'.
@@ -1401,30 +1685,44 @@ var (
 	HeartPulse = templFuncs.HeartPulse
 	// Renders the Lucide icon 'heater'.
 	Heater = templFuncs.Heater
-	// Renders the Lucide icon 'help-circle'.
-	HelpCircle = templFuncs.HelpCircle
-	// Renders the Lucide icon 'helping-hand'.
-	HelpingHand = templFuncs.HelpingHand
+	// Alias for 'CircleHelp'(circle-help).Renders the Lucide icon 'help-circle'
+	HelpCircle = templFuncs.CircleHelp
+	// Alias for 'HandHelping'(hand-helping).Renders the Lucide icon 'helping-hand'
+	HelpingHand = templFuncs.HandHelping
 	// Renders the Lucide icon 'hexagon'.
 	Hexagon = templFuncs.Hexagon
 	// Renders the Lucide icon 'highlighter'.
 	Highlighter = templFuncs.Highlighter
 	// Renders the Lucide icon 'history'.
 	History = templFuncs.History
-	// Renders the Lucide icon 'home'.
-	Home = templFuncs.Home
+	// Alias for 'House'(house).Renders the Lucide icon 'home'
+	Home = templFuncs.House
 	// Renders the Lucide icon 'hop'.
 	Hop = templFuncs.Hop
 	// Renders the Lucide icon 'hop-off'.
 	HopOff = templFuncs.HopOff
+	// Renders the Lucide icon 'hospital'.
+	Hospital = templFuncs.Hospital
 	// Renders the Lucide icon 'hotel'.
 	Hotel = templFuncs.Hotel
 	// Renders the Lucide icon 'hourglass'.
 	Hourglass = templFuncs.Hourglass
-	// Renders the Lucide icon 'ice-cream'.
-	IceCream = templFuncs.IceCream
-	// Renders the Lucide icon 'ice-cream-2'.
-	IceCream2 = templFuncs.IceCream2
+	// Renders the Lucide icon 'house'.
+	House = templFuncs.House
+	// Renders the Lucide icon 'house-plug'.
+	HousePlug = templFuncs.HousePlug
+	// Renders the Lucide icon 'house-plus'.
+	HousePlus = templFuncs.HousePlus
+	// Alias for 'IceCreamCone'(ice-cream-cone).Renders the Lucide icon 'ice-cream'
+	IceCream = templFuncs.IceCreamCone
+	// Alias for 'IceCreamBowl'(ice-cream-bowl).Renders the Lucide icon 'ice-cream-2'
+	IceCream2 = templFuncs.IceCreamBowl
+	// Renders the Lucide icon 'ice-cream-bowl'.
+	IceCreamBowl = templFuncs.IceCreamBowl
+	// Renders the Lucide icon 'ice-cream-cone'.
+	IceCreamCone = templFuncs.IceCreamCone
+	// Renders the Lucide icon 'id-card'.
+	IdCard = templFuncs.IdCard
 	// Renders the Lucide icon 'image'.
 	Image = templFuncs.Image
 	// Renders the Lucide icon 'image-down'.
@@ -1433,22 +1731,34 @@ var (
 	ImageMinus = templFuncs.ImageMinus
 	// Renders the Lucide icon 'image-off'.
 	ImageOff = templFuncs.ImageOff
+	// Renders the Lucide icon 'image-play'.
+	ImagePlay = templFuncs.ImagePlay
 	// Renders the Lucide icon 'image-plus'.
 	ImagePlus = templFuncs.ImagePlus
+	// Renders the Lucide icon 'image-up'.
+	ImageUp = templFuncs.ImageUp
+	// Renders the Lucide icon 'image-upscale'.
+	ImageUpscale = templFuncs.ImageUpscale
+	// Renders the Lucide icon 'images'.
+	Images = templFuncs.Images
 	// Renders the Lucide icon 'import'.
 	Import = templFuncs.Import
 	// Renders the Lucide icon 'inbox'.
 	Inbox = templFuncs.Inbox
-	// Renders the Lucide icon 'indent'.
-	Indent = templFuncs.Indent
+	// Alias for 'IndentIncrease'(indent-increase).Renders the Lucide icon 'indent'
+	Indent = templFuncs.IndentIncrease
+	// Renders the Lucide icon 'indent-decrease'.
+	IndentDecrease = templFuncs.IndentDecrease
+	// Renders the Lucide icon 'indent-increase'.
+	IndentIncrease = templFuncs.IndentIncrease
 	// Renders the Lucide icon 'indian-rupee'.
 	IndianRupee = templFuncs.IndianRupee
 	// Renders the Lucide icon 'infinity'.
 	Infinity = templFuncs.Infinity
 	// Renders the Lucide icon 'info'.
 	Info = templFuncs.Info
-	// Alias for 'MousePointerSquare'(mouse-pointer-square).Renders the Lucide icon 'inspect'
-	Inspect = templFuncs.MousePointerSquare
+	// Alias for 'SquareMousePointer'(square-mouse-pointer).Renders the Lucide icon 'inspect'
+	Inspect = templFuncs.SquareMousePointer
 	// Renders the Lucide icon 'inspection-panel'.
 	InspectionPanel = templFuncs.InspectionPanel
 	// Renders the Lucide icon 'instagram'.
@@ -1465,10 +1775,10 @@ var (
 	Joystick = templFuncs.Joystick
 	// Renders the Lucide icon 'kanban'.
 	Kanban = templFuncs.Kanban
-	// Renders the Lucide icon 'kanban-square'.
-	KanbanSquare = templFuncs.KanbanSquare
-	// Renders the Lucide icon 'kanban-square-dashed'.
-	KanbanSquareDashed = templFuncs.KanbanSquareDashed
+	// Alias for 'SquareKanban'(square-kanban).Renders the Lucide icon 'kanban-square'
+	KanbanSquare = templFuncs.SquareKanban
+	// Alias for 'SquareDashedKanban'(square-dashed-kanban).Renders the Lucide icon 'kanban-square-dashed'
+	KanbanSquareDashed = templFuncs.SquareDashedKanban
 	// Renders the Lucide icon 'key'.
 	Key = templFuncs.Key
 	// Renders the Lucide icon 'key-round'.
@@ -1479,6 +1789,8 @@ var (
 	Keyboard = templFuncs.Keyboard
 	// Renders the Lucide icon 'keyboard-music'.
 	KeyboardMusic = templFuncs.KeyboardMusic
+	// Renders the Lucide icon 'keyboard-off'.
+	KeyboardOff = templFuncs.KeyboardOff
 	// Renders the Lucide icon 'lamp'.
 	Lamp = templFuncs.Lamp
 	// Renders the Lucide icon 'lamp-ceiling'.
@@ -1499,8 +1811,12 @@ var (
 	Languages = templFuncs.Languages
 	// Renders the Lucide icon 'laptop'.
 	Laptop = templFuncs.Laptop
-	// Renders the Lucide icon 'laptop-2'.
-	Laptop2 = templFuncs.Laptop2
+	// Alias for 'LaptopMinimal'(laptop-minimal).Renders the Lucide icon 'laptop-2'
+	Laptop2 = templFuncs.LaptopMinimal
+	// Renders the Lucide icon 'laptop-minimal'.
+	LaptopMinimal = templFuncs.LaptopMinimal
+	// Renders the Lucide icon 'laptop-minimal-check'.
+	LaptopMinimalCheck = templFuncs.LaptopMinimalCheck
 	// Renders the Lucide icon 'lasso'.
 	Lasso = templFuncs.Lasso
 	// Renders the Lucide icon 'lasso-select'.
@@ -1511,8 +1827,8 @@ var (
 	Layers = templFuncs.Layers
 	// Renders the Lucide icon 'layers-2'.
 	Layers2 = templFuncs.Layers2
-	// Renders the Lucide icon 'layers-3'.
-	Layers3 = templFuncs.Layers3
+	// Alias for 'Layers'(layers).Renders the Lucide icon 'layers-3'
+	Layers3 = templFuncs.Layers
 	// Alias for 'PanelsTopLeft'(panels-top-left).Renders the Lucide icon 'layout'
 	Layout = templFuncs.PanelsTopLeft
 	// Renders the Lucide icon 'layout-dashboard'.
@@ -1531,12 +1847,16 @@ var (
 	Leaf = templFuncs.Leaf
 	// Renders the Lucide icon 'leafy-green'.
 	LeafyGreen = templFuncs.LeafyGreen
+	// Renders the Lucide icon 'lectern'.
+	Lectern = templFuncs.Lectern
+	// Renders the Lucide icon 'letter-text'.
+	LetterText = templFuncs.LetterText
 	// Renders the Lucide icon 'library'.
 	Library = templFuncs.Library
 	// Renders the Lucide icon 'library-big'.
 	LibraryBig = templFuncs.LibraryBig
-	// Renders the Lucide icon 'library-square'.
-	LibrarySquare = templFuncs.LibrarySquare
+	// Alias for 'SquareLibrary'(square-library).Renders the Lucide icon 'library-square'
+	LibrarySquare = templFuncs.SquareLibrary
 	// Renders the Lucide icon 'life-buoy'.
 	LifeBuoy = templFuncs.LifeBuoy
 	// Renders the Lucide icon 'ligature'.
@@ -1545,8 +1865,8 @@ var (
 	Lightbulb = templFuncs.Lightbulb
 	// Renders the Lucide icon 'lightbulb-off'.
 	LightbulbOff = templFuncs.LightbulbOff
-	// Renders the Lucide icon 'line-chart'.
-	LineChart = templFuncs.LineChart
+	// Alias for 'ChartLine'(chart-line).Renders the Lucide icon 'line-chart'
+	LineChart = templFuncs.ChartLine
 	// Renders the Lucide icon 'link'.
 	Link = templFuncs.Link
 	// Renders the Lucide icon 'link-2'.
@@ -1557,8 +1877,12 @@ var (
 	Linkedin = templFuncs.Linkedin
 	// Renders the Lucide icon 'list'.
 	List = templFuncs.List
+	// Renders the Lucide icon 'list-check'.
+	ListCheck = templFuncs.ListCheck
 	// Renders the Lucide icon 'list-checks'.
 	ListChecks = templFuncs.ListChecks
+	// Renders the Lucide icon 'list-collapse'.
+	ListCollapse = templFuncs.ListCollapse
 	// Renders the Lucide icon 'list-end'.
 	ListEnd = templFuncs.ListEnd
 	// Renders the Lucide icon 'list-filter'.
@@ -1585,8 +1909,12 @@ var (
 	ListX = templFuncs.ListX
 	// Renders the Lucide icon 'loader'.
 	Loader = templFuncs.Loader
-	// Renders the Lucide icon 'loader-2'.
-	Loader2 = templFuncs.Loader2
+	// Alias for 'LoaderCircle'(loader-circle).Renders the Lucide icon 'loader-2'
+	Loader2 = templFuncs.LoaderCircle
+	// Renders the Lucide icon 'loader-circle'.
+	LoaderCircle = templFuncs.LoaderCircle
+	// Renders the Lucide icon 'loader-pinwheel'.
+	LoaderPinwheel = templFuncs.LoaderPinwheel
 	// Renders the Lucide icon 'locate'.
 	Locate = templFuncs.Locate
 	// Renders the Lucide icon 'locate-fixed'.
@@ -1597,16 +1925,22 @@ var (
 	Lock = templFuncs.Lock
 	// Renders the Lucide icon 'lock-keyhole'.
 	LockKeyhole = templFuncs.LockKeyhole
+	// Renders the Lucide icon 'lock-keyhole-open'.
+	LockKeyholeOpen = templFuncs.LockKeyholeOpen
+	// Renders the Lucide icon 'lock-open'.
+	LockOpen = templFuncs.LockOpen
 	// Renders the Lucide icon 'log-in'.
 	LogIn = templFuncs.LogIn
 	// Renders the Lucide icon 'log-out'.
 	LogOut = templFuncs.LogOut
+	// Renders the Lucide icon 'logs'.
+	Logs = templFuncs.Logs
 	// Renders the Lucide icon 'lollipop'.
 	Lollipop = templFuncs.Lollipop
 	// Renders the Lucide icon 'luggage'.
 	Luggage = templFuncs.Luggage
-	// Renders the Lucide icon 'm-square'.
-	MSquare = templFuncs.MSquare
+	// Alias for 'SquareM'(square-m).Renders the Lucide icon 'm-square'
+	MSquare = templFuncs.SquareM
 	// Renders the Lucide icon 'magnet'.
 	Magnet = templFuncs.Magnet
 	// Renders the Lucide icon 'mail'.
@@ -1635,8 +1969,26 @@ var (
 	Map = templFuncs.Map
 	// Renders the Lucide icon 'map-pin'.
 	MapPin = templFuncs.MapPin
+	// Renders the Lucide icon 'map-pin-check'.
+	MapPinCheck = templFuncs.MapPinCheck
+	// Renders the Lucide icon 'map-pin-check-inside'.
+	MapPinCheckInside = templFuncs.MapPinCheckInside
+	// Renders the Lucide icon 'map-pin-house'.
+	MapPinHouse = templFuncs.MapPinHouse
+	// Renders the Lucide icon 'map-pin-minus'.
+	MapPinMinus = templFuncs.MapPinMinus
+	// Renders the Lucide icon 'map-pin-minus-inside'.
+	MapPinMinusInside = templFuncs.MapPinMinusInside
 	// Renders the Lucide icon 'map-pin-off'.
 	MapPinOff = templFuncs.MapPinOff
+	// Renders the Lucide icon 'map-pin-plus'.
+	MapPinPlus = templFuncs.MapPinPlus
+	// Renders the Lucide icon 'map-pin-plus-inside'.
+	MapPinPlusInside = templFuncs.MapPinPlusInside
+	// Renders the Lucide icon 'map-pin-x'.
+	MapPinX = templFuncs.MapPinX
+	// Renders the Lucide icon 'map-pin-x-inside'.
+	MapPinXInside = templFuncs.MapPinXInside
 	// Renders the Lucide icon 'map-pinned'.
 	MapPinned = templFuncs.MapPinned
 	// Renders the Lucide icon 'martini'.
@@ -1657,8 +2009,8 @@ var (
 	MemoryStick = templFuncs.MemoryStick
 	// Renders the Lucide icon 'menu'.
 	Menu = templFuncs.Menu
-	// Renders the Lucide icon 'menu-square'.
-	MenuSquare = templFuncs.MenuSquare
+	// Alias for 'SquareMenu'(square-menu).Renders the Lucide icon 'menu-square'
+	MenuSquare = templFuncs.SquareMenu
 	// Renders the Lucide icon 'merge'.
 	Merge = templFuncs.Merge
 	// Renders the Lucide icon 'message-circle'.
@@ -1695,6 +2047,8 @@ var (
 	MessageSquareDot = templFuncs.MessageSquareDot
 	// Renders the Lucide icon 'message-square-heart'.
 	MessageSquareHeart = templFuncs.MessageSquareHeart
+	// Renders the Lucide icon 'message-square-lock'.
+	MessageSquareLock = templFuncs.MessageSquareLock
 	// Renders the Lucide icon 'message-square-more'.
 	MessageSquareMore = templFuncs.MessageSquareMore
 	// Renders the Lucide icon 'message-square-off'.
@@ -1717,10 +2071,14 @@ var (
 	MessagesSquare = templFuncs.MessagesSquare
 	// Renders the Lucide icon 'mic'.
 	Mic = templFuncs.Mic
-	// Renders the Lucide icon 'mic-2'.
-	Mic2 = templFuncs.Mic2
+	// Alias for 'MicVocal'(mic-vocal).Renders the Lucide icon 'mic-2'
+	Mic2 = templFuncs.MicVocal
 	// Renders the Lucide icon 'mic-off'.
 	MicOff = templFuncs.MicOff
+	// Renders the Lucide icon 'mic-vocal'.
+	MicVocal = templFuncs.MicVocal
+	// Renders the Lucide icon 'microchip'.
+	Microchip = templFuncs.Microchip
 	// Renders the Lucide icon 'microscope'.
 	Microscope = templFuncs.Microscope
 	// Renders the Lucide icon 'microwave'.
@@ -1737,14 +2095,16 @@ var (
 	Minimize2 = templFuncs.Minimize2
 	// Renders the Lucide icon 'minus'.
 	Minus = templFuncs.Minus
-	// Renders the Lucide icon 'minus-circle'.
-	MinusCircle = templFuncs.MinusCircle
-	// Renders the Lucide icon 'minus-square'.
-	MinusSquare = templFuncs.MinusSquare
+	// Alias for 'CircleMinus'(circle-minus).Renders the Lucide icon 'minus-circle'
+	MinusCircle = templFuncs.CircleMinus
+	// Alias for 'SquareMinus'(square-minus).Renders the Lucide icon 'minus-square'
+	MinusSquare = templFuncs.SquareMinus
 	// Renders the Lucide icon 'monitor'.
 	Monitor = templFuncs.Monitor
 	// Renders the Lucide icon 'monitor-check'.
 	MonitorCheck = templFuncs.MonitorCheck
+	// Renders the Lucide icon 'monitor-cog'.
+	MonitorCog = templFuncs.MonitorCog
 	// Renders the Lucide icon 'monitor-dot'.
 	MonitorDot = templFuncs.MonitorDot
 	// Renders the Lucide icon 'monitor-down'.
@@ -1769,26 +2129,28 @@ var (
 	Moon = templFuncs.Moon
 	// Renders the Lucide icon 'moon-star'.
 	MoonStar = templFuncs.MoonStar
-	// Renders the Lucide icon 'more-horizontal'.
-	MoreHorizontal = templFuncs.MoreHorizontal
-	// Renders the Lucide icon 'more-vertical'.
-	MoreVertical = templFuncs.MoreVertical
+	// Alias for 'Ellipsis'(ellipsis).Renders the Lucide icon 'more-horizontal'
+	MoreHorizontal = templFuncs.Ellipsis
+	// Alias for 'EllipsisVertical'(ellipsis-vertical).Renders the Lucide icon 'more-vertical'
+	MoreVertical = templFuncs.EllipsisVertical
 	// Renders the Lucide icon 'mountain'.
 	Mountain = templFuncs.Mountain
 	// Renders the Lucide icon 'mountain-snow'.
 	MountainSnow = templFuncs.MountainSnow
 	// Renders the Lucide icon 'mouse'.
 	Mouse = templFuncs.Mouse
+	// Renders the Lucide icon 'mouse-off'.
+	MouseOff = templFuncs.MouseOff
 	// Renders the Lucide icon 'mouse-pointer'.
 	MousePointer = templFuncs.MousePointer
 	// Renders the Lucide icon 'mouse-pointer-2'.
 	MousePointer2 = templFuncs.MousePointer2
+	// Renders the Lucide icon 'mouse-pointer-ban'.
+	MousePointerBan = templFuncs.MousePointerBan
 	// Renders the Lucide icon 'mouse-pointer-click'.
 	MousePointerClick = templFuncs.MousePointerClick
-	// Renders the Lucide icon 'mouse-pointer-square'.
-	MousePointerSquare = templFuncs.MousePointerSquare
-	// Renders the Lucide icon 'mouse-pointer-square-dashed'.
-	MousePointerSquareDashed = templFuncs.MousePointerSquareDashed
+	// Alias for 'SquareDashedMousePointer'(square-dashed-mouse-pointer).Renders the Lucide icon 'mouse-pointer-square-dashed'
+	MousePointerSquareDashed = templFuncs.SquareDashedMousePointer
 	// Renders the Lucide icon 'move'.
 	Move = templFuncs.Move
 	// Renders the Lucide icon 'move-3d'.
@@ -1839,18 +2201,42 @@ var (
 	Newspaper = templFuncs.Newspaper
 	// Renders the Lucide icon 'nfc'.
 	Nfc = templFuncs.Nfc
+	// Renders the Lucide icon 'notebook'.
+	Notebook = templFuncs.Notebook
+	// Renders the Lucide icon 'notebook-pen'.
+	NotebookPen = templFuncs.NotebookPen
+	// Renders the Lucide icon 'notebook-tabs'.
+	NotebookTabs = templFuncs.NotebookTabs
+	// Renders the Lucide icon 'notebook-text'.
+	NotebookText = templFuncs.NotebookText
+	// Renders the Lucide icon 'notepad-text'.
+	NotepadText = templFuncs.NotepadText
+	// Renders the Lucide icon 'notepad-text-dashed'.
+	NotepadTextDashed = templFuncs.NotepadTextDashed
 	// Renders the Lucide icon 'nut'.
 	Nut = templFuncs.Nut
 	// Renders the Lucide icon 'nut-off'.
 	NutOff = templFuncs.NutOff
 	// Renders the Lucide icon 'octagon'.
 	Octagon = templFuncs.Octagon
+	// Renders the Lucide icon 'octagon-alert'.
+	OctagonAlert = templFuncs.OctagonAlert
+	// Renders the Lucide icon 'octagon-minus'.
+	OctagonMinus = templFuncs.OctagonMinus
+	// Renders the Lucide icon 'octagon-pause'.
+	OctagonPause = templFuncs.OctagonPause
+	// Renders the Lucide icon 'octagon-x'.
+	OctagonX = templFuncs.OctagonX
+	// Renders the Lucide icon 'omega'.
+	Omega = templFuncs.Omega
 	// Renders the Lucide icon 'option'.
 	Option = templFuncs.Option
 	// Renders the Lucide icon 'orbit'.
 	Orbit = templFuncs.Orbit
-	// Renders the Lucide icon 'outdent'.
-	Outdent = templFuncs.Outdent
+	// Renders the Lucide icon 'origami'.
+	Origami = templFuncs.Origami
+	// Alias for 'IndentDecrease'(indent-decrease).Renders the Lucide icon 'outdent'
+	Outdent = templFuncs.IndentDecrease
 	// Renders the Lucide icon 'package'.
 	Package = templFuncs.Package
 	// Renders the Lucide icon 'package-2'.
@@ -1869,14 +2255,18 @@ var (
 	PackageX = templFuncs.PackageX
 	// Renders the Lucide icon 'paint-bucket'.
 	PaintBucket = templFuncs.PaintBucket
+	// Renders the Lucide icon 'paint-roller'.
+	PaintRoller = templFuncs.PaintRoller
 	// Renders the Lucide icon 'paintbrush'.
 	Paintbrush = templFuncs.Paintbrush
-	// Renders the Lucide icon 'paintbrush-2'.
-	Paintbrush2 = templFuncs.Paintbrush2
+	// Alias for 'PaintbrushVertical'(paintbrush-vertical).Renders the Lucide icon 'paintbrush-2'
+	Paintbrush2 = templFuncs.PaintbrushVertical
+	// Renders the Lucide icon 'paintbrush-vertical'.
+	PaintbrushVertical = templFuncs.PaintbrushVertical
 	// Renders the Lucide icon 'palette'.
 	Palette = templFuncs.Palette
-	// Renders the Lucide icon 'palmtree'.
-	Palmtree = templFuncs.Palmtree
+	// Alias for 'TreePalm'(tree-palm).Renders the Lucide icon 'palmtree'
+	Palmtree = templFuncs.TreePalm
 	// Renders the Lucide icon 'panel-bottom'.
 	PanelBottom = templFuncs.PanelBottom
 	// Renders the Lucide icon 'panel-bottom-close'.
@@ -1931,56 +2321,62 @@ var (
 	Paperclip = templFuncs.Paperclip
 	// Renders the Lucide icon 'parentheses'.
 	Parentheses = templFuncs.Parentheses
-	// Renders the Lucide icon 'parking-circle'.
-	ParkingCircle = templFuncs.ParkingCircle
-	// Renders the Lucide icon 'parking-circle-off'.
-	ParkingCircleOff = templFuncs.ParkingCircleOff
+	// Alias for 'CircleParking'(circle-parking).Renders the Lucide icon 'parking-circle'
+	ParkingCircle = templFuncs.CircleParking
+	// Alias for 'CircleParkingOff'(circle-parking-off).Renders the Lucide icon 'parking-circle-off'
+	ParkingCircleOff = templFuncs.CircleParkingOff
 	// Renders the Lucide icon 'parking-meter'.
 	ParkingMeter = templFuncs.ParkingMeter
-	// Renders the Lucide icon 'parking-square'.
-	ParkingSquare = templFuncs.ParkingSquare
-	// Renders the Lucide icon 'parking-square-off'.
-	ParkingSquareOff = templFuncs.ParkingSquareOff
+	// Alias for 'SquareParking'(square-parking).Renders the Lucide icon 'parking-square'
+	ParkingSquare = templFuncs.SquareParking
+	// Alias for 'SquareParkingOff'(square-parking-off).Renders the Lucide icon 'parking-square-off'
+	ParkingSquareOff = templFuncs.SquareParkingOff
 	// Renders the Lucide icon 'party-popper'.
 	PartyPopper = templFuncs.PartyPopper
 	// Renders the Lucide icon 'pause'.
 	Pause = templFuncs.Pause
-	// Renders the Lucide icon 'pause-circle'.
-	PauseCircle = templFuncs.PauseCircle
-	// Renders the Lucide icon 'pause-octagon'.
-	PauseOctagon = templFuncs.PauseOctagon
+	// Alias for 'CirclePause'(circle-pause).Renders the Lucide icon 'pause-circle'
+	PauseCircle = templFuncs.CirclePause
+	// Alias for 'OctagonPause'(octagon-pause).Renders the Lucide icon 'pause-octagon'
+	PauseOctagon = templFuncs.OctagonPause
 	// Renders the Lucide icon 'paw-print'.
 	PawPrint = templFuncs.PawPrint
 	// Renders the Lucide icon 'pc-case'.
 	PcCase = templFuncs.PcCase
 	// Renders the Lucide icon 'pen'.
 	Pen = templFuncs.Pen
-	// Alias for 'PenSquare'(pen-square).Renders the Lucide icon 'pen-box'
-	PenBox = templFuncs.PenSquare
+	// Alias for 'SquarePen'(square-pen).Renders the Lucide icon 'pen-box'
+	PenBox = templFuncs.SquarePen
 	// Renders the Lucide icon 'pen-line'.
 	PenLine = templFuncs.PenLine
-	// Renders the Lucide icon 'pen-square'.
-	PenSquare = templFuncs.PenSquare
+	// Renders the Lucide icon 'pen-off'.
+	PenOff = templFuncs.PenOff
+	// Alias for 'SquarePen'(square-pen).Renders the Lucide icon 'pen-square'
+	PenSquare = templFuncs.SquarePen
 	// Renders the Lucide icon 'pen-tool'.
 	PenTool = templFuncs.PenTool
 	// Renders the Lucide icon 'pencil'.
 	Pencil = templFuncs.Pencil
 	// Renders the Lucide icon 'pencil-line'.
 	PencilLine = templFuncs.PencilLine
+	// Renders the Lucide icon 'pencil-off'.
+	PencilOff = templFuncs.PencilOff
 	// Renders the Lucide icon 'pencil-ruler'.
 	PencilRuler = templFuncs.PencilRuler
 	// Renders the Lucide icon 'pentagon'.
 	Pentagon = templFuncs.Pentagon
 	// Renders the Lucide icon 'percent'.
 	Percent = templFuncs.Percent
-	// Renders the Lucide icon 'percent-circle'.
-	PercentCircle = templFuncs.PercentCircle
-	// Renders the Lucide icon 'percent-diamond'.
-	PercentDiamond = templFuncs.PercentDiamond
-	// Renders the Lucide icon 'percent-square'.
-	PercentSquare = templFuncs.PercentSquare
+	// Alias for 'CirclePercent'(circle-percent).Renders the Lucide icon 'percent-circle'
+	PercentCircle = templFuncs.CirclePercent
+	// Alias for 'DiamondPercent'(diamond-percent).Renders the Lucide icon 'percent-diamond'
+	PercentDiamond = templFuncs.DiamondPercent
+	// Alias for 'SquarePercent'(square-percent).Renders the Lucide icon 'percent-square'
+	PercentSquare = templFuncs.SquarePercent
 	// Renders the Lucide icon 'person-standing'.
 	PersonStanding = templFuncs.PersonStanding
+	// Renders the Lucide icon 'philippine-peso'.
+	PhilippinePeso = templFuncs.PhilippinePeso
 	// Renders the Lucide icon 'phone'.
 	Phone = templFuncs.Phone
 	// Renders the Lucide icon 'phone-call'.
@@ -1997,24 +2393,32 @@ var (
 	PhoneOutgoing = templFuncs.PhoneOutgoing
 	// Renders the Lucide icon 'pi'.
 	Pi = templFuncs.Pi
-	// Renders the Lucide icon 'pi-square'.
-	PiSquare = templFuncs.PiSquare
+	// Alias for 'SquarePi'(square-pi).Renders the Lucide icon 'pi-square'
+	PiSquare = templFuncs.SquarePi
 	// Renders the Lucide icon 'piano'.
 	Piano = templFuncs.Piano
+	// Renders the Lucide icon 'pickaxe'.
+	Pickaxe = templFuncs.Pickaxe
 	// Renders the Lucide icon 'picture-in-picture'.
 	PictureInPicture = templFuncs.PictureInPicture
 	// Renders the Lucide icon 'picture-in-picture-2'.
 	PictureInPicture2 = templFuncs.PictureInPicture2
-	// Renders the Lucide icon 'pie-chart'.
-	PieChart = templFuncs.PieChart
+	// Alias for 'ChartPie'(chart-pie).Renders the Lucide icon 'pie-chart'
+	PieChart = templFuncs.ChartPie
 	// Renders the Lucide icon 'piggy-bank'.
 	PiggyBank = templFuncs.PiggyBank
 	// Renders the Lucide icon 'pilcrow'.
 	Pilcrow = templFuncs.Pilcrow
-	// Renders the Lucide icon 'pilcrow-square'.
-	PilcrowSquare = templFuncs.PilcrowSquare
+	// Renders the Lucide icon 'pilcrow-left'.
+	PilcrowLeft = templFuncs.PilcrowLeft
+	// Renders the Lucide icon 'pilcrow-right'.
+	PilcrowRight = templFuncs.PilcrowRight
+	// Alias for 'SquarePilcrow'(square-pilcrow).Renders the Lucide icon 'pilcrow-square'
+	PilcrowSquare = templFuncs.SquarePilcrow
 	// Renders the Lucide icon 'pill'.
 	Pill = templFuncs.Pill
+	// Renders the Lucide icon 'pill-bottle'.
+	PillBottle = templFuncs.PillBottle
 	// Renders the Lucide icon 'pin'.
 	Pin = templFuncs.Pin
 	// Renders the Lucide icon 'pin-off'.
@@ -2031,24 +2435,24 @@ var (
 	PlaneTakeoff = templFuncs.PlaneTakeoff
 	// Renders the Lucide icon 'play'.
 	Play = templFuncs.Play
-	// Renders the Lucide icon 'play-circle'.
-	PlayCircle = templFuncs.PlayCircle
-	// Renders the Lucide icon 'play-square'.
-	PlaySquare = templFuncs.PlaySquare
+	// Alias for 'CirclePlay'(circle-play).Renders the Lucide icon 'play-circle'
+	PlayCircle = templFuncs.CirclePlay
+	// Alias for 'SquarePlay'(square-play).Renders the Lucide icon 'play-square'
+	PlaySquare = templFuncs.SquarePlay
 	// Renders the Lucide icon 'plug'.
 	Plug = templFuncs.Plug
 	// Renders the Lucide icon 'plug-2'.
 	Plug2 = templFuncs.Plug2
 	// Renders the Lucide icon 'plug-zap'.
 	PlugZap = templFuncs.PlugZap
-	// Renders the Lucide icon 'plug-zap-2'.
-	PlugZap2 = templFuncs.PlugZap2
+	// Alias for 'PlugZap'(plug-zap).Renders the Lucide icon 'plug-zap-2'
+	PlugZap2 = templFuncs.PlugZap
 	// Renders the Lucide icon 'plus'.
 	Plus = templFuncs.Plus
-	// Renders the Lucide icon 'plus-circle'.
-	PlusCircle = templFuncs.PlusCircle
-	// Renders the Lucide icon 'plus-square'.
-	PlusSquare = templFuncs.PlusSquare
+	// Alias for 'CirclePlus'(circle-plus).Renders the Lucide icon 'plus-circle'
+	PlusCircle = templFuncs.CirclePlus
+	// Alias for 'SquarePlus'(square-plus).Renders the Lucide icon 'plus-square'
+	PlusSquare = templFuncs.SquarePlus
 	// Renders the Lucide icon 'pocket'.
 	Pocket = templFuncs.Pocket
 	// Renders the Lucide icon 'pocket-knife'.
@@ -2067,18 +2471,22 @@ var (
 	PoundSterling = templFuncs.PoundSterling
 	// Renders the Lucide icon 'power'.
 	Power = templFuncs.Power
-	// Renders the Lucide icon 'power-circle'.
-	PowerCircle = templFuncs.PowerCircle
+	// Alias for 'CirclePower'(circle-power).Renders the Lucide icon 'power-circle'
+	PowerCircle = templFuncs.CirclePower
 	// Renders the Lucide icon 'power-off'.
 	PowerOff = templFuncs.PowerOff
-	// Renders the Lucide icon 'power-square'.
-	PowerSquare = templFuncs.PowerSquare
+	// Alias for 'SquarePower'(square-power).Renders the Lucide icon 'power-square'
+	PowerSquare = templFuncs.SquarePower
 	// Renders the Lucide icon 'presentation'.
 	Presentation = templFuncs.Presentation
 	// Renders the Lucide icon 'printer'.
 	Printer = templFuncs.Printer
+	// Renders the Lucide icon 'printer-check'.
+	PrinterCheck = templFuncs.PrinterCheck
 	// Renders the Lucide icon 'projector'.
 	Projector = templFuncs.Projector
+	// Renders the Lucide icon 'proportions'.
+	Proportions = templFuncs.Proportions
 	// Renders the Lucide icon 'puzzle'.
 	Puzzle = templFuncs.Puzzle
 	// Renders the Lucide icon 'pyramid'.
@@ -2093,6 +2501,8 @@ var (
 	Radar = templFuncs.Radar
 	// Renders the Lucide icon 'radiation'.
 	Radiation = templFuncs.Radiation
+	// Renders the Lucide icon 'radical'.
+	Radical = templFuncs.Radical
 	// Renders the Lucide icon 'radio'.
 	Radio = templFuncs.Radio
 	// Renders the Lucide icon 'radio-receiver'.
@@ -2111,6 +2521,24 @@ var (
 	Ratio = templFuncs.Ratio
 	// Renders the Lucide icon 'receipt'.
 	Receipt = templFuncs.Receipt
+	// Renders the Lucide icon 'receipt-cent'.
+	ReceiptCent = templFuncs.ReceiptCent
+	// Renders the Lucide icon 'receipt-euro'.
+	ReceiptEuro = templFuncs.ReceiptEuro
+	// Renders the Lucide icon 'receipt-indian-rupee'.
+	ReceiptIndianRupee = templFuncs.ReceiptIndianRupee
+	// Renders the Lucide icon 'receipt-japanese-yen'.
+	ReceiptJapaneseYen = templFuncs.ReceiptJapaneseYen
+	// Renders the Lucide icon 'receipt-pound-sterling'.
+	ReceiptPoundSterling = templFuncs.ReceiptPoundSterling
+	// Renders the Lucide icon 'receipt-russian-ruble'.
+	ReceiptRussianRuble = templFuncs.ReceiptRussianRuble
+	// Renders the Lucide icon 'receipt-swiss-franc'.
+	ReceiptSwissFranc = templFuncs.ReceiptSwissFranc
+	// Renders the Lucide icon 'receipt-text'.
+	ReceiptText = templFuncs.ReceiptText
+	// Renders the Lucide icon 'rectangle-ellipsis'.
+	RectangleEllipsis = templFuncs.RectangleEllipsis
 	// Renders the Lucide icon 'rectangle-horizontal'.
 	RectangleHorizontal = templFuncs.RectangleHorizontal
 	// Renders the Lucide icon 'rectangle-vertical'.
@@ -2165,8 +2593,12 @@ var (
 	Rotate3D = templFuncs.Rotate3D
 	// Renders the Lucide icon 'rotate-ccw'.
 	RotateCcw = templFuncs.RotateCcw
+	// Renders the Lucide icon 'rotate-ccw-square'.
+	RotateCcwSquare = templFuncs.RotateCcwSquare
 	// Renders the Lucide icon 'rotate-cw'.
 	RotateCw = templFuncs.RotateCw
+	// Renders the Lucide icon 'rotate-cw-square'.
+	RotateCwSquare = templFuncs.RotateCwSquare
 	// Renders the Lucide icon 'route'.
 	Route = templFuncs.Route
 	// Renders the Lucide icon 'route-off'.
@@ -2201,6 +2633,8 @@ var (
 	Save = templFuncs.Save
 	// Renders the Lucide icon 'save-all'.
 	SaveAll = templFuncs.SaveAll
+	// Renders the Lucide icon 'save-off'.
+	SaveOff = templFuncs.SaveOff
 	// Renders the Lucide icon 'scale'.
 	Scale = templFuncs.Scale
 	// Renders the Lucide icon 'scale-3d'.
@@ -2217,24 +2651,26 @@ var (
 	ScanFace = templFuncs.ScanFace
 	// Renders the Lucide icon 'scan-line'.
 	ScanLine = templFuncs.ScanLine
+	// Renders the Lucide icon 'scan-qr-code'.
+	ScanQrCode = templFuncs.ScanQrCode
 	// Renders the Lucide icon 'scan-search'.
 	ScanSearch = templFuncs.ScanSearch
 	// Renders the Lucide icon 'scan-text'.
 	ScanText = templFuncs.ScanText
-	// Renders the Lucide icon 'scatter-chart'.
-	ScatterChart = templFuncs.ScatterChart
+	// Alias for 'ChartScatter'(chart-scatter).Renders the Lucide icon 'scatter-chart'
+	ScatterChart = templFuncs.ChartScatter
 	// Renders the Lucide icon 'school'.
 	School = templFuncs.School
-	// Renders the Lucide icon 'school-2'.
-	School2 = templFuncs.School2
+	// Alias for 'University'(university).Renders the Lucide icon 'school-2'
+	School2 = templFuncs.University
 	// Renders the Lucide icon 'scissors'.
 	Scissors = templFuncs.Scissors
 	// Renders the Lucide icon 'scissors-line-dashed'.
 	ScissorsLineDashed = templFuncs.ScissorsLineDashed
-	// Renders the Lucide icon 'scissors-square'.
-	ScissorsSquare = templFuncs.ScissorsSquare
-	// Renders the Lucide icon 'scissors-square-dashed-bottom'.
-	ScissorsSquareDashedBottom = templFuncs.ScissorsSquareDashedBottom
+	// Alias for 'SquareScissors'(square-scissors).Renders the Lucide icon 'scissors-square'
+	ScissorsSquare = templFuncs.SquareScissors
+	// Alias for 'SquareBottomDashedScissors'(square-bottom-dashed-scissors).Renders the Lucide icon 'scissors-square-dashed-bottom'
+	ScissorsSquareDashedBottom = templFuncs.SquareBottomDashedScissors
 	// Renders the Lucide icon 'screen-share'.
 	ScreenShare = templFuncs.ScreenShare
 	// Renders the Lucide icon 'screen-share-off'.
@@ -2253,6 +2689,8 @@ var (
 	SearchSlash = templFuncs.SearchSlash
 	// Renders the Lucide icon 'search-x'.
 	SearchX = templFuncs.SearchX
+	// Renders the Lucide icon 'section'.
+	Section = templFuncs.Section
 	// Renders the Lucide icon 'send'.
 	Send = templFuncs.Send
 	// Alias for 'SendHorizontal'(send-horizontal).Renders the Lucide icon 'send-horizonal'
@@ -2341,8 +2779,8 @@ var (
 	SidebarOpen = templFuncs.PanelLeftOpen
 	// Renders the Lucide icon 'sigma'.
 	Sigma = templFuncs.Sigma
-	// Renders the Lucide icon 'sigma-square'.
-	SigmaSquare = templFuncs.SigmaSquare
+	// Alias for 'SquareSigma'(square-sigma).Renders the Lucide icon 'sigma-square'
+	SigmaSquare = templFuncs.SquareSigma
 	// Renders the Lucide icon 'signal'.
 	Signal = templFuncs.Signal
 	// Renders the Lucide icon 'signal-high'.
@@ -2353,6 +2791,8 @@ var (
 	SignalMedium = templFuncs.SignalMedium
 	// Renders the Lucide icon 'signal-zero'.
 	SignalZero = templFuncs.SignalZero
+	// Renders the Lucide icon 'signature'.
+	Signature = templFuncs.Signature
 	// Renders the Lucide icon 'signpost'.
 	Signpost = templFuncs.Signpost
 	// Renders the Lucide icon 'signpost-big'.
@@ -2369,12 +2809,16 @@ var (
 	Slack = templFuncs.Slack
 	// Renders the Lucide icon 'slash'.
 	Slash = templFuncs.Slash
+	// Alias for 'SquareSlash'(square-slash).Renders the Lucide icon 'slash-square'
+	SlashSquare = templFuncs.SquareSlash
 	// Renders the Lucide icon 'slice'.
 	Slice = templFuncs.Slice
-	// Renders the Lucide icon 'sliders'.
-	Sliders = templFuncs.Sliders
+	// Alias for 'SlidersVertical'(sliders-vertical).Renders the Lucide icon 'sliders'
+	Sliders = templFuncs.SlidersVertical
 	// Renders the Lucide icon 'sliders-horizontal'.
 	SlidersHorizontal = templFuncs.SlidersHorizontal
+	// Renders the Lucide icon 'sliders-vertical'.
+	SlidersVertical = templFuncs.SlidersVertical
 	// Renders the Lucide icon 'smartphone'.
 	Smartphone = templFuncs.Smartphone
 	// Renders the Lucide icon 'smartphone-charging'.
@@ -2417,42 +2861,136 @@ var (
 	Spline = templFuncs.Spline
 	// Renders the Lucide icon 'split'.
 	Split = templFuncs.Split
-	// Renders the Lucide icon 'split-square-horizontal'.
-	SplitSquareHorizontal = templFuncs.SplitSquareHorizontal
-	// Renders the Lucide icon 'split-square-vertical'.
-	SplitSquareVertical = templFuncs.SplitSquareVertical
+	// Alias for 'SquareSplitHorizontal'(square-split-horizontal).Renders the Lucide icon 'split-square-horizontal'
+	SplitSquareHorizontal = templFuncs.SquareSplitHorizontal
+	// Alias for 'SquareSplitVertical'(square-split-vertical).Renders the Lucide icon 'split-square-vertical'
+	SplitSquareVertical = templFuncs.SquareSplitVertical
 	// Renders the Lucide icon 'spray-can'.
 	SprayCan = templFuncs.SprayCan
 	// Renders the Lucide icon 'sprout'.
 	Sprout = templFuncs.Sprout
 	// Renders the Lucide icon 'square'.
 	Square = templFuncs.Square
+	// Renders the Lucide icon 'square-activity'.
+	SquareActivity = templFuncs.SquareActivity
+	// Renders the Lucide icon 'square-arrow-down'.
+	SquareArrowDown = templFuncs.SquareArrowDown
+	// Renders the Lucide icon 'square-arrow-down-left'.
+	SquareArrowDownLeft = templFuncs.SquareArrowDownLeft
+	// Renders the Lucide icon 'square-arrow-down-right'.
+	SquareArrowDownRight = templFuncs.SquareArrowDownRight
+	// Renders the Lucide icon 'square-arrow-left'.
+	SquareArrowLeft = templFuncs.SquareArrowLeft
+	// Renders the Lucide icon 'square-arrow-out-down-left'.
+	SquareArrowOutDownLeft = templFuncs.SquareArrowOutDownLeft
+	// Renders the Lucide icon 'square-arrow-out-down-right'.
+	SquareArrowOutDownRight = templFuncs.SquareArrowOutDownRight
+	// Renders the Lucide icon 'square-arrow-out-up-left'.
+	SquareArrowOutUpLeft = templFuncs.SquareArrowOutUpLeft
+	// Renders the Lucide icon 'square-arrow-out-up-right'.
+	SquareArrowOutUpRight = templFuncs.SquareArrowOutUpRight
+	// Renders the Lucide icon 'square-arrow-right'.
+	SquareArrowRight = templFuncs.SquareArrowRight
+	// Renders the Lucide icon 'square-arrow-up'.
+	SquareArrowUp = templFuncs.SquareArrowUp
+	// Renders the Lucide icon 'square-arrow-up-left'.
+	SquareArrowUpLeft = templFuncs.SquareArrowUpLeft
+	// Renders the Lucide icon 'square-arrow-up-right'.
+	SquareArrowUpRight = templFuncs.SquareArrowUpRight
 	// Renders the Lucide icon 'square-asterisk'.
 	SquareAsterisk = templFuncs.SquareAsterisk
+	// Renders the Lucide icon 'square-bottom-dashed-scissors'.
+	SquareBottomDashedScissors = templFuncs.SquareBottomDashedScissors
+	// Renders the Lucide icon 'square-chart-gantt'.
+	SquareChartGantt = templFuncs.SquareChartGantt
+	// Renders the Lucide icon 'square-check'.
+	SquareCheck = templFuncs.SquareCheck
+	// Renders the Lucide icon 'square-check-big'.
+	SquareCheckBig = templFuncs.SquareCheckBig
+	// Renders the Lucide icon 'square-chevron-down'.
+	SquareChevronDown = templFuncs.SquareChevronDown
+	// Renders the Lucide icon 'square-chevron-left'.
+	SquareChevronLeft = templFuncs.SquareChevronLeft
+	// Renders the Lucide icon 'square-chevron-right'.
+	SquareChevronRight = templFuncs.SquareChevronRight
+	// Renders the Lucide icon 'square-chevron-up'.
+	SquareChevronUp = templFuncs.SquareChevronUp
 	// Renders the Lucide icon 'square-code'.
 	SquareCode = templFuncs.SquareCode
+	// Renders the Lucide icon 'square-dashed'.
+	SquareDashed = templFuncs.SquareDashed
 	// Renders the Lucide icon 'square-dashed-bottom'.
 	SquareDashedBottom = templFuncs.SquareDashedBottom
 	// Renders the Lucide icon 'square-dashed-bottom-code'.
 	SquareDashedBottomCode = templFuncs.SquareDashedBottomCode
+	// Renders the Lucide icon 'square-dashed-kanban'.
+	SquareDashedKanban = templFuncs.SquareDashedKanban
+	// Renders the Lucide icon 'square-dashed-mouse-pointer'.
+	SquareDashedMousePointer = templFuncs.SquareDashedMousePointer
+	// Renders the Lucide icon 'square-divide'.
+	SquareDivide = templFuncs.SquareDivide
 	// Renders the Lucide icon 'square-dot'.
 	SquareDot = templFuncs.SquareDot
 	// Renders the Lucide icon 'square-equal'.
 	SquareEqual = templFuncs.SquareEqual
-	// Alias for 'GanttChartSquare'(gantt-chart-square).Renders the Lucide icon 'square-gantt'
-	SquareGantt = templFuncs.GanttChartSquare
-	// Alias for 'KanbanSquare'(kanban-square).Renders the Lucide icon 'square-kanban'
-	SquareKanban = templFuncs.KanbanSquare
-	// Alias for 'KanbanSquareDashed'(kanban-square-dashed).Renders the Lucide icon 'square-kanban-dashed'
-	SquareKanbanDashed = templFuncs.KanbanSquareDashed
+	// Renders the Lucide icon 'square-function'.
+	SquareFunction = templFuncs.SquareFunction
+	// Alias for 'SquareChartGantt'(square-chart-gantt).Renders the Lucide icon 'square-gantt-chart'
+	SquareGanttChart = templFuncs.SquareChartGantt
+	// Renders the Lucide icon 'square-kanban'.
+	SquareKanban = templFuncs.SquareKanban
+	// Renders the Lucide icon 'square-library'.
+	SquareLibrary = templFuncs.SquareLibrary
+	// Renders the Lucide icon 'square-m'.
+	SquareM = templFuncs.SquareM
+	// Renders the Lucide icon 'square-menu'.
+	SquareMenu = templFuncs.SquareMenu
+	// Renders the Lucide icon 'square-minus'.
+	SquareMinus = templFuncs.SquareMinus
+	// Renders the Lucide icon 'square-mouse-pointer'.
+	SquareMousePointer = templFuncs.SquareMousePointer
+	// Renders the Lucide icon 'square-parking'.
+	SquareParking = templFuncs.SquareParking
+	// Renders the Lucide icon 'square-parking-off'.
+	SquareParkingOff = templFuncs.SquareParkingOff
+	// Renders the Lucide icon 'square-pen'.
+	SquarePen = templFuncs.SquarePen
+	// Renders the Lucide icon 'square-percent'.
+	SquarePercent = templFuncs.SquarePercent
+	// Renders the Lucide icon 'square-pi'.
+	SquarePi = templFuncs.SquarePi
+	// Renders the Lucide icon 'square-pilcrow'.
+	SquarePilcrow = templFuncs.SquarePilcrow
+	// Renders the Lucide icon 'square-play'.
+	SquarePlay = templFuncs.SquarePlay
+	// Renders the Lucide icon 'square-plus'.
+	SquarePlus = templFuncs.SquarePlus
+	// Renders the Lucide icon 'square-power'.
+	SquarePower = templFuncs.SquarePower
+	// Renders the Lucide icon 'square-radical'.
+	SquareRadical = templFuncs.SquareRadical
+	// Renders the Lucide icon 'square-scissors'.
+	SquareScissors = templFuncs.SquareScissors
+	// Renders the Lucide icon 'square-sigma'.
+	SquareSigma = templFuncs.SquareSigma
 	// Renders the Lucide icon 'square-slash'.
 	SquareSlash = templFuncs.SquareSlash
+	// Renders the Lucide icon 'square-split-horizontal'.
+	SquareSplitHorizontal = templFuncs.SquareSplitHorizontal
+	// Renders the Lucide icon 'square-split-vertical'.
+	SquareSplitVertical = templFuncs.SquareSplitVertical
+	// Renders the Lucide icon 'square-square'.
+	SquareSquare = templFuncs.SquareSquare
 	// Renders the Lucide icon 'square-stack'.
 	SquareStack = templFuncs.SquareStack
+	// Renders the Lucide icon 'square-terminal'.
+	SquareTerminal = templFuncs.SquareTerminal
 	// Renders the Lucide icon 'square-user'.
 	SquareUser = templFuncs.SquareUser
 	// Renders the Lucide icon 'square-user-round'.
 	SquareUserRound = templFuncs.SquareUserRound
+	// Renders the Lucide icon 'square-x'.
+	SquareX = templFuncs.SquareX
 	// Renders the Lucide icon 'squircle'.
 	Squircle = templFuncs.Squircle
 	// Renders the Lucide icon 'squirrel'.
@@ -2477,8 +3015,8 @@ var (
 	Sticker = templFuncs.Sticker
 	// Renders the Lucide icon 'sticky-note'.
 	StickyNote = templFuncs.StickyNote
-	// Renders the Lucide icon 'stop-circle'.
-	StopCircle = templFuncs.StopCircle
+	// Alias for 'CircleStop'(circle-stop).Renders the Lucide icon 'stop-circle'
+	StopCircle = templFuncs.CircleStop
 	// Renders the Lucide icon 'store'.
 	Store = templFuncs.Store
 	// Renders the Lucide icon 'stretch-horizontal'.
@@ -2489,8 +3027,8 @@ var (
 	Strikethrough = templFuncs.Strikethrough
 	// Renders the Lucide icon 'subscript'.
 	Subscript = templFuncs.Subscript
-	// Renders the Lucide icon 'subtitles'.
-	Subtitles = templFuncs.Subtitles
+	// Alias for 'Captions'(captions).Renders the Lucide icon 'subtitles'
+	Subtitles = templFuncs.Captions
 	// Renders the Lucide icon 'sun'.
 	Sun = templFuncs.Sun
 	// Renders the Lucide icon 'sun-dim'.
@@ -2507,6 +3045,8 @@ var (
 	Sunset = templFuncs.Sunset
 	// Renders the Lucide icon 'superscript'.
 	Superscript = templFuncs.Superscript
+	// Renders the Lucide icon 'swatch-book'.
+	SwatchBook = templFuncs.SwatchBook
 	// Renders the Lucide icon 'swiss-franc'.
 	SwissFranc = templFuncs.SwissFranc
 	// Renders the Lucide icon 'switch-camera'.
@@ -2521,8 +3061,18 @@ var (
 	Table = templFuncs.Table
 	// Renders the Lucide icon 'table-2'.
 	Table2 = templFuncs.Table2
+	// Renders the Lucide icon 'table-cells-merge'.
+	TableCellsMerge = templFuncs.TableCellsMerge
+	// Renders the Lucide icon 'table-cells-split'.
+	TableCellsSplit = templFuncs.TableCellsSplit
+	// Renders the Lucide icon 'table-columns-split'.
+	TableColumnsSplit = templFuncs.TableColumnsSplit
+	// Renders the Lucide icon 'table-of-contents'.
+	TableOfContents = templFuncs.TableOfContents
 	// Renders the Lucide icon 'table-properties'.
 	TableProperties = templFuncs.TableProperties
+	// Renders the Lucide icon 'table-rows-split'.
+	TableRowsSplit = templFuncs.TableRowsSplit
 	// Renders the Lucide icon 'tablet'.
 	Tablet = templFuncs.Tablet
 	// Renders the Lucide icon 'tablet-smartphone'.
@@ -2547,18 +3097,22 @@ var (
 	Tangent = templFuncs.Tangent
 	// Renders the Lucide icon 'target'.
 	Target = templFuncs.Target
+	// Renders the Lucide icon 'telescope'.
+	Telescope = templFuncs.Telescope
 	// Renders the Lucide icon 'tent'.
 	Tent = templFuncs.Tent
 	// Renders the Lucide icon 'tent-tree'.
 	TentTree = templFuncs.TentTree
 	// Renders the Lucide icon 'terminal'.
 	Terminal = templFuncs.Terminal
-	// Renders the Lucide icon 'terminal-square'.
-	TerminalSquare = templFuncs.TerminalSquare
+	// Alias for 'SquareTerminal'(square-terminal).Renders the Lucide icon 'terminal-square'
+	TerminalSquare = templFuncs.SquareTerminal
 	// Renders the Lucide icon 'test-tube'.
 	TestTube = templFuncs.TestTube
-	// Renders the Lucide icon 'test-tube-2'.
-	TestTube2 = templFuncs.TestTube2
+	// Alias for 'TestTubeDiagonal'(test-tube-diagonal).Renders the Lucide icon 'test-tube-2'
+	TestTube2 = templFuncs.TestTubeDiagonal
+	// Renders the Lucide icon 'test-tube-diagonal'.
+	TestTubeDiagonal = templFuncs.TestTubeDiagonal
 	// Renders the Lucide icon 'test-tubes'.
 	TestTubes = templFuncs.TestTubes
 	// Renders the Lucide icon 'text'.
@@ -2569,6 +3123,8 @@ var (
 	TextCursorInput = templFuncs.TextCursorInput
 	// Renders the Lucide icon 'text-quote'.
 	TextQuote = templFuncs.TextQuote
+	// Renders the Lucide icon 'text-search'.
+	TextSearch = templFuncs.TextSearch
 	// Renders the Lucide icon 'text-select'.
 	TextSelect = templFuncs.TextSelect
 	// Alias for 'TextSelect'(text-select).Renders the Lucide icon 'text-selection'
@@ -2587,6 +3143,22 @@ var (
 	ThumbsUp = templFuncs.ThumbsUp
 	// Renders the Lucide icon 'ticket'.
 	Ticket = templFuncs.Ticket
+	// Renders the Lucide icon 'ticket-check'.
+	TicketCheck = templFuncs.TicketCheck
+	// Renders the Lucide icon 'ticket-minus'.
+	TicketMinus = templFuncs.TicketMinus
+	// Renders the Lucide icon 'ticket-percent'.
+	TicketPercent = templFuncs.TicketPercent
+	// Renders the Lucide icon 'ticket-plus'.
+	TicketPlus = templFuncs.TicketPlus
+	// Renders the Lucide icon 'ticket-slash'.
+	TicketSlash = templFuncs.TicketSlash
+	// Renders the Lucide icon 'ticket-x'.
+	TicketX = templFuncs.TicketX
+	// Renders the Lucide icon 'tickets'.
+	Tickets = templFuncs.Tickets
+	// Renders the Lucide icon 'tickets-plane'.
+	TicketsPlane = templFuncs.TicketsPlane
 	// Renders the Lucide icon 'timer'.
 	Timer = templFuncs.Timer
 	// Renders the Lucide icon 'timer-off'.
@@ -2597,6 +3169,8 @@ var (
 	ToggleLeft = templFuncs.ToggleLeft
 	// Renders the Lucide icon 'toggle-right'.
 	ToggleRight = templFuncs.ToggleRight
+	// Renders the Lucide icon 'toilet'.
+	Toilet = templFuncs.Toilet
 	// Renders the Lucide icon 'tornado'.
 	Tornado = templFuncs.Tornado
 	// Renders the Lucide icon 'torus'.
@@ -2629,6 +3203,8 @@ var (
 	Trash2 = templFuncs.Trash2
 	// Renders the Lucide icon 'tree-deciduous'.
 	TreeDeciduous = templFuncs.TreeDeciduous
+	// Renders the Lucide icon 'tree-palm'.
+	TreePalm = templFuncs.TreePalm
 	// Renders the Lucide icon 'tree-pine'.
 	TreePine = templFuncs.TreePine
 	// Renders the Lucide icon 'trees'.
@@ -2639,8 +3215,12 @@ var (
 	TrendingDown = templFuncs.TrendingDown
 	// Renders the Lucide icon 'trending-up'.
 	TrendingUp = templFuncs.TrendingUp
+	// Renders the Lucide icon 'trending-up-down'.
+	TrendingUpDown = templFuncs.TrendingUpDown
 	// Renders the Lucide icon 'triangle'.
 	Triangle = templFuncs.Triangle
+	// Renders the Lucide icon 'triangle-alert'.
+	TriangleAlert = templFuncs.TriangleAlert
 	// Renders the Lucide icon 'triangle-right'.
 	TriangleRight = templFuncs.TriangleRight
 	// Renders the Lucide icon 'trophy'.
@@ -2651,14 +3231,20 @@ var (
 	Turtle = templFuncs.Turtle
 	// Renders the Lucide icon 'tv'.
 	Tv = templFuncs.Tv
-	// Renders the Lucide icon 'tv-2'.
-	Tv2 = templFuncs.Tv2
+	// Alias for 'TvMinimal'(tv-minimal).Renders the Lucide icon 'tv-2'
+	Tv2 = templFuncs.TvMinimal
+	// Renders the Lucide icon 'tv-minimal'.
+	TvMinimal = templFuncs.TvMinimal
+	// Renders the Lucide icon 'tv-minimal-play'.
+	TvMinimalPlay = templFuncs.TvMinimalPlay
 	// Renders the Lucide icon 'twitch'.
 	Twitch = templFuncs.Twitch
 	// Renders the Lucide icon 'twitter'.
 	Twitter = templFuncs.Twitter
 	// Renders the Lucide icon 'type'.
 	Type = templFuncs.Type
+	// Renders the Lucide icon 'type-outline'.
+	TypeOutline = templFuncs.TypeOutline
 	// Renders the Lucide icon 'umbrella'.
 	Umbrella = templFuncs.Umbrella
 	// Renders the Lucide icon 'umbrella-off'.
@@ -2677,20 +3263,22 @@ var (
 	UnfoldVertical = templFuncs.UnfoldVertical
 	// Renders the Lucide icon 'ungroup'.
 	Ungroup = templFuncs.Ungroup
+	// Renders the Lucide icon 'university'.
+	University = templFuncs.University
 	// Renders the Lucide icon 'unlink'.
 	Unlink = templFuncs.Unlink
 	// Renders the Lucide icon 'unlink-2'.
 	Unlink2 = templFuncs.Unlink2
-	// Renders the Lucide icon 'unlock'.
-	Unlock = templFuncs.Unlock
-	// Renders the Lucide icon 'unlock-keyhole'.
-	UnlockKeyhole = templFuncs.UnlockKeyhole
+	// Alias for 'LockOpen'(lock-open).Renders the Lucide icon 'unlock'
+	Unlock = templFuncs.LockOpen
+	// Alias for 'LockKeyholeOpen'(lock-keyhole-open).Renders the Lucide icon 'unlock-keyhole'
+	UnlockKeyhole = templFuncs.LockKeyholeOpen
 	// Renders the Lucide icon 'unplug'.
 	Unplug = templFuncs.Unplug
 	// Renders the Lucide icon 'upload'.
 	Upload = templFuncs.Upload
-	// Renders the Lucide icon 'upload-cloud'.
-	UploadCloud = templFuncs.UploadCloud
+	// Alias for 'CloudUpload'(cloud-upload).Renders the Lucide icon 'upload-cloud'
+	UploadCloud = templFuncs.CloudUpload
 	// Renders the Lucide icon 'usb'.
 	Usb = templFuncs.Usb
 	// Renders the Lucide icon 'user'.
@@ -2713,6 +3301,8 @@ var (
 	UserMinus = templFuncs.UserMinus
 	// Alias for 'UserRoundMinus'(user-round-minus).Renders the Lucide icon 'user-minus-2'
 	UserMinus2 = templFuncs.UserRoundMinus
+	// Renders the Lucide icon 'user-pen'.
+	UserPen = templFuncs.UserPen
 	// Renders the Lucide icon 'user-plus'.
 	UserPlus = templFuncs.UserPlus
 	// Alias for 'UserRoundPlus'(user-round-plus).Renders the Lucide icon 'user-plus-2'
@@ -2725,6 +3315,8 @@ var (
 	UserRoundCog = templFuncs.UserRoundCog
 	// Renders the Lucide icon 'user-round-minus'.
 	UserRoundMinus = templFuncs.UserRoundMinus
+	// Renders the Lucide icon 'user-round-pen'.
+	UserRoundPen = templFuncs.UserRoundPen
 	// Renders the Lucide icon 'user-round-plus'.
 	UserRoundPlus = templFuncs.UserRoundPlus
 	// Renders the Lucide icon 'user-round-search'.
@@ -2777,28 +3369,36 @@ var (
 	View = templFuncs.View
 	// Renders the Lucide icon 'voicemail'.
 	Voicemail = templFuncs.Voicemail
+	// Renders the Lucide icon 'volleyball'.
+	Volleyball = templFuncs.Volleyball
 	// Renders the Lucide icon 'volume'.
 	Volume = templFuncs.Volume
 	// Renders the Lucide icon 'volume-1'.
 	Volume1 = templFuncs.Volume1
 	// Renders the Lucide icon 'volume-2'.
 	Volume2 = templFuncs.Volume2
+	// Renders the Lucide icon 'volume-off'.
+	VolumeOff = templFuncs.VolumeOff
 	// Renders the Lucide icon 'volume-x'.
 	VolumeX = templFuncs.VolumeX
 	// Renders the Lucide icon 'vote'.
 	Vote = templFuncs.Vote
 	// Renders the Lucide icon 'wallet'.
 	Wallet = templFuncs.Wallet
-	// Renders the Lucide icon 'wallet-2'.
-	Wallet2 = templFuncs.Wallet2
+	// Alias for 'WalletMinimal'(wallet-minimal).Renders the Lucide icon 'wallet-2'
+	Wallet2 = templFuncs.WalletMinimal
 	// Renders the Lucide icon 'wallet-cards'.
 	WalletCards = templFuncs.WalletCards
+	// Renders the Lucide icon 'wallet-minimal'.
+	WalletMinimal = templFuncs.WalletMinimal
 	// Renders the Lucide icon 'wallpaper'.
 	Wallpaper = templFuncs.Wallpaper
 	// Renders the Lucide icon 'wand'.
 	Wand = templFuncs.Wand
-	// Renders the Lucide icon 'wand-2'.
-	Wand2 = templFuncs.Wand2
+	// Alias for 'WandSparkles'(wand-sparkles).Renders the Lucide icon 'wand-2'
+	Wand2 = templFuncs.WandSparkles
+	// Renders the Lucide icon 'wand-sparkles'.
+	WandSparkles = templFuncs.WandSparkles
 	// Renders the Lucide icon 'warehouse'.
 	Warehouse = templFuncs.Warehouse
 	// Renders the Lucide icon 'washing-machine'.
@@ -2813,6 +3413,8 @@ var (
 	Webcam = templFuncs.Webcam
 	// Renders the Lucide icon 'webhook'.
 	Webhook = templFuncs.Webhook
+	// Renders the Lucide icon 'webhook-off'.
+	WebhookOff = templFuncs.WebhookOff
 	// Renders the Lucide icon 'weight'.
 	Weight = templFuncs.Weight
 	// Renders the Lucide icon 'wheat'.
@@ -2823,28 +3425,38 @@ var (
 	WholeWord = templFuncs.WholeWord
 	// Renders the Lucide icon 'wifi'.
 	Wifi = templFuncs.Wifi
+	// Renders the Lucide icon 'wifi-high'.
+	WifiHigh = templFuncs.WifiHigh
+	// Renders the Lucide icon 'wifi-low'.
+	WifiLow = templFuncs.WifiLow
 	// Renders the Lucide icon 'wifi-off'.
 	WifiOff = templFuncs.WifiOff
+	// Renders the Lucide icon 'wifi-zero'.
+	WifiZero = templFuncs.WifiZero
 	// Renders the Lucide icon 'wind'.
 	Wind = templFuncs.Wind
+	// Renders the Lucide icon 'wind-arrow-down'.
+	WindArrowDown = templFuncs.WindArrowDown
 	// Renders the Lucide icon 'wine'.
 	Wine = templFuncs.Wine
 	// Renders the Lucide icon 'wine-off'.
 	WineOff = templFuncs.WineOff
 	// Renders the Lucide icon 'workflow'.
 	Workflow = templFuncs.Workflow
+	// Renders the Lucide icon 'worm'.
+	Worm = templFuncs.Worm
 	// Renders the Lucide icon 'wrap-text'.
 	WrapText = templFuncs.WrapText
 	// Renders the Lucide icon 'wrench'.
 	Wrench = templFuncs.Wrench
 	// Renders the Lucide icon 'x'.
 	X = templFuncs.X
-	// Renders the Lucide icon 'x-circle'.
-	XCircle = templFuncs.XCircle
-	// Renders the Lucide icon 'x-octagon'.
-	XOctagon = templFuncs.XOctagon
-	// Renders the Lucide icon 'x-square'.
-	XSquare = templFuncs.XSquare
+	// Alias for 'CircleX'(circle-x).Renders the Lucide icon 'x-circle'
+	XCircle = templFuncs.CircleX
+	// Alias for 'OctagonX'(octagon-x).Renders the Lucide icon 'x-octagon'
+	XOctagon = templFuncs.OctagonX
+	// Alias for 'SquareX'(square-x).Renders the Lucide icon 'x-square'
+	XSquare = templFuncs.SquareX
 	// Renders the Lucide icon 'youtube'.
 	Youtube = templFuncs.Youtube
 	// Renders the Lucide icon 'zap'.

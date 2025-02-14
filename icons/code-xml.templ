@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon code-xml.
+templ CodeXml(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-code-xml", attrs) }
+	>
+		<path d="m18 16 4-4-4-4"></path>
+		<path d="m6 8-4 4 4 4"></path>
+		<path d="m14.5 4-5 16"></path>
+		{ children... }
+	</svg>
+}

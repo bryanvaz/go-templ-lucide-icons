@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon tv-minimal-play.
+templ TvMinimalPlay(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-tv-minimal-play", attrs) }
+	>
+		<path d="M10 7.75a.75.75 0 0 1 1.142-.638l3.664 2.249a.75.75 0 0 1 0 1.278l-3.664 2.25a.75.75 0 0 1-1.142-.64z"></path>
+		<path d="M7 21h10"></path>
+		<rect width="20" height="14" x="2" y="3" rx="2"></rect>
+		{ children... }
+	</svg>
+}

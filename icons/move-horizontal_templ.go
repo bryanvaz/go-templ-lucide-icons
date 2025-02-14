@@ -55,7 +55,7 @@ func MoveHorizontal(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><polyline points=\"18 8 22 12 18 16\"></polyline> <polyline points=\"6 8 2 12 6 16\"></polyline> <line x1=\"2\" x2=\"22\" y1=\"12\" y2=\"12\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"m18 8 4 4-4 4\"></path> <path d=\"M2 12h20\"></path> <path d=\"m6 8-4 4 4 4\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

@@ -1,0 +1,17 @@
+package icons
+
+// Renders the Lucide icon table-of-contents.
+templ TableOfContents(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-table-of-contents", attrs) }
+	>
+		<path d="M16 12H3"></path>
+		<path d="M16 18H3"></path>
+		<path d="M16 6H3"></path>
+		<path d="M21 12h.01"></path>
+		<path d="M21 18h.01"></path>
+		<path d="M21 6h.01"></path>
+		{ children... }
+	</svg>
+}

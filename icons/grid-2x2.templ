@@ -6,9 +6,9 @@ templ Grid2X2(attrs ...templ.Attributes) {
 		{ at(attrs)... }
 		class={ cn("lucide lucide-grid-2x2", attrs) }
 	>
-		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
-		<path d="M3 12h18"></path>
 		<path d="M12 3v18"></path>
+		<path d="M3 12h18"></path>
+		<rect x="3" y="3" width="18" height="18" rx="2"></rect>
 		{ children... }
 	</svg>
 }

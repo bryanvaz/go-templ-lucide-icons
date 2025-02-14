@@ -55,7 +55,7 @@ func Pause(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"4\" height=\"16\" x=\"6\" y=\"4\"></rect> <rect width=\"4\" height=\"16\" x=\"14\" y=\"4\"></rect>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect x=\"14\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"></rect> <rect x=\"6\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"></rect>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon indent-decrease.
+templ IndentDecrease(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-indent-decrease", attrs) }
+	>
+		<path d="M21 12H11"></path>
+		<path d="M21 18H11"></path>
+		<path d="M21 6H11"></path>
+		<path d="m7 8-4 4 4 4"></path>
+		{ children... }
+	</svg>
+}

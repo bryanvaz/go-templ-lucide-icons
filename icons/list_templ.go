@@ -55,7 +55,7 @@ func List(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><line x1=\"8\" x2=\"21\" y1=\"6\" y2=\"6\"></line> <line x1=\"8\" x2=\"21\" y1=\"12\" y2=\"12\"></line> <line x1=\"8\" x2=\"21\" y1=\"18\" y2=\"18\"></line> <line x1=\"3\" x2=\"3.01\" y1=\"6\" y2=\"6\"></line> <line x1=\"3\" x2=\"3.01\" y1=\"12\" y2=\"12\"></line> <line x1=\"3\" x2=\"3.01\" y1=\"18\" y2=\"18\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M3 12h.01\"></path> <path d=\"M3 18h.01\"></path> <path d=\"M3 6h.01\"></path> <path d=\"M8 12h13\"></path> <path d=\"M8 18h13\"></path> <path d=\"M8 6h13\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

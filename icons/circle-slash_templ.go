@@ -55,7 +55,7 @@ func CircleSlash(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><line x1=\"9\" x2=\"15\" y1=\"15\" y2=\"9\"></line> <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle> <line x1=\"9\" x2=\"15\" y1=\"15\" y2=\"9\"></line>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

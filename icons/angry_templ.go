@@ -55,7 +55,7 @@ func Angry(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle> <path d=\"M16 16s-1.5-2-4-2-4 2-4 2\"></path> <path d=\"M7.5 8 10 9\"></path> <path d=\"m14 9 2.5-1\"></path> <path d=\"M9 10h0\"></path> <path d=\"M15 10h0\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle> <path d=\"M16 16s-1.5-2-4-2-4 2-4 2\"></path> <path d=\"M7.5 8 10 9\"></path> <path d=\"m14 9 2.5-1\"></path> <path d=\"M9 10h.01\"></path> <path d=\"M15 10h.01\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

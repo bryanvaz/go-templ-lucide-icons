@@ -55,7 +55,7 @@ func Key(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"7.5\" cy=\"15.5\" r=\"5.5\"></circle> <path d=\"m21 2-9.6 9.6\"></path> <path d=\"m15.5 7.5 3 3L22 7l-3-3\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4\"></path> <path d=\"m21 2-9.6 9.6\"></path> <circle cx=\"7.5\" cy=\"15.5\" r=\"5.5\"></circle>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

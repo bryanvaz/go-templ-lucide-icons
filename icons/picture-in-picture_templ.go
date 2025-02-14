@@ -55,7 +55,7 @@ func PictureInPicture(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M8 4.5v5H3m-1-6 6 6m13 0v-3c0-1.16-.84-2-2-2h-7m-9 9v2c0 1.05.95 2 2 2h3\"></path> <rect width=\"10\" height=\"7\" x=\"12\" y=\"13.5\" ry=\"2\"></rect>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M2 10h6V4\"></path> <path d=\"m2 4 6 6\"></path> <path d=\"M21 10V7a2 2 0 0 0-2-2h-7\"></path> <path d=\"M3 14v2a2 2 0 0 0 2 2h3\"></path> <rect x=\"12\" y=\"14\" width=\"10\" height=\"7\" rx=\"1\"></rect>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

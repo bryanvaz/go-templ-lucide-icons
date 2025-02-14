@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon eclipse.
+templ Eclipse(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-eclipse", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M12 2a7 7 0 1 0 10 10"></path>
+		{ children... }
+	</svg>
+}

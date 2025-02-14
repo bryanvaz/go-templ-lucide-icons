@@ -1,0 +1,12 @@
+package icons
+
+// Renders the Lucide icon wifi-zero.
+templ WifiZero(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-wifi-zero", attrs) }
+	>
+		<path d="M12 20h.01"></path>
+		{ children... }
+	</svg>
+}

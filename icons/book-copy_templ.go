@@ -55,7 +55,7 @@ func BookCopy(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M2 16V4a2 2 0 0 1 2-2h11\"></path> <path d=\"M5 14H4a2 2 0 1 0 0 4h1\"></path> <path d=\"M22 18H11a2 2 0 1 0 0 4h11V6H11a2 2 0 0 0-2 2v12\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M2 16V4a2 2 0 0 1 2-2h11\"></path> <path d=\"M22 18H11a2 2 0 1 0 0 4h10.5a.5.5 0 0 0 .5-.5v-15a.5.5 0 0 0-.5-.5H11a2 2 0 0 0-2 2v12\"></path> <path d=\"M5 14H4a2 2 0 1 0 0 4h1\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

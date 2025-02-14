@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon circle-power.
+templ CirclePower(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-power", attrs) }
+	>
+		<path d="M12 7v4"></path>
+		<path d="M7.998 9.003a5 5 0 1 0 8-.005"></path>
+		<circle cx="12" cy="12" r="10"></circle>
+		{ children... }
+	</svg>
+}

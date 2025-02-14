@@ -55,7 +55,7 @@ func ArrowBigDownDash(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M15 5H9\"></path> <path d=\"M15 9v3h4l-7 7-7-7h4V9h6z\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M15 5H9\"></path> <path d=\"M15 9v3h4l-7 7-7-7h4V9z\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

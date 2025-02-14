@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon receipt-cent.
+templ ReceiptCent(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-receipt-cent", attrs) }
+	>
+		<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+		<path d="M12 6.5v11"></path>
+		<path d="M15 9.4a4 4 0 1 0 0 5.2"></path>
+		{ children... }
+	</svg>
+}

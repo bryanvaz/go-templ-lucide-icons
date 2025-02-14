@@ -55,7 +55,7 @@ func Anchor(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"12\" cy=\"5\" r=\"3\"></circle> <line x1=\"12\" x2=\"12\" y1=\"22\" y2=\"8\"></line> <path d=\"M5 12H2a10 10 0 0 0 20 0h-3\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 22V8\"></path> <path d=\"M5 12H2a10 10 0 0 0 20 0h-3\"></path> <circle cx=\"12\" cy=\"5\" r=\"3\"></circle>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

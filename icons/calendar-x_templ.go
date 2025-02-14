@@ -55,7 +55,7 @@ func CalendarX(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\" ry=\"2\"></rect> <line x1=\"16\" x2=\"16\" y1=\"2\" y2=\"6\"></line> <line x1=\"8\" x2=\"8\" y1=\"2\" y2=\"6\"></line> <line x1=\"3\" x2=\"21\" y1=\"10\" y2=\"10\"></line> <line x1=\"10\" x2=\"14\" y1=\"14\" y2=\"18\"></line> <line x1=\"14\" x2=\"10\" y1=\"14\" y2=\"18\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M8 2v4\"></path> <path d=\"M16 2v4\"></path> <rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\"></rect> <path d=\"M3 10h18\"></path> <path d=\"m14 14-4 4\"></path> <path d=\"m10 14 4 4\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

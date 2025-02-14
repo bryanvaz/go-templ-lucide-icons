@@ -55,7 +55,7 @@ func BookUser(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"></path> <circle cx=\"12\" cy=\"8\" r=\"2\"></circle> <path d=\"M15 13a3 3 0 1 0-6 0\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M15 13a3 3 0 1 0-6 0\"></path> <path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\"></path> <circle cx=\"12\" cy=\"8\" r=\"2\"></circle>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

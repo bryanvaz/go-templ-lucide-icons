@@ -55,7 +55,7 @@ func Keyboard(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\" ry=\"2\"></rect> <path d=\"M6 8h.001\"></path> <path d=\"M10 8h.001\"></path> <path d=\"M14 8h.001\"></path> <path d=\"M18 8h.001\"></path> <path d=\"M8 12h.001\"></path> <path d=\"M12 12h.001\"></path> <path d=\"M16 12h.001\"></path> <path d=\"M7 16h10\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M10 8h.01\"></path> <path d=\"M12 12h.01\"></path> <path d=\"M14 8h.01\"></path> <path d=\"M16 12h.01\"></path> <path d=\"M18 8h.01\"></path> <path d=\"M6 8h.01\"></path> <path d=\"M7 16h10\"></path> <path d=\"M8 12h.01\"></path> <rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"></rect>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

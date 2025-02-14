@@ -55,7 +55,7 @@ func CalendarOff(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M4.18 4.18A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18\"></path> <path d=\"M21 15.5V6a2 2 0 0 0-2-2H9.5\"></path> <path d=\"M16 2v4\"></path> <path d=\"M3 10h7\"></path> <path d=\"M21 10h-5.5\"></path> <line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18\"></path> <path d=\"M21 15.5V6a2 2 0 0 0-2-2H9.5\"></path> <path d=\"M16 2v4\"></path> <path d=\"M3 10h7\"></path> <path d=\"M21 10h-5.5\"></path> <path d=\"m2 2 20 20\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

@@ -55,7 +55,7 @@ func VolumeX(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\"></polygon> <line x1=\"22\" x2=\"16\" y1=\"9\" y2=\"15\"></line> <line x1=\"16\" x2=\"22\" y1=\"9\" y2=\"15\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z\"></path> <line x1=\"22\" x2=\"16\" y1=\"9\" y2=\"15\"></line> <line x1=\"16\" x2=\"22\" y1=\"9\" y2=\"15\"></line>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

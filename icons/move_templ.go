@@ -55,7 +55,7 @@ func Move(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><polyline points=\"5 9 2 12 5 15\"></polyline> <polyline points=\"9 5 12 2 15 5\"></polyline> <polyline points=\"15 19 12 22 9 19\"></polyline> <polyline points=\"19 9 22 12 19 15\"></polyline> <line x1=\"2\" x2=\"22\" y1=\"12\" y2=\"12\"></line> <line x1=\"12\" x2=\"12\" y1=\"2\" y2=\"22\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 2v20\"></path> <path d=\"m15 19-3 3-3-3\"></path> <path d=\"m19 9 3 3-3 3\"></path> <path d=\"M2 12h20\"></path> <path d=\"m5 9-3 3 3 3\"></path> <path d=\"m9 5 3-3 3 3\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

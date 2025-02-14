@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon circle-arrow-down.
+templ CircleArrowDown(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-arrow-down", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M12 8v8"></path>
+		<path d="m8 12 4 4 4-4"></path>
+		{ children... }
+	</svg>
+}

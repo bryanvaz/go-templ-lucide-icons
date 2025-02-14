@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon chart-no-axes-column-decreasing.
+templ ChartNoAxesColumnDecreasing(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-chart-no-axes-column-decreasing", attrs) }
+	>
+		<path d="M12 20V10"></path>
+		<path d="M18 20v-4"></path>
+		<path d="M6 20V4"></path>
+		{ children... }
+	</svg>
+}

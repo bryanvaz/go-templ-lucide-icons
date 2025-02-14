@@ -55,7 +55,7 @@ func MoonStar(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"></path> <path d=\"M19 3v4\"></path> <path d=\"M21 5h-4\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9\"></path> <path d=\"M20 3v4\"></path> <path d=\"M22 5h-4\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

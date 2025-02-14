@@ -55,7 +55,7 @@ func TramFront(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"16\" height=\"16\" x=\"4\" y=\"3\" rx=\"2\"></rect> <path d=\"M4 11h16\"></path> <path d=\"M12 3v8\"></path> <path d=\"m8 19-2 3\"></path> <path d=\"m18 22-2-3\"></path> <path d=\"M8 15h0\"></path> <path d=\"M16 15h0\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"16\" height=\"16\" x=\"4\" y=\"3\" rx=\"2\"></rect> <path d=\"M4 11h16\"></path> <path d=\"M12 3v8\"></path> <path d=\"m8 19-2 3\"></path> <path d=\"m18 22-2-3\"></path> <path d=\"M8 15h.01\"></path> <path d=\"M16 15h.01\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

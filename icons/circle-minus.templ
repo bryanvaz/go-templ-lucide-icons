@@ -1,0 +1,13 @@
+package icons
+
+// Renders the Lucide icon circle-minus.
+templ CircleMinus(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-minus", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="M8 12h8"></path>
+		{ children... }
+	</svg>
+}

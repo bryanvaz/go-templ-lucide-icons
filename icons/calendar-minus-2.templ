@@ -1,0 +1,16 @@
+package icons
+
+// Renders the Lucide icon calendar-minus-2.
+templ CalendarMinus2(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-calendar-minus-2", attrs) }
+	>
+		<path d="M8 2v4"></path>
+		<path d="M16 2v4"></path>
+		<rect width="18" height="18" x="3" y="4" rx="2"></rect>
+		<path d="M3 10h18"></path>
+		<path d="M10 16h4"></path>
+		{ children... }
+	</svg>
+}

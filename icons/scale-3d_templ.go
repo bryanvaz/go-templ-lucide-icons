@@ -55,7 +55,7 @@ func Scale3D(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"19\" cy=\"19\" r=\"2\"></circle> <circle cx=\"5\" cy=\"5\" r=\"2\"></circle> <path d=\"M5 7v12h12\"></path> <path d=\"m5 19 6-6\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M5 7v11a1 1 0 0 0 1 1h11\"></path> <path d=\"M5.293 18.707 11 13\"></path> <circle cx=\"19\" cy=\"19\" r=\"2\"></circle> <circle cx=\"5\" cy=\"5\" r=\"2\"></circle>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

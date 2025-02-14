@@ -1,0 +1,15 @@
+package icons
+
+// Renders the Lucide icon table-cells-split.
+templ TableCellsSplit(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-table-cells-split", attrs) }
+	>
+		<path d="M12 15V9"></path>
+		<path d="M3 15h18"></path>
+		<path d="M3 9h18"></path>
+		<rect width="18" height="18" x="3" y="3" rx="2"></rect>
+		{ children... }
+	</svg>
+}

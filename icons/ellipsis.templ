@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon ellipsis.
+templ Ellipsis(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-ellipsis", attrs) }
+	>
+		<circle cx="12" cy="12" r="1"></circle>
+		<circle cx="19" cy="12" r="1"></circle>
+		<circle cx="5" cy="12" r="1"></circle>
+		{ children... }
+	</svg>
+}

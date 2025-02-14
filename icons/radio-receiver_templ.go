@@ -55,7 +55,7 @@ func RadioReceiver(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M5 16v2\"></path> <path d=\"M19 16v2\"></path> <rect width=\"20\" height=\"8\" x=\"2\" y=\"8\" rx=\"2\"></rect> <path d=\"M18 12h0\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M5 16v2\"></path> <path d=\"M19 16v2\"></path> <rect width=\"20\" height=\"8\" x=\"2\" y=\"8\" rx=\"2\"></rect> <path d=\"M18 12h.01\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

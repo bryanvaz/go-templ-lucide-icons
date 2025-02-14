@@ -55,7 +55,7 @@ func SquareCode(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"></rect> <path d=\"m10 10-2 2 2 2\"></path> <path d=\"m14 14 2-2-2-2\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M10 9.5 8 12l2 2.5\"></path> <path d=\"m14 9.5 2 2.5-2 2.5\"></path> <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"></rect>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

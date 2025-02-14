@@ -55,7 +55,7 @@ func FileDigit(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><rect width=\"4\" height=\"6\" x=\"2\" y=\"12\" rx=\"2\"></rect> <path d=\"M14 2v6h6\"></path> <path d=\"M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4\"></path> <path d=\"M10 12h2v6\"></path> <path d=\"M10 18h4\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4\"></path> <path d=\"M14 2v4a2 2 0 0 0 2 2h4\"></path> <rect width=\"4\" height=\"6\" x=\"2\" y=\"12\" rx=\"2\"></rect> <path d=\"M10 12h2v6\"></path> <path d=\"M10 18h4\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

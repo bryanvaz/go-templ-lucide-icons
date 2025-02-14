@@ -55,7 +55,7 @@ func CalendarClock(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5\"></path> <path d=\"M16 2v4\"></path> <path d=\"M8 2v4\"></path> <path d=\"M3 10h5\"></path> <path d=\"M17.5 17.5 16 16.25V14\"></path> <path d=\"M22 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5\"></path> <path d=\"M16 2v4\"></path> <path d=\"M8 2v4\"></path> <path d=\"M3 10h5\"></path> <path d=\"M17.5 17.5 16 16.3V14\"></path> <circle cx=\"16\" cy=\"16\" r=\"6\"></circle>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

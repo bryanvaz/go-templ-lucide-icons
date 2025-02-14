@@ -55,7 +55,7 @@ func UndoDot(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><circle cx=\"12\" cy=\"17\" r=\"1\"></circle> <path d=\"M3 7v6h6\"></path> <path d=\"M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M21 17a9 9 0 0 0-15-6.7L3 13\"></path> <path d=\"M3 7v6h6\"></path> <circle cx=\"12\" cy=\"17\" r=\"1\"></circle>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

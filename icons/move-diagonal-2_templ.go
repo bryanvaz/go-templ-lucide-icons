@@ -55,7 +55,7 @@ func MoveDiagonal2(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><polyline points=\"5 11 5 5 11 5\"></polyline> <polyline points=\"19 13 19 19 13 19\"></polyline> <line x1=\"5\" x2=\"19\" y1=\"5\" y2=\"19\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M19 13v6h-6\"></path> <path d=\"M5 11V5h6\"></path> <path d=\"m5 5 14 14\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

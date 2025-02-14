@@ -55,7 +55,7 @@ func AlignJustify(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><line x1=\"3\" x2=\"21\" y1=\"6\" y2=\"6\"></line> <line x1=\"3\" x2=\"21\" y1=\"12\" y2=\"12\"></line> <line x1=\"3\" x2=\"21\" y1=\"18\" y2=\"18\"></line>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M3 12h18\"></path> <path d=\"M3 18h18\"></path> <path d=\"M3 6h18\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

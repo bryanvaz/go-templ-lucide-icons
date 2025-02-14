@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon dock.
+templ Dock(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-dock", attrs) }
+	>
+		<path d="M2 8h20"></path>
+		<rect width="20" height="16" x="2" y="4" rx="2"></rect>
+		<path d="M6 16h12"></path>
+		{ children... }
+	</svg>
+}

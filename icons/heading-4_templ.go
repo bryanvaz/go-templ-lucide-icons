@@ -55,7 +55,7 @@ func Heading4(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M4 12h8\"></path> <path d=\"M4 18V6\"></path> <path d=\"M12 18V6\"></path> <path d=\"M17 10v4h4\"></path> <path d=\"M21 10v8\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M12 18V6\"></path> <path d=\"M17 10v3a1 1 0 0 0 1 1h3\"></path> <path d=\"M21 10v8\"></path> <path d=\"M4 12h8\"></path> <path d=\"M4 18V6\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

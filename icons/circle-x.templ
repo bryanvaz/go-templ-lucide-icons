@@ -1,0 +1,14 @@
+package icons
+
+// Renders the Lucide icon circle-x.
+templ CircleX(attrs ...templ.Attributes) {
+	<svg
+		{ at(attrs)... }
+		class={ cn("lucide lucide-circle-x", attrs) }
+	>
+		<circle cx="12" cy="12" r="10"></circle>
+		<path d="m15 9-6 6"></path>
+		<path d="m9 9 6 6"></path>
+		{ children... }
+	</svg>
+}
