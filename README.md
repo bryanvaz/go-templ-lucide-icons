@@ -27,7 +27,9 @@ Lucide icon library for Golang Templ applications.
 
 ## Installation
 
-`go get -u github.com/bryanvaz/go-templ-lucide-icons`
+```
+go get -u github.com/bryanvaz/go-templ-lucide-icons
+```
 
 ## Quick start
 
@@ -58,7 +60,8 @@ so only the icons referenced by your project will be included in your build.
 
 Each icon can be used as a normal templ component which will render an inline
 SVG element. Attributes can be passed to the icon component as `templ.Attributes`, which 
-will be attached to the root SVG element.
+will be attached to the root SVG element. If multiple `templ.Attributes` objects are
+passed, they will be merged together via a Right Merge strategy.
 
 All attribute values must be strings to be properly processed by templ.
 
@@ -96,9 +99,11 @@ To add classes to the icon, pass a `templ.Attributes` object with the `class` ke
 to the component.
 
 ```templ
-<div>
-  @icons.Pen(templ.Attributes{ "class": "my-icon" })
-</div>
+templ WithClass() {
+  <div>
+    @icons.Pen(templ.Attributes{ "class": "my-icon" })
+  </div>
+}
 ```
 
 ### Passing children to the icon
@@ -107,11 +112,13 @@ To pass children to the icon, pass children how would normally be passed to a
 templ component.
 
 ```templ
-<div>
-  @icons.Pen() {
-    <text>Hello, world!</text>
-  }
-</div>
+templ WithChildren() {
+  <div>
+    @icons.Pen() {
+      <text>Hello, world!</text>
+    }
+  </div>
+}
 ```
 
 ### Using icon aliases
