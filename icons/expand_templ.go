@@ -55,7 +55,7 @@ func Expand(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"m21 21-6-6m6 6v-4.8m0 4.8h-4.8\"></path> <path d=\"M3 16.2V21m0 0h4.8M3 21l6-6\"></path> <path d=\"M21 7.8V3m0 0h-4.8M21 3l-6 6\"></path> <path d=\"M3 7.8V3m0 0h4.8M3 3l6 6\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"m15 15 6 6\"></path> <path d=\"m15 9 6-6\"></path> <path d=\"M21 16.2V21h-4.8\"></path> <path d=\"M21 7.8V3h-4.8\"></path> <path d=\"M3 16.2V21h4.8\"></path> <path d=\"m3 21 6-6\"></path> <path d=\"M3 7.8V3h4.8\"></path> <path d=\"M9 9 3 3\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
