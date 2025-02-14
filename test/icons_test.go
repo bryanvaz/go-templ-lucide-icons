@@ -100,7 +100,6 @@ func TestRender(t *testing.T) {
 			t.Fatalf("Error rendering icon: %v", err)
 		}
 		rendered := sb.String()
-		t.Logf("rendered: %s", rendered)
 		type SVG struct {
 			XMLName     xml.Name `xml:"svg"`
 			Width       string   `xml:"width,attr"`

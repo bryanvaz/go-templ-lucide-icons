@@ -5,8 +5,6 @@
 
 Lucide icon library for Golang Templ applications.
 
-[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov]
-
 [About](https://lucide.dev/guide/)
 .
 [Icons](https://lucide.dev/icons/)
