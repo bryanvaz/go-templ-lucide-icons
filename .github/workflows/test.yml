@@ -3,10 +3,9 @@ name: Test
 on:
   push:
     branches:
-      - master
       - main
-    paths-ignore:
-      - "**/*.md"
+    # paths-ignore:
+    #   - "**/*.md"
   pull_request:
     paths-ignore:
       - "**/*.md"
