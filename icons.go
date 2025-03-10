@@ -2989,6 +2989,8 @@ var (
 	SquarePower = templFuncs.SquarePower
 	// Renders the Lucide icon 'square-radical'.
 	SquareRadical = templFuncs.SquareRadical
+	// Renders the Lucide icon 'square-round-corner'.
+	SquareRoundCorner = templFuncs.SquareRoundCorner
 	// Renders the Lucide icon 'square-scissors'.
 	SquareScissors = templFuncs.SquareScissors
 	// Renders the Lucide icon 'square-sigma'.

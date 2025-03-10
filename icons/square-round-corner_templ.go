@@ -7,8 +7,8 @@ package icons
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-// Renders the Lucide icon circle-slash-2.
-func CircleSlash2(attrs ...templ.Attributes) templ.Component {
+// Renders the Lucide icon square-round-corner.
+func SquareRoundCorner(attrs ...templ.Attributes) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -29,7 +29,7 @@ func CircleSlash2(attrs ...templ.Attributes) templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		var templ_7745c5c3_Var2 = []any{cn("lucide lucide-circle-slash-2", attrs)}
+		var templ_7745c5c3_Var2 = []any{cn("lucide lucide-square-round-corner", attrs)}
 		templ_7745c5c3_Err = templ.RenderCSSItems(ctx, templ_7745c5c3_Buffer, templ_7745c5c3_Var2...)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
@@ -55,7 +55,7 @@ func CircleSlash2(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M22 2 2 22\"></path> <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M21 11a8 8 0 0 0-8-8\"></path> <path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
