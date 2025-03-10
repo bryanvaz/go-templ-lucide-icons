@@ -2765,6 +2765,8 @@ var (
 	ShieldPlus = templFuncs.ShieldPlus
 	// Renders the Lucide icon 'shield-question'.
 	ShieldQuestion = templFuncs.ShieldQuestion
+	// Renders the Lucide icon 'shield-user'.
+	ShieldUser = templFuncs.ShieldUser
 	// Renders the Lucide icon 'shield-x'.
 	ShieldX = templFuncs.ShieldX
 	// Renders the Lucide icon 'ship'.
