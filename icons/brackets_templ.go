@@ -55,7 +55,7 @@ func Brackets(attrs ...templ.Attributes) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M16 3h3v18h-3\"></path> <path d=\"M8 21H5V3h3\"></path>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "\"><path d=\"M16 3h2a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-2\"></path> <path d=\"M8 21H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2\"></path>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
