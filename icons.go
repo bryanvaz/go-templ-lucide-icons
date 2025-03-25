@@ -2785,6 +2785,8 @@ var (
 	Shovel = templFuncs.Shovel
 	// Renders the Lucide icon 'shower-head'.
 	ShowerHead = templFuncs.ShowerHead
+	// Renders the Lucide icon 'shrimp'.
+	Shrimp = templFuncs.Shrimp
 	// Renders the Lucide icon 'shrink'.
 	Shrink = templFuncs.Shrink
 	// Renders the Lucide icon 'shrub'.
